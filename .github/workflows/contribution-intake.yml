@@ -15,7 +15,7 @@ on:
     branches:
       - main
     paths:
-      - 'contributions/**'
+      - '../../contributions'
   workflow_dispatch: {}
 
 permissions:

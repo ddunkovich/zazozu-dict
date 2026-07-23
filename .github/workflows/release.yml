@@ -10,7 +10,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'source/**'
+      - '../../source'
   workflow_dispatch: {}
 
 permissions:
