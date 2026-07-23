@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://polish-learning/dictionary/contribution.schema.json",
+  "title": "Contribution",
+  "type": "object",
+  "required": ["type", "payload"],
+  "properties": {
+    "id": { "type": "string" },
+    "type": { "enum": ["new_lemma", "translation_fix", "new_example", "new_collocation"] },
+    "entryKey": { "type": "string" },
+    "payloadHash": { "type": "string" },
+    "createdAt": { "type": "string" },
+    "payload": { "type": "object" }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "type": { "const": "new_lemma" } } },
+      "then": { "properties": { "payload": { "required": ["lemma", "language"] } } }
+    },
+    {
+      "if": { "properties": { "type": { "const": "new_collocation" } } },
+      "then": { "properties": { "payload": { "required": ["collocation", "language"] } } }
+    },
+    {
+      "if": { "properties": { "type": { "const": "translation_fix" } } },
+      "then": { "required": ["entryKey"], "properties": { "payload": { "required": ["translation"] } } }
+    },
+    {
+      "if": { "properties": { "type": { "const": "new_example" } } },
+      "then": { "required": ["entryKey"], "properties": { "payload": { "required": ["example"] } } }
+    }
+  ]
+}

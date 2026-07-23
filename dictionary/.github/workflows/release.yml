@@ -1,0 +1,64 @@
+# Публикация версии словаря (feature 016, US4): после ручного мержа в main,
+# затронувшего source/**, — сборка (dictionary.sqlite + бандлы + manifest +
+# checksum) и GitHub Release. Запускается ТОЛЬКО после ручного подтверждения
+# (мерджа PR администратором) — INV-ADMIN.
+#
+# Зеркалируется в DICT_REPO.
+name: release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'source/**'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Определить версию
+        id: ver
+        run: echo "version=dict-$(date -u +%Y.%m.%d)-${GITHUB_SHA::7}" >> "$GITHUB_OUTPUT"
+
+      - name: Сборка словаря
+        env:
+          DICT_VERSION: ${{ steps.ver.outputs.version }}
+        run: node builder/build.mjs
+
+      - name: Проверка детерминизма (повторная сборка идентична)
+        env:
+          DICT_VERSION: ${{ steps.ver.outputs.version }}
+        run: |
+          FIRST=$(cat dist/checksum)
+          rm -f dist/vocab-*.json dist/manifest.json
+          node builder/build.mjs
+          SECOND=$(cat dist/checksum)
+          if [ "$FIRST" != "$SECOND" ]; then
+            echo "❌ Сборка недетерминирована: $FIRST != $SECOND"; exit 1
+          fi
+          echo "✅ Детерминизм подтверждён"
+
+      - name: Тесты сборки
+        run: node --test builder/build.test.mjs schema/schema.test.mjs
+
+      - name: GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.ver.outputs.version }}
+          name: ${{ steps.ver.outputs.version }}
+          files: |
+            dist/dictionary.sqlite
+            dist/vocab-*.json
+            dist/manifest.json
+            dist/version.json
+            dist/checksum

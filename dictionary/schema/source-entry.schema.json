@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://polish-learning/dictionary/source-entry.schema.json",
+  "title": "SourceEntry",
+  "type": "object",
+  "required": ["entryKey", "language", "lemma", "normalizedLemma", "translations"],
+  "properties": {
+    "entryKey": { "type": "string", "pattern": "^[a-z]{2}:(lemma|collocation):.+$" },
+    "dictionaryId": { "type": "string" },
+    "language": { "type": "string" },
+    "lemma": { "type": "string" },
+    "normalizedLemma": { "type": "string" },
+    "translations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["text"],
+        "properties": { "text": { "type": "string" }, "note": { "type": "string" }, "source": { "type": "string" } }
+      }
+    },
+    "partOfSpeech": { "type": "string" },
+    "examples": { "type": "array", "items": { "type": "string" } },
+    "collocations": { "type": "array", "items": { "type": "string" } },
+    "synonyms": { "type": "array", "items": { "type": "string" } },
+    "pronunciation": { "type": "string" },
+    "frequency": { "type": "number" },
+    "metadata": { "type": "object" }
+  }
+}

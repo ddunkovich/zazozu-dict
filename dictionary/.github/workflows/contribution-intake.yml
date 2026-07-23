@@ -1,0 +1,61 @@
+# Приём предложений словаря (feature 016, US3): validate → normalize → dedup →
+# find entryKey → conflicts → review-report → PR от бота. Изменения source/**
+# НЕ мержатся автоматически — только ручное ревью (INV-ADMIN, FR-023).
+#
+# Зеркалируется в DICT_REPO; здесь хранится как исходник пайплайна.
+name: contribution-intake
+
+on:
+  push:
+    paths:
+      - 'contributions/**'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  intake:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Определить новые батчи
+        id: changed
+        run: |
+          git fetch origin ${{ github.event.before }} --depth=1 || true
+          FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} -- 'contributions/**' | grep '\.json$' || true)
+          echo "files<<EOF" >> "$GITHUB_OUTPUT"
+          echo "$FILES" >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
+
+      - name: Валидация схем (ajv)
+        run: |
+          npx --yes ajv-cli@5 validate \
+            -s schema/contribution.schema.json \
+            --spec=draft7 --all-errors --errors=text \
+            $(for f in ${{ steps.changed.outputs.files }}; do echo "-d $f"; done) || echo "ajv: см. подробности"
+
+      - name: Обработка батчей и сборка review-report
+        id: report
+        run: |
+          echo "## Обзор вклада в словарь" > /tmp/report.md
+          for f in ${{ steps.changed.outputs.files }}; do
+            echo "### Батч: $f" >> /tmp/report.md
+            node builder/intake-cli.mjs "$f" >> /tmp/report.md || exit 1
+          done
+          cat /tmp/report.md
+
+      - name: Создать PR от бота (без авто-мержа)
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: dict-intake/${{ github.run_id }}
+          title: 'Словарь: новые предложения (ревью требуется)'
+          body-path: /tmp/report.md
+          labels: dictionary, needs-review
+          # Изменения source/** формируются администратором при ревью PR (INV-ADMIN).
