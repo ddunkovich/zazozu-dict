@@ -2,11 +2,18 @@
 # find entryKey → conflicts → review-report → PR от бота. Изменения source/**
 # НЕ мержатся автоматически — только ручное ревью (INV-ADMIN, FR-023).
 #
+# PR-на-ревью содержит удаление сырого батча contributions/**: при merge PR
+# обработанный вклад автоматически убирается из репозитория, а source/** правит
+# администратор в самом PR. Триггер ограничен main + берутся только Added/Modified
+# батчи (--diff-filter=AM), поэтому merge с удалением не запускает workflow повторно.
+#
 # Зеркалируется в DICT_REPO; здесь хранится как исходник пайплайна.
 name: contribution-intake
 
 on:
   push:
+    branches:
+      - main
     paths:
       - 'contributions/**'
   workflow_dispatch: {}
@@ -20,6 +27,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
@@ -29,12 +38,16 @@ jobs:
         id: changed
         run: |
           git fetch origin ${{ github.event.before }} --depth=1 || true
-          FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} -- 'contributions/**' | grep '\.json$' || true)
+          # Только добавленные/изменённые json-батчи. Удаления (--diff-filter=AM их
+          # исключает) не берём — иначе merge PR, удаляющий батч, зациклил бы workflow.
+          FILES=$(git diff --name-only --diff-filter=AM ${{ github.event.before }} ${{ github.sha }} -- 'contributions/**' | grep '\.json$' || true)
           echo "files<<EOF" >> "$GITHUB_OUTPUT"
           echo "$FILES" >> "$GITHUB_OUTPUT"
           echo "EOF" >> "$GITHUB_OUTPUT"
+          if [ -n "$FILES" ]; then echo "has_files=true" >> "$GITHUB_OUTPUT"; else echo "has_files=false" >> "$GITHUB_OUTPUT"; fi
 
       - name: Валидация схем (ajv)
+        if: steps.changed.outputs.has_files == 'true'
         run: |
           npx --yes ajv-cli@5 validate \
             -s schema/contribution.schema.json \
@@ -43,19 +56,34 @@ jobs:
 
       - name: Обработка батчей и сборка review-report
         id: report
+        if: steps.changed.outputs.has_files == 'true'
         run: |
           echo "## Обзор вклада в словарь" > /tmp/report.md
+          echo "" >> /tmp/report.md
           for f in ${{ steps.changed.outputs.files }}; do
-            echo "### Батч: $f" >> /tmp/report.md
+            echo "### Батч: \`$f\`" >> /tmp/report.md
             node builder/intake-cli.mjs "$f" >> /tmp/report.md || exit 1
           done
+          echo "" >> /tmp/report.md
+          echo "---" >> /tmp/report.md
+          echo "_Обработанные батчи удаляются этим PR. При merge правки \`source/**\` вносит администратор (INV-ADMIN)._" >> /tmp/report.md
           cat /tmp/report.md
 
+      - name: Удалить обработанные батчи (даёт дифф для PR)
+        if: steps.changed.outputs.has_files == 'true'
+        run: |
+          for f in ${{ steps.changed.outputs.files }}; do
+            git rm -- "$f"
+          done
+
       - name: Создать PR от бота (без авто-мержа)
+        if: steps.changed.outputs.has_files == 'true'
         uses: peter-evans/create-pull-request@v6
         with:
           branch: dict-intake/${{ github.run_id }}
           title: 'Словарь: новые предложения (ревью требуется)'
           body-path: /tmp/report.md
           labels: dictionary, needs-review
-          # Изменения source/** формируются администратором при ревью PR (INV-ADMIN).
+          commit-message: 'intake: обработаны предложения, батчи удалены (ревью)'
+          # Удаление батчей формирует дифф; source/** добавляет администратор при
+          # ревью PR (INV-ADMIN). Merge PR = обработанный вклад удалён из репозитория.

@@ -20,10 +20,12 @@ dictionary/
 
 1. Клиент → `POST /contributions` (worker) → файл `contributions/YYYY/MM/<batchId>.json`.
 2. `contribution-intake.yml`: validate → normalize → dedup → find entryKey → conflicts →
-   review-report → **PR от бота** (без авто-мержа, `INV-ADMIN`).
+   review-report → **PR от бота** (без авто-мержа, `INV-ADMIN`). PR удаляет сырой
+   батч `contributions/**` (это и даёт дифф) — обработанный вклад убирается при merge.
 3. Администратор вручную ревьюит PR: **Accept / Reject / Edit / Merge with existing /
-   Change entryKey** (правкой файлов `source/**`; при смене ключа — добавлением записи в
-   `remap` манифеста). Отклонённые предложения не мержатся.
+   Change entryKey** (правкой файлов `source/**` в этом же PR; при смене ключа —
+   добавлением записи в `remap` манифеста). Отклонённые предложения не мержатся, батч
+   остаётся в `contributions/**` до закрытия/доработки.
 4. Merge в `main` → `release.yml`: `builder/build.mjs` → `dictionary.sqlite` + JSON-бандлы +
    `manifest.json` + `version.json` + `checksum` → GitHub Release.
 5. Клиент опрашивает манифест, проверяет checksum, атомарно заменяет базу и мигрирует
