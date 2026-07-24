@@ -53,22 +53,30 @@ jobs:
 
       - name: Валидация схем (ajv)
         if: steps.changed.outputs.has_files == 'true'
+        env:
+          BATCH_FILES: ${{ steps.changed.outputs.files }}
         run: |
-          npx --yes ajv-cli@5 validate \
-            -s schema/contribution.schema.json \
-            --spec=draft7 --all-errors --errors=text \
-            $(for f in ${{ steps.changed.outputs.files }}; do echo "-d $f"; done) || echo "ajv: см. подробности"
+          while IFS= read -r f; do
+            [ -z "$f" ] && continue
+            npx --yes ajv-cli@5 validate \
+              -s schema/contribution.schema.json \
+              --spec=draft7 --all-errors --errors=text \
+              -d "$f" || echo "ajv: ошибки в $f (см. выше)"
+          done <<< "$BATCH_FILES"
 
       - name: Обработка батчей и сборка review-report
         id: report
         if: steps.changed.outputs.has_files == 'true'
+        env:
+          BATCH_FILES: ${{ steps.changed.outputs.files }}
         run: |
           echo "## Обзор вклада в словарь" > /tmp/report.md
           echo "" >> /tmp/report.md
-          for f in ${{ steps.changed.outputs.files }}; do
+          while IFS= read -r f; do
+            [ -z "$f" ] && continue
             echo "### Батч: \`$f\`" >> /tmp/report.md
             node builder/intake-cli.mjs "$f" >> /tmp/report.md || exit 1
-          done
+          done <<< "$BATCH_FILES"
           echo "" >> /tmp/report.md
           echo "---" >> /tmp/report.md
           echo "_Обработанные батчи удаляются этим PR. При merge правки \`source/**\` вносит администратор (INV-ADMIN)._" >> /tmp/report.md
@@ -76,10 +84,13 @@ jobs:
 
       - name: Удалить обработанные батчи (даёт дифф для PR)
         if: steps.changed.outputs.has_files == 'true'
+        env:
+          BATCH_FILES: ${{ steps.changed.outputs.files }}
         run: |
-          for f in ${{ steps.changed.outputs.files }}; do
+          while IFS= read -r f; do
+            [ -z "$f" ] && continue
             git rm -- "$f"
-          done
+          done <<< "$BATCH_FILES"
 
       - name: Создать PR от бота (без авто-мержа)
         if: steps.changed.outputs.has_files == 'true'
