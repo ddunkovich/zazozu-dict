@@ -15,7 +15,7 @@ on:
     branches:
       - main
     paths:
-      - '../../contributions'
+      - 'contributions/**'
   workflow_dispatch: {}
 
 permissions:
@@ -26,13 +26,13 @@ jobs:
   intake:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
-          node-version: '22'
+          node-version: '24'
 
       - name: Определить новые батчи
         id: changed
@@ -78,7 +78,7 @@ jobs:
 
       - name: Создать PR от бота (без авто-мержа)
         if: steps.changed.outputs.has_files == 'true'
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v7
         with:
           branch: dict-intake/${{ github.run_id }}
           title: 'Словарь: новые предложения (ревью требуется)'
