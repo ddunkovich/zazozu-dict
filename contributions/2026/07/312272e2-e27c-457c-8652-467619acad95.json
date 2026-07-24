@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "batchId": "312272e2-e27c-457c-8652-467619acad95",
+  "clientVersion": "016.0.0",
+  "baseVersion": "dict-bundled",
+  "contributions": [
+    {
+      "id": "bc0d3eea-de40-41ed-9b7b-a3acce575980",
+      "type": "new_lemma",
+      "payload": {
+        "lemma": "wdrożyć",
+        "language": "pl",
+        "surface": "wdrożyć",
+        "context": "Istnieje wiele sprawdzonych mechanizmów grywalizacji, które można tu wdrożyć."
+      },
+      "payloadHash": "3bcd6d97",
+      "createdAt": "2026-07-24T08:14:59.821Z"
+    }
+  ],
+  "dedupedCount": 0,
+  "storedAt": "2026-07-24T08:15:24.608Z"
+}
