@@ -61,6 +61,12 @@ export function buildDictionary(sources, opts = {}) {
     e.dictionaryId = prev ?? `d${nextId++}`
   }
 
+  // Канонический глобальный frequencyRank — ПРОИЗВОДНОЕ поле, считается на сборке
+  // (как dictionaryId), а не хранится в source. Так интейк-PR не переписывает ранги
+  // всех слов. Сигнал — metadata.frequencyRank из source (base: курируемый; user:
+  // оценка LLM). Детерминизм (FR-026): тай-брейк по entryKey.
+  assignFrequencyRanks(entries)
+
   const bundles = buildBundles(entries)
   const manifest = {
     version: opts.version || 'dev',
@@ -73,9 +79,49 @@ export function buildDictionary(sources, opts = {}) {
   return { entries, bundles, manifest }
 }
 
+/** Тир по каноническому рангу (плотнейшая полоса, которой принадлежит слово). */
+export function frequencyTier(rank) {
+  if (rank <= 100) return 'top100'
+  if (rank <= 300) return 'top300'
+  if (rank <= 1000) return 'top1000'
+  if (rank <= 3000) return 'top3000'
+  return 'rest'
+}
+
+/**
+ * Присваивает всем записям канонический `metadata.frequencyRank` (плотный 1..N) и
+ * `metadata.frequencyTier`. Сортирует по сигналу частоты из source (меньше = чаще);
+ * записи без сигнала уходят в конец; тай-брейк по entryKey → детерминированно.
+ * Мутирует metadata записей (они же попадут в бандлы/sqlite). source не меняется.
+ */
+export function assignFrequencyRanks(entries) {
+  const signal = (e) => {
+    const r = e.metadata?.frequencyRank
+    return typeof r === 'number' && Number.isFinite(r) ? r : Number.POSITIVE_INFINITY
+  }
+  const ordered = [...entries].sort((a, b) => {
+    const sa = signal(a)
+    const sb = signal(b)
+    if (sa !== sb) return sa - sb
+    return a.entryKey < b.entryKey ? -1 : a.entryKey > b.entryKey ? 1 : 0
+  })
+  ordered.forEach((e, i) => {
+    const rank = i + 1
+    e.metadata = { ...(e.metadata ?? {}), frequencyRank: rank, frequencyTier: frequencyTier(rank) }
+  })
+}
+
 function idMapFromManifestEntries(prevEntries) {
+  // Предыдущий бандл может быть как DictionaryEntry (entryKey+dictionaryId), так и
+  // VocabularyEntry (id + lemma/pl, без entryKey — тогда entryKey пересчитываем).
   const m = new Map()
-  for (const e of prevEntries ?? []) if (e.entryKey && e.dictionaryId) m.set(e.entryKey, e.dictionaryId)
+  for (const e of prevEntries ?? []) {
+    const dictionaryId = e.dictionaryId ?? e.id
+    if (!dictionaryId) continue
+    const lemma = e.lemma || e.pl
+    const entryKey = e.entryKey || (lemma ? buildEntryKey('pl', 'lemma', lemma) : null)
+    if (entryKey) m.set(entryKey, dictionaryId)
+  }
   return m
 }
 function maxNumericId(idMap) {

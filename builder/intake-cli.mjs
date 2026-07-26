@@ -45,26 +45,50 @@ async function run() {
   console.log(renderReport(res.report))
 
   if (process.argv.includes('--apply') && res.report.newEntries.length > 0) {
-    // Новые леммы приходят БЕЗ перевода, а source-entry.schema требует translations
-    // (minItems:1). Поэтому НЕ пишем их в lemmas.jsonl (иначе build упадёт на валидации,
-    // INV-ADMIN). Складываем как ПРЕДЛОЖЕНИЯ в proposed-lemmas.jsonl — этот файл builder
-    // не потребляет (build.mjs читает только lemmas/examples/collocations/synonyms).
-    // Админ при ревью PR добавляет перевод и переносит запись в lemmas.jsonl (FR-024).
+    // Обогащённое предложение (с переводом) → валидная base-запись прямо в lemmas.jsonl
+    // (в ветке PR — это предложение к мержу, INV-ADMIN про main соблюдён). Без перевода
+    // (оффлайн-слово) → proposed-lemmas.jsonl, который builder не потребляет; админ
+    // дозаполняет перевод при ревью (FR-024).
+    const lemmasPath = join(ROOT, 'source', 'pl', 'lemmas.jsonl')
     const proposedPath = join(ROOT, 'source', 'pl', 'proposed-lemmas.jsonl')
-    let written = 0
+    let applied = 0
+    let proposed = 0
     for (const c of res.report.newEntries) {
       const isCollocation = c.type === 'new_collocation'
-      const lemmaText = isCollocation ? c.payload?.collocation : c.payload?.lemma
+      const p = c.payload || {}
+      const lemmaText = isCollocation ? p.collocation : p.lemma
       if (!lemmaText) continue
-      const raw = { entryKey: c.entryKey, language: c.payload?.language || 'pl', lemma: lemmaText, translations: [] }
+      const translations = p.translation ? [{ text: String(p.translation), source: 'user' }] : []
+      const metadata = {}
+      if (Array.isArray(p.wordForms) && p.wordForms.length) metadata.wordForms = p.wordForms
+      if (typeof p.isPhrase === 'boolean') metadata.isPhrase = p.isPhrase
+      if (p.level) metadata.level = p.level
+      if (p.category) metadata.category = p.category
+      if (typeof p.ruSimilarity === 'number') metadata.ruSimilarity = p.ruSimilarity
+      if (typeof p.frequencyRank === 'number') metadata.frequencyRank = p.frequencyRank
+      const raw = {
+        entryKey: c.entryKey,
+        language: p.language || 'pl',
+        lemma: lemmaText,
+        translations,
+        partOfSpeech: p.partOfSpeech,
+        synonyms: Array.isArray(p.synonyms) && p.synonyms.length ? p.synonyms : undefined,
+        examples: Array.isArray(p.examples) && p.examples.length ? p.examples : undefined,
+        metadata: Object.keys(metadata).length ? metadata : undefined,
+      }
       const entry = normalizeSourceEntry(raw, raw.language, isCollocation ? 'collocation' : 'lemma')
       const clean = Object.fromEntries(Object.entries(entry).filter(([, v]) => v !== undefined))
-      clean.needsTranslation = true
-      if (c.payload?.context) clean.context = c.payload.context
-      appendFileSync(proposedPath, JSON.stringify(clean) + '\n', 'utf8')
-      written++
+      if (translations.length > 0) {
+        appendFileSync(lemmasPath, JSON.stringify(clean) + '\n', 'utf8')
+        applied++
+      } else {
+        clean.needsTranslation = true
+        if (p.context) clean.context = p.context
+        appendFileSync(proposedPath, JSON.stringify(clean) + '\n', 'utf8')
+        proposed++
+      }
     }
-    console.error(`[apply] ${written} предложений записано в source/pl/proposed-lemmas.jsonl (нужен перевод от админа; build их НЕ потребляет)`)
+    console.error(`[apply] lemmas.jsonl: +${applied} (с переводом), proposed-lemmas.jsonl: +${proposed} (нужен перевод)`)
   }
 }
 

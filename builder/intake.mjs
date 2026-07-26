@@ -108,11 +108,11 @@ export function renderReport(report) {
     lines.push('')
   }
   if (report.newEntries.length) {
-    lines.push('### 📝 Новые леммы — требуется перевод')
+    lines.push('### 📝 Новые леммы')
     lines.push(
-      `Предложения записаны в \`source/pl/proposed-lemmas.jsonl\` (builder их не потребляет). ` +
-      `Админ добавляет перевод и переносит записи в \`source/pl/lemmas.jsonl\` (FR-024); ` +
-      `без перевода запись не проходит валидацию source-схемы.`,
+      `Обогащённые (с переводом) добавлены в \`source/pl/lemmas.jsonl\` как предложение к мержу. ` +
+      `Слова без перевода (оффлайн) — в \`source/pl/proposed-lemmas.jsonl\` (builder не потребляет); ` +
+      `админ дозаполняет перевод и переносит их в lemmas.jsonl (FR-024).`,
     )
     lines.push('')
   }
