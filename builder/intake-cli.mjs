@@ -4,10 +4,11 @@
 //   node dictionary/builder/intake-cli.mjs <path-to-batch.json>
 
 import { readFile } from 'node:fs/promises'
-import { existsSync } from 'node:fs'
+import { appendFileSync, existsSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { processBatch, renderReport } from './intake.mjs'
+import { normalizeSourceEntry } from './lib/normalize.mjs'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(__dirname, '..')
@@ -42,6 +43,20 @@ async function run() {
     process.exit(1)
   }
   console.log(renderReport(res.report))
+
+  if (process.argv.includes('--apply') && res.report.newEntries.length > 0) {
+    const sourcePath = join(ROOT, 'source', 'pl', 'lemmas.jsonl')
+    for (const c of res.report.newEntries) {
+      const isCollocation = c.type === 'new_collocation'
+      const lemmaText = isCollocation ? c.payload?.collocation : c.payload?.lemma
+      if (!lemmaText) continue
+      const raw = { entryKey: c.entryKey, language: c.payload?.language || 'pl', lemma: lemmaText, translations: [] }
+      const entry = normalizeSourceEntry(raw, raw.language, isCollocation ? 'collocation' : 'lemma')
+      const clean = Object.fromEntries(Object.entries(entry).filter(([, v]) => v !== undefined))
+      appendFileSync(sourcePath, JSON.stringify(clean) + '\n', 'utf8')
+    }
+    console.error(`[apply] добавлено ${res.report.newEntries.length} записей в source/pl/lemmas.jsonl`)
+  }
 }
 
 run().catch((e) => {

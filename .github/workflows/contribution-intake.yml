@@ -75,11 +75,11 @@ jobs:
           while IFS= read -r f; do
             [ -z "$f" ] && continue
             echo "### Батч: \`$f\`" >> /tmp/report.md
-            node builder/intake-cli.mjs "$f" >> /tmp/report.md || exit 1
+            node builder/intake-cli.mjs "$f" --apply >> /tmp/report.md || exit 1
           done <<< "$BATCH_FILES"
           echo "" >> /tmp/report.md
           echo "---" >> /tmp/report.md
-          echo "_Обработанные батчи удаляются этим PR. При merge правки \`source/**\` вносит администратор (INV-ADMIN)._" >> /tmp/report.md
+          echo "_Новые леммы добавлены в \`source/pl/lemmas.jsonl\`. При merge словарь обновится автоматически (INV-ADMIN может дополнить переводы)._" >> /tmp/report.md
           cat /tmp/report.md
 
       - name: Удалить обработанные батчи (даёт дифф для PR)
