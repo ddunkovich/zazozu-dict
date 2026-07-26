@@ -79,7 +79,7 @@ jobs:
           done <<< "$BATCH_FILES"
           echo "" >> /tmp/report.md
           echo "---" >> /tmp/report.md
-          echo "_Новые леммы добавлены в \`source/pl/lemmas.jsonl\`. При merge словарь обновится автоматически (INV-ADMIN может дополнить переводы)._" >> /tmp/report.md
+          echo "_Новые леммы записаны как предложения в \`source/pl/proposed-lemmas.jsonl\` (нужен перевод). Администратор при ревью добавляет перевод и переносит их в \`source/pl/lemmas.jsonl\`; builder предложения не потребляет (INV-ADMIN, FR-024)._" >> /tmp/report.md
           cat /tmp/report.md
 
       - name: Удалить обработанные батчи (даёт дифф для PR)

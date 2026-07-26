@@ -107,6 +107,15 @@ export function renderReport(report) {
     }
     lines.push('')
   }
+  if (report.newEntries.length) {
+    lines.push('### 📝 Новые леммы — требуется перевод')
+    lines.push(
+      `Предложения записаны в \`source/pl/proposed-lemmas.jsonl\` (builder их не потребляет). ` +
+      `Админ добавляет перевод и переносит записи в \`source/pl/lemmas.jsonl\` (FR-024); ` +
+      `без перевода запись не проходит валидацию source-схемы.`,
+    )
+    lines.push('')
+  }
   lines.push('> Автоматически подготовлено; изменения source/** требуют ручного ревью (INV-ADMIN).')
   return lines.join('\n')
 }
