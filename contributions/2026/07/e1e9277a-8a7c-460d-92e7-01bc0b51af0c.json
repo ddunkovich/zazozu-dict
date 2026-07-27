@@ -1,0 +1,46 @@
+{
+  "ok": true,
+  "batchId": "e1e9277a-8a7c-460d-92e7-01bc0b51af0c",
+  "clientVersion": "016.0.0",
+  "baseVersion": "dict-bundled",
+  "contributions": [
+    {
+      "id": "d820105e-7be0-4d8c-be2b-3c14d22a10ce",
+      "type": "new_lemma",
+      "payload": {
+        "lemma": "zaangażowanie",
+        "language": "pl",
+        "surface": "zaangażowania",
+        "context": "To wspaniałe pytanie, bo utrzymanie zaangażowania użytkowników to klucz do sukcesu każdej aplikacji edukacyjnej.",
+        "translation": "вовлеченность, заинтересованность, преданность делу, обязательство",
+        "partOfSpeech": "существительное",
+        "synonyms": [
+          "poświęcenie",
+          "oddanie",
+          "uczestnictwo"
+        ],
+        "examples": [
+          "Utrzymanie zaangażowania użytkowników to klucz do sukcesu każdej aplikacji edukacyjnej.",
+          "Jego zaangażowanie w pracę jest godne podziwu."
+        ],
+        "wordForms": [
+          "zaangażowanie",
+          "zaangażowania",
+          "zaangażowaniu",
+          "zaangażowaniem",
+          "zaangażowań",
+          "zaangażowaniami"
+        ],
+        "isPhrase": false,
+        "level": "B2",
+        "category": "Business",
+        "ruSimilarity": 15,
+        "frequencyRank": 2500
+      },
+      "payloadHash": "5f4633ae",
+      "createdAt": "2026-07-27T19:40:12.608Z"
+    }
+  ],
+  "dedupedCount": 0,
+  "storedAt": "2026-07-27T19:40:46.520Z"
+}
