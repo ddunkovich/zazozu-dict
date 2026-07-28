@@ -1,0 +1,80 @@
+{
+  "ok": true,
+  "batchId": "3178e3b0-b4be-4df4-9aa7-e01062d9da43",
+  "clientVersion": "016.0.0",
+  "baseVersion": "dict-2026.07.28-9cf217d",
+  "contributions": [
+    {
+      "id": "b8d9788a-9d80-4f8f-ae64-e887b26d6a3d",
+      "type": "new_lemma",
+      "payload": {
+        "lemma": "zaangażowanie",
+        "language": "pl",
+        "surface": "zaangażowania",
+        "context": "To wspaniałe pytanie, bo utrzymanie zaangażowania użytkowników to klucz do sukcesu każdej aplikacji edukacyjnej.",
+        "translation": "вовлеченность, заинтересованность, преданность делу",
+        "partOfSpeech": "существительное",
+        "synonyms": [
+          "oddanie",
+          "aktywność",
+          "udział"
+        ],
+        "examples": [
+          "Doceniamy twoje ogromne zaangażowanie w ten projekt.",
+          "Sukces firmy zależy od zaangażowania jej pracowników."
+        ],
+        "wordForms": [
+          "zaangażowanie",
+          "zaangażowania",
+          "zaangażowaniu",
+          "zaangażowaniem",
+          "zaangażowania (lm)",
+          "zaangażowaniom"
+        ],
+        "isPhrase": false,
+        "level": "A2",
+        "category": "work",
+        "ruSimilarity": 40,
+        "frequencyRank": 1200
+      },
+      "payloadHash": "427473b5",
+      "createdAt": "2026-07-28T11:43:24.337Z"
+    },
+    {
+      "id": "0235b934-60af-4426-8078-0b5403632ecf",
+      "type": "new_lemma",
+      "payload": {
+        "lemma": "postęp",
+        "language": "pl",
+        "translation": "прогресс, успех, продвижение",
+        "partOfSpeech": "существительное",
+        "synonyms": [
+          "rozwój",
+          "progres",
+          "osiągnięcia"
+        ],
+        "examples": [
+          "Zrobił duży postęp w nauce języka.",
+          "Śledzenie własnych postępów jest bardzo motywujące."
+        ],
+        "wordForms": [
+          "postęp",
+          "postępu",
+          "postępowi",
+          "postępem",
+          "postępie",
+          "postępy"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "education",
+        "ruSimilarity": 80,
+        "frequencyRank": 800
+      },
+      "payloadHash": "06b97c22",
+      "createdAt": "2026-07-28T11:44:24.833Z"
+    }
+  ],
+  "dedupedCount": 0,
+  "storedAt": "2026-07-28T11:44:56.312Z"
+}
