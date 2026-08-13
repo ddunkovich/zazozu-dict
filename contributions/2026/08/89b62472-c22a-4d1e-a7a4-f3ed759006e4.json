@@ -1,0 +1,1404 @@
+{
+  "ok": true,
+  "batchId": "89b62472-c22a-4d1e-a7a4-f3ed759006e4",
+  "clientVersion": "016.0.0",
+  "baseVersion": "dict-2026.07.28-93a5292",
+  "contributions": [
+    {
+      "id": "0bd3c616-096f-4a4c-a61d-56bfaa815fe1",
+      "type": "new_lemma",
+      "payload": {
+        "lemma": "zaangażowanie",
+        "language": "pl",
+        "surface": "zaangażowania",
+        "context": "To wspaniałe pytanie, bo utrzymanie zaangażowania użytkowników to klucz do sukcesu każdej aplikacji edukacyjnej.",
+        "translation": "вовлеченность, вовлечение, приверженность",
+        "partOfSpeech": "noun",
+        "synonyms": [
+          "oddanie",
+          "aktywność",
+          "udział"
+        ],
+        "examples": [
+          "Wymagamy pełnego zaangażowania w ten projekt.",
+          "Jej zaangażowanie w pracę zostało docenione."
+        ],
+        "wordForms": [
+          "zaangażowanie",
+          "zaangażowania",
+          "zaangażowaniu",
+          "zaangażowaniem",
+          "zaangażowań"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "work",
+        "ruSimilarity": 40,
+        "frequencyRank": 850
+      },
+      "payloadHash": "39b7b9d3",
+      "createdAt": "2026-07-28T11:53:55.152Z"
+    },
+    {
+      "id": "c67039df-8f82-4401-8130-5b2f6a2bab5c",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:istnieje",
+      "payload": {
+        "lemma": "istnieje",
+        "language": "pl",
+        "surface": "Istnieje",
+        "context": "Istnieje wiele sprawdzonych mechanizmów grywalizacji, które można tu wdrożyć."
+      },
+      "payloadHash": "671b1f5b",
+      "createdAt": "2026-07-29T18:24:43.632Z"
+    },
+    {
+      "id": "e15afdc4-2601-46f0-88ee-ff611a71e15b",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:społeczny",
+      "payload": {
+        "lemma": "społeczny",
+        "language": "pl",
+        "translation": "социальной",
+        "partOfSpeech": "прилагательное",
+        "synonyms": [
+          "publiczny",
+          "grupowy",
+          "zbiorowy"
+        ],
+        "examples": [
+          "Problemy społeczne wymagają kompleksowych rozwiązań.",
+          "Odpowiedzialność społeczna biznesu jest coraz ważniejsza."
+        ],
+        "wordForms": [
+          "społeczny",
+          "społeczna",
+          "społeczne",
+          "społecznej",
+          "społecznym",
+          "społecznych"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "Society",
+        "ruSimilarity": 25,
+        "frequencyRank": 320
+      },
+      "payloadHash": "538a402f",
+      "createdAt": "2026-07-31T21:23:56.056Z"
+    },
+    {
+      "id": "97b7220d-16bc-4f17-b482-7b640a34e692",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:poprzez",
+      "payload": {
+        "lemma": "poprzez",
+        "language": "pl",
+        "translation": "посредством, через, с помощью",
+        "partOfSpeech": "przyimek",
+        "synonyms": [
+          "za pośrednictwem",
+          "za pomocą",
+          "przez"
+        ],
+        "examples": [
+          "Celem Obozu jest wsparcie rodzin z dziećmi do ukończenia 6. roku życia poprzez: wczesną diagnozę rozwoju dziecka, rozwijanie kompetencji rodzicielskich...",
+          "Osiągnął swoje cele poprzez ciężką pracę i determinację."
+        ],
+        "wordForms": [
+          "poprzez"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "Method",
+        "ruSimilarity": 15,
+        "frequencyRank": 750
+      },
+      "payloadHash": "8d07597c",
+      "createdAt": "2026-07-31T21:24:29.624Z"
+    },
+    {
+      "id": "f390f1f6-226b-4079-8876-b304fc6a867f",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:zebrać",
+      "payload": {
+        "lemma": "zebrać",
+        "language": "pl",
+        "translation": "собранных",
+        "partOfSpeech": "imiesłów przymiotnikowy",
+        "synonyms": [
+          "zgromadzonych",
+          "uzyskanych",
+          "składkowych"
+        ],
+        "examples": [
+          "Wszystkie zebrane dane zostaną przeanalizowane.",
+          "Pieniądze zebrane na aukcji przeznaczymy na cele charytatywne."
+        ],
+        "wordForms": [
+          "zebrać",
+          "zebrany",
+          "zebrana",
+          "zebrane",
+          "zebranym",
+          "zbierać",
+          "zebranych"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "finance",
+        "ruSimilarity": 30,
+        "frequencyRank": 900
+      },
+      "payloadHash": "15011bde",
+      "createdAt": "2026-07-31T21:27:59.082Z"
+    },
+    {
+      "id": "b1d75c53-d220-42ed-a919-7264aef0ba72",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:obóz",
+      "payload": {
+        "lemma": "obóz",
+        "language": "pl",
+        "translation": "лагерь",
+        "partOfSpeech": "существительное",
+        "synonyms": [
+          "biwak",
+          "kolonia",
+          "obozowisko"
+        ],
+        "examples": [
+          "Dzieci jadą na obóz letni.",
+          "Program obozu obejmuje wiele atrakcji."
+        ],
+        "wordForms": [
+          "obóz",
+          "obozu",
+          "obozowi",
+          "obozem",
+          "obozie",
+          "obozy"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "travel",
+        "ruSimilarity": 70,
+        "frequencyRank": 800
+      },
+      "payloadHash": "e4db8543",
+      "createdAt": "2026-07-31T21:28:13.102Z"
+    },
+    {
+      "id": "527ad689-5dd1-49e4-a0c1-7f37f7a38975",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:umiejętność",
+      "payload": {
+        "lemma": "umiejętność",
+        "language": "pl",
+        "surface": "umiejętności",
+        "context": "PROGRAM OBOZU 1. W ramach Obozu realizowane będą: • konsultacje diagnostyczne dzieci (psycholog dziecięcy, fizjoterapeuta, logopeda), • warsztaty umiejętności wychowawczych dla rodziców, • warsztaty integracyjne dla rodzin, • animacje oraz opieka dla dzieci podczas warsztatów rodziców.",
+        "translation": "навык, умение",
+        "partOfSpeech": "существительное",
+        "synonyms": [
+          "zdolność",
+          "kwalifikacje",
+          "wprawa"
+        ],
+        "examples": [
+          "Warsztaty rozwijają umiejętności wychowawcze rodziców.",
+          "Jego umiejętności językowe są na bardzo wysokim poziomie."
+        ],
+        "wordForms": [
+          "umiejętność",
+          "umiejętności",
+          "umiejętnościom",
+          "umiejętnościami",
+          "umiejętnościach"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "education",
+        "ruSimilarity": 40,
+        "frequencyRank": 600
+      },
+      "payloadHash": "c559d849",
+      "createdAt": "2026-07-31T21:28:32.766Z"
+    },
+    {
+      "id": "267409dd-952e-4393-9192-54cf1792c2ee",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wizerunek",
+      "payload": {
+        "lemma": "wizerunek",
+        "language": "pl",
+        "translation": "изображение, образ, облик",
+        "partOfSpeech": "существительное",
+        "synonyms": [
+          "obraz",
+          "wygląd",
+          "portret"
+        ],
+        "examples": [
+          "Wyrażam zgodę na wykorzystanie mojego wizerunku.",
+          "Firma dba o swój pozytywny wizerunek w mediach."
+        ],
+        "wordForms": [
+          "wizerunek",
+          "wizerunku",
+          "wizerunkowi",
+          "wizerunkiem",
+          "wizerunki",
+          "wizerunków"
+        ],
+        "isPhrase": false,
+        "level": "A2",
+        "category": "media",
+        "ruSimilarity": 15,
+        "frequencyRank": 1800
+      },
+      "payloadHash": "0f574f51",
+      "createdAt": "2026-08-01T05:52:30.660Z"
+    },
+    {
+      "id": "878c16ae-e23e-4b4e-8c00-0d0af242220b",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:to",
+      "payload": {
+        "lemma": "to",
+        "language": "pl",
+        "translation": "это / является",
+        "partOfSpeech": "указательное местоимение (в функции связки)",
+        "synonyms": [
+          "jest",
+          "stanowi"
+        ],
+        "examples": [
+          "Park Żerański to wyjątkowe miejsce na mapie Warszawy.",
+          "Polska to piękny kraj."
+        ],
+        "wordForms": [
+          "to",
+          "ten",
+          "ta",
+          "tego",
+          "tej",
+          "tym"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "grammar",
+        "ruSimilarity": 90,
+        "frequencyRank": 5
+      },
+      "payloadHash": "18a368b7",
+      "createdAt": "2026-08-10T16:35:20.741Z"
+    },
+    {
+      "id": "ae92e7a1-8c1c-4009-a1fd-cbc9d48c207e",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wyjątkowy",
+      "payload": {
+        "lemma": "wyjątkowy",
+        "language": "pl",
+        "translation": "исключительный, особенный",
+        "partOfSpeech": "прилагательное",
+        "synonyms": [
+          "niezwykły",
+          "unikalny",
+          "szczególny"
+        ],
+        "examples": [
+          "To jest wyjątkowe miejsce na odpoczynek.",
+          "On ma wyjątkowy talent do języków."
+        ],
+        "wordForms": [
+          "wyjątkowy",
+          "wyjątkowa",
+          "wyjątkowe",
+          "wyjątkowi",
+          "wyjątkowych",
+          "wyjątkowym"
+        ],
+        "isPhrase": false,
+        "level": "A2",
+        "category": "description",
+        "ruSimilarity": 20,
+        "frequencyRank": 1200
+      },
+      "payloadHash": "da96690b",
+      "createdAt": "2026-08-10T16:35:33.034Z"
+    },
+    {
+      "id": "f1335ff5-ef1e-45d6-9253-5bd1ea7d27ef",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:miejsce",
+      "payload": {
+        "lemma": "miejsce",
+        "language": "pl",
+        "translation": "место",
+        "partOfSpeech": "существительное",
+        "synonyms": [
+          "lokalizacja",
+          "punkt",
+          "przestrzeń"
+        ],
+        "examples": [
+          "To jest moje ulubione miejsce w Warszawie.",
+          "W kinie nie było już wolnych miejsc."
+        ],
+        "wordForms": [
+          "miejsca",
+          "miejscu",
+          "miejscem",
+          "miejsc",
+          "miejscom",
+          "miejscach"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "places",
+        "ruSimilarity": 75,
+        "frequencyRank": 80
+      },
+      "payloadHash": "57948d79",
+      "createdAt": "2026-08-10T16:35:52.146Z"
+    },
+    {
+      "id": "61a76f54-230f-46d2-a2ed-dec56040b445",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:ciekawość",
+      "payload": {
+        "lemma": "ciekawość",
+        "language": "pl",
+        "translation": "любопытство",
+        "partOfSpeech": "существительное",
+        "synonyms": [
+          "zainteresowanie",
+          "dociekliwość",
+          "wścibskość"
+        ],
+        "examples": [
+          "Zrobiłem to z czystej ciekawości.",
+          "Zjada mnie ciekawość."
+        ],
+        "wordForms": [
+          "ciekawość",
+          "ciekawości",
+          "ciekawością",
+          "ciekawościom",
+          "ciekawościach"
+        ],
+        "isPhrase": false,
+        "level": "A2",
+        "category": "emotions",
+        "ruSimilarity": 10,
+        "frequencyRank": 2000
+      },
+      "payloadHash": "93c29197",
+      "createdAt": "2026-08-13T17:52:23.962Z"
+    },
+    {
+      "id": "eb8fa302-82bb-4e29-942f-e4c0eca61476",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:relaks",
+      "payload": {
+        "lemma": "relaks",
+        "language": "pl",
+        "translation": "отдых, релакс, расслабление",
+        "partOfSpeech": "существительное",
+        "synonyms": [
+          "odpoczynek",
+          "wypoczynek",
+          "relaksacja"
+        ],
+        "examples": [
+          "Muzyka to najlepszy sposób na relaks.",
+          "Potrzebuję chwili relaksu po trudnym dniu."
+        ],
+        "wordForms": [
+          "relaks",
+          "relaksu",
+          "relaksowi",
+          "relaksem",
+          "relaksie",
+          "relaksy"
+        ],
+        "isPhrase": false,
+        "level": "A2",
+        "category": "leisure",
+        "ruSimilarity": 90,
+        "frequencyRank": 1500
+      },
+      "payloadHash": "0e97160c",
+      "createdAt": "2026-08-13T18:53:27.592Z"
+    },
+    {
+      "id": "ec7941e6-8d85-4322-a7ac-2129afa32d7d",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:popularny",
+      "payload": {
+        "lemma": "popularny",
+        "language": "pl",
+        "surface": "najpopularniejszych",
+        "context": "Piwo to jeden z najpopularniejszych napojów w Polsce i na całym świecie.",
+        "translation": "популярный (в контексте: самых популярных)",
+        "partOfSpeech": "прилагательное",
+        "synonyms": [
+          "znany",
+          "lubiany",
+          "powszechny"
+        ],
+        "examples": [
+          "To jedna z najpopularniejszych piosenek tego roku.",
+          "Piłka nożna to najpopularniejszy sport w Polsce."
+        ],
+        "wordForms": [
+          "popularny",
+          "popularniejszy",
+          "najpopularniejszy",
+          "popularna",
+          "popularne",
+          "popularnych",
+          "najpopularniejszych"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "society",
+        "ruSimilarity": 90,
+        "frequencyRank": 500
+      },
+      "payloadHash": "e7512223",
+      "createdAt": "2026-08-13T18:53:28.631Z"
+    },
+    {
+      "id": "8ccc1ec1-31c9-4a22-8868-282772a6276a",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:ciężki",
+      "payload": {
+        "lemma": "ciężki",
+        "language": "pl",
+        "surface": "ciężkim",
+        "context": "Dla wielu osób jest to symbol relaksu po ciężkim dniu pracy.",
+        "translation": "тяжёлый, трудный",
+        "partOfSpeech": "прилагательное",
+        "synonyms": [
+          "trudny",
+          "wymagający",
+          "męczący"
+        ],
+        "examples": [
+          "To był dla mnie bardzo ciężki dzień.",
+          "Ta walizka jest za ciężka na bagaż podręczny."
+        ],
+        "wordForms": [
+          "ciężki",
+          "ciężka",
+          "ciężkie",
+          "ciężkiego",
+          "ciężkim",
+          "cięższy"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "work",
+        "ruSimilarity": 50,
+        "frequencyRank": 350
+      },
+      "payloadHash": "08d30eea",
+      "createdAt": "2026-08-13T18:53:38.041Z"
+    },
+    {
+      "id": "7fd44882-a951-4214-badf-448e47954c16",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:browarnictwo",
+      "payload": {
+        "lemma": "browarnictwo",
+        "language": "pl",
+        "translation": "пивоварение",
+        "partOfSpeech": "noun",
+        "synonyms": [
+          "piwowarstwo"
+        ],
+        "examples": [
+          "Browarnictwo to ważna gałąź przemysłu spożywczego w Polsce.",
+          "Muzeum przedstawia historię lokalnego browarnictwa."
+        ],
+        "wordForms": [
+          "browarnictwo",
+          "browarnictwa",
+          "browarnictwu",
+          "browarnictwem",
+          "browarnictwie"
+        ],
+        "isPhrase": false,
+        "level": "B2",
+        "category": "industry",
+        "ruSimilarity": 20,
+        "frequencyRank": 4500
+      },
+      "payloadHash": "cbf63b7e",
+      "createdAt": "2026-08-13T18:53:54.471Z"
+    },
+    {
+      "id": "4565038b-6b70-47fe-b0d6-bccd26488916",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:dostępny",
+      "payload": {
+        "lemma": "dostępny",
+        "language": "pl",
+        "surface": "dostępnych",
+        "context": "Na polskim rynku dostępnych jest wiele różnych rodzajów tego napoju.",
+        "translation": "доступный, имеющийся в наличии",
+        "partOfSpeech": "прилагательное",
+        "synonyms": [
+          "osiągalny",
+          "przystępny",
+          "obecny"
+        ],
+        "examples": [
+          "Ta usługa jest dostępna całą dobę.",
+          "Brak jest dostępnych biletów na jutrzejszy seans."
+        ],
+        "wordForms": [
+          "dostępny",
+          "dostępna",
+          "dostępne",
+          "dostępnych",
+          "dostępnym",
+          "dostępni"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "shopping",
+        "ruSimilarity": 85,
+        "frequencyRank": 450
+      },
+      "payloadHash": "6489baab",
+      "createdAt": "2026-08-13T18:54:11.869Z"
+    },
+    {
+      "id": "dba1a0ce-7430-4822-8dd7-935e87020ccf",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wiele",
+      "payload": {
+        "lemma": "wiele",
+        "language": "pl",
+        "translation": "многие, много",
+        "partOfSpeech": "numeral",
+        "synonyms": [
+          "dużo",
+          "mnóstwo",
+          "licznie"
+        ],
+        "examples": [
+          "Wielu ludzi lubi spędzać czas na świeżym powietrzu.",
+          "Dla wielu z nas jest to ogromne wyzwanie."
+        ],
+        "wordForms": [
+          "wiele",
+          "wielu",
+          "wieloma",
+          "wieluś"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "quantity",
+        "ruSimilarity": 30,
+        "frequencyRank": 50
+      },
+      "payloadHash": "daa3ca96",
+      "createdAt": "2026-08-13T18:54:26.407Z"
+    },
+    {
+      "id": "850bb0ae-ba9d-4fe1-9ce5-d7e9369eaecc",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:polski",
+      "payload": {
+        "lemma": "polski",
+        "language": "pl",
+        "translation": "польский",
+        "partOfSpeech": "прилагательное",
+        "synonyms": [
+          "krajowy"
+        ],
+        "examples": [
+          "Uczę się języka polskiego.",
+          "To jest polski produkt."
+        ],
+        "wordForms": [
+          "polski",
+          "polskiego",
+          "polskiemu",
+          "polskim",
+          "polskie",
+          "polskich"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "geography",
+        "ruSimilarity": 90,
+        "frequencyRank": 150
+      },
+      "payloadHash": "0626a3e1",
+      "createdAt": "2026-08-13T18:54:34.834Z"
+    },
+    {
+      "id": "38bbf80d-a0e0-4f45-846f-6b09e4c5f826",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:nożny",
+      "payload": {
+        "lemma": "nożny",
+        "language": "pl",
+        "translation": "ножной",
+        "partOfSpeech": "adjective",
+        "examples": [
+          "Piłka nożna to bardzo popularny sport.",
+          "Oglądamy mecz piłki nożnej."
+        ],
+        "wordForms": [
+          "nożny",
+          "nożna",
+          "nożne",
+          "nożnej",
+          "nożnego",
+          "nożnym"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "sports",
+        "ruSimilarity": 90,
+        "frequencyRank": 800
+      },
+      "payloadHash": "06be94b5",
+      "createdAt": "2026-08-13T18:54:46.427Z"
+    },
+    {
+      "id": "39fcc1a3-7584-4306-9f23-8b08e0d489e7",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:czy",
+      "payload": {
+        "lemma": "czy",
+        "language": "pl",
+        "translation": "или",
+        "partOfSpeech": "союз",
+        "synonyms": [
+          "albo",
+          "bądź"
+        ],
+        "examples": [
+          "Wolisz kawę czy herbatę?",
+          "Nie wiem, czy to dobry pomysł."
+        ],
+        "wordForms": [
+          "czy"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "grammar",
+        "ruSimilarity": 10,
+        "frequencyRank": 15
+      },
+      "payloadHash": "33e438c3",
+      "createdAt": "2026-08-13T18:54:53.337Z"
+    },
+    {
+      "id": "cf9cbb41-f8f1-4084-b25d-c3726526d7a2",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:grill",
+      "payload": {
+        "lemma": "grill",
+        "language": "pl",
+        "translation": "гриль, барбекю",
+        "partOfSpeech": "noun",
+        "synonyms": [
+          "barbecue",
+          "piknik"
+        ],
+        "examples": [
+          "Lubimy robić grilla w ogrodzie.",
+          "Zapraszamy na sobotniego grilla."
+        ],
+        "wordForms": [
+          "grill",
+          "grilla",
+          "grillowi",
+          "grillem",
+          "grillu",
+          "grillów"
+        ],
+        "isPhrase": false,
+        "level": "A2",
+        "category": "food",
+        "ruSimilarity": 90,
+        "frequencyRank": 1200
+      },
+      "payloadHash": "f0945103",
+      "createdAt": "2026-08-13T18:54:56.282Z"
+    },
+    {
+      "id": "d24ff455-ab51-41cc-a457-0f1c80df0d7f",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wakacyjny",
+      "payload": {
+        "lemma": "wakacyjny",
+        "language": "pl",
+        "translation": "отпускной, каникулярный, летний",
+        "partOfSpeech": "прилагательное",
+        "synonyms": [
+          "urlopowy",
+          "letni"
+        ],
+        "examples": [
+          "Planujemy już nasz wakacyjny wyjazd.",
+          "Lubię wakacyjny klimat tego miasta."
+        ],
+        "wordForms": [
+          "wakacyjny",
+          "wakacyjna",
+          "wakacyjne",
+          "wakacyjnych",
+          "wakacyjnym",
+          "wakacyjną"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "travel",
+        "ruSimilarity": 40,
+        "frequencyRank": 2500
+      },
+      "payloadHash": "185e4c77",
+      "createdAt": "2026-08-13T18:54:59.156Z"
+    },
+    {
+      "id": "77513fac-7384-41bb-94d9-82e700ebba7f",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:przyjaciel",
+      "payload": {
+        "lemma": "przyjaciel",
+        "language": "pl",
+        "surface": "przyjaciółmi",
+        "context": "Dziś piwo pije się chętnie podczas spotkań z przyjaciółmi, wakacyjnych grillów czy oglądania meczów piłki nożnej.",
+        "translation": "друг",
+        "partOfSpeech": "существительное",
+        "synonyms": [
+          "kolega",
+          "znajomy",
+          "druh"
+        ],
+        "examples": [
+          "Mój najlepszy przyjaciel mieszka w Warszawie.",
+          "Lubię spędzać wolny czas z przyjaciółmi."
+        ],
+        "wordForms": [
+          "przyjaciel",
+          "przyjaciele",
+          "przyjaciela",
+          "przyjaciół",
+          "przyjaciołom",
+          "przyjaciółmi"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "people",
+        "ruSimilarity": 70,
+        "frequencyRank": 350
+      },
+      "payloadHash": "b4e63931",
+      "createdAt": "2026-08-13T18:55:05.106Z"
+    },
+    {
+      "id": "f79a2d3f-bcf0-421c-94ef-a9d25d2803df",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:zdobyć",
+      "payload": {
+        "lemma": "zdobyć",
+        "language": "pl",
+        "translation": "завоевать, получить, обрести",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "zyskać",
+          "osiągnąć",
+          "otrzymać"
+        ],
+        "examples": [
+          "Ta książka szybko zdobyła ogromną popularność na całym świecie.",
+          "Nasza drużyna zdobyła pierwsze miejsce w turnieju."
+        ],
+        "wordForms": [
+          "zdobyć",
+          "zdobędę",
+          "zdobył",
+          "zdobyła",
+          "zdobyli",
+          "zdobyły"
+        ],
+        "isPhrase": false,
+        "level": "A2",
+        "category": "achievement",
+        "ruSimilarity": 60,
+        "frequencyRank": 1200
+      },
+      "payloadHash": "a0b06002",
+      "createdAt": "2026-08-13T18:55:11.772Z"
+    },
+    {
+      "id": "7824c43c-0961-4609-8df3-a0116065e643",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:rzemieślniczy",
+      "payload": {
+        "lemma": "rzemieślniczy",
+        "language": "pl",
+        "translation": "ремесленный, кустарный, крафтовый",
+        "partOfSpeech": "прилагательное",
+        "synonyms": [
+          "kraftowy",
+          "rękodzielniczy",
+          "tradycyjny"
+        ],
+        "examples": [
+          "W mieście otwarto nowy browar rzemieślniczy.",
+          "Tradycyjne piekarnie oferują pyszne pieczywo rzemieślnicze."
+        ],
+        "wordForms": [
+          "rzemieślniczy",
+          "rzemieślnicza",
+          "rzemieślnicze",
+          "rzemieślniczych",
+          "rzemieślniczego",
+          "rzemieślniczym"
+        ],
+        "isPhrase": false,
+        "level": "C1",
+        "category": "work",
+        "ruSimilarity": 65,
+        "frequencyRank": 8500
+      },
+      "payloadHash": "458260ae",
+      "createdAt": "2026-08-13T18:55:24.541Z"
+    },
+    {
+      "id": "02d6396f-7518-411d-9c60-4b344001505a",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:browar",
+      "payload": {
+        "lemma": "browar",
+        "language": "pl",
+        "translation": "пивоварня",
+        "partOfSpeech": "существительное",
+        "synonyms": [
+          "piwowarnia",
+          "zakład piwowarski"
+        ],
+        "examples": [
+          "Ten lokalny browar produkuje wyśmienite piwo.",
+          "Odwiedziliśmy najstarszy browar w mieście."
+        ],
+        "wordForms": [
+          "browar",
+          "browaru",
+          "browarowi",
+          "browarem",
+          "browarze",
+          "browary"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "food",
+        "ruSimilarity": 20,
+        "frequencyRank": 2800
+      },
+      "payloadHash": "68e3dccb",
+      "createdAt": "2026-08-13T18:55:30.936Z"
+    },
+    {
+      "id": "a13de3a4-cad5-40cf-9bdb-92039748e226",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:chętniej",
+      "payload": {
+        "lemma": "chętniej",
+        "language": "pl",
+        "translation": "охотнее, предпочтительнее, с большей охотой",
+        "partOfSpeech": "наречие",
+        "synonyms": [
+          "raczej",
+          "z większą chęcią",
+          "preferencyjnie"
+        ],
+        "examples": [
+          "Wchodząc do urzędu, mówimy zazwyczaj oficjalne \"dzień dobry\", choć do znajomego chętniej zawołamy swobodne \"cześć\" lub siemanko.",
+          "Dzieci chętniej bawią się na dworze niż w domu."
+        ],
+        "wordForms": [
+          "chętnie",
+          "chętniej",
+          "najchętniej"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "c65c86d0",
+      "createdAt": "2026-08-13T19:02:32.649Z"
+    },
+    {
+      "id": "8197f3c4-8a69-4b0a-bf3b-ef97d5ee4a75",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:frasunek",
+      "payload": {
+        "lemma": "frasunek",
+        "language": "pl",
+        "translation": "печаль, беспокойство, забота, озабоченность",
+        "partOfSpeech": "существительное",
+        "synonyms": [
+          "troska",
+          "zmartwienie",
+          "smutek"
+        ],
+        "examples": [
+          "nawet najgorszy frasunek wydaje się lżejszy.",
+          "Nie trać czasu na frasunki, życie jest zbyt krótkie."
+        ],
+        "wordForms": [
+          "frasunek",
+          "frasunku",
+          "frasunkowi",
+          "frasunkiem",
+          "frasunki",
+          "frasunków"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "88d9b51b",
+      "createdAt": "2026-08-13T19:02:32.659Z"
+    },
+    {
+      "id": "c149b2db-702d-4208-8fdb-594e7696969c",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:istnieć",
+      "payload": {
+        "lemma": "istnieć",
+        "language": "pl",
+        "translation": "существует, имеется",
+        "partOfSpeech": "czasownik (глагол)",
+        "synonyms": [
+          "być",
+          "trwać",
+          "występować"
+        ],
+        "examples": [
+          "Istnieje wiele sprawdzonych mechanizmów grywalizacji, które można tu wdrożyć.",
+          "Powszechne przekonanie, że istnieje życie po śmierci."
+        ],
+        "wordForms": [
+          "istnieć",
+          "istnieję",
+          "istniejesz",
+          "istnieje",
+          "istnieli",
+          "istniał"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "cd968004",
+      "createdAt": "2026-08-13T19:02:32.666Z"
+    },
+    {
+      "id": "b0498986-9ad3-49fa-a555-ef7a0a34f889",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:mitręga",
+      "payload": {
+        "lemma": "mitręga",
+        "language": "pl",
+        "translation": "волокита, канитель",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "udręka",
+          "fatyga",
+          "korowód"
+        ],
+        "examples": [
+          "Biurokratyczna mitręga skutecznie utrudnia życie obywatelom.",
+          "Szkoda czasu i sił na tę całą mitręgę."
+        ],
+        "wordForms": [
+          "mitręga",
+          "mitręgi",
+          "mitrędze",
+          "mitręgę",
+          "mitręgą",
+          "mitręgom"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "e8b672b2",
+      "createdAt": "2026-08-13T19:02:32.673Z"
+    },
+    {
+      "id": "da2dfa51-cc3e-40a2-8cdd-5923f9d607a7",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:nieodzowny",
+      "payload": {
+        "lemma": "nieodzowny",
+        "language": "pl",
+        "translation": "необходимый",
+        "partOfSpeech": "прилагательное",
+        "synonyms": [
+          "niezbędny",
+          "konieczny",
+          "niezastąpiony"
+        ],
+        "examples": [
+          "Dostęp do internetu stał się dziś nieodzownym elementem codziennej pracy.",
+          "Cierpliwość jest nieodzowna w zawodzie nauczyciela."
+        ],
+        "wordForms": [
+          "nieodzowna",
+          "nieodzowne",
+          "nieodzowni",
+          "nieodzownych",
+          "nieodzownym",
+          "nieodzownego"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "4cd370cb",
+      "createdAt": "2026-08-13T19:02:32.675Z"
+    },
+    {
+      "id": "262cec8a-721c-471d-ad39-03c31b990e16",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:potrwać",
+      "payload": {
+        "lemma": "potrwać",
+        "language": "pl",
+        "translation": "продлиться, длиться, продолжаться",
+        "partOfSpeech": "глагол",
+        "synonyms": [
+          "trwać",
+          "ciągnąć się",
+          "utrzymać się"
+        ],
+        "examples": [
+          "Festiwal potrwa do niedzieli, 19 lipca.",
+          "Spotkanie potrwa około godziny."
+        ],
+        "wordForms": [
+          "potrwać",
+          "potrwa",
+          "potrwają",
+          "potrwał",
+          "potrwała",
+          "potrwało"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "078ff80b",
+      "createdAt": "2026-08-13T19:02:32.691Z"
+    },
+    {
+      "id": "bff6f3ad-99c4-4d46-a558-9925c9d22dc2",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:rozgardiasz",
+      "payload": {
+        "lemma": "rozgardiasz",
+        "language": "pl",
+        "translation": "беспорядок, кавардак, хаос, суматоха",
+        "partOfSpeech": "существительное",
+        "synonyms": [
+          "bałagan",
+          "nieład",
+          "chaos"
+        ],
+        "examples": [
+          "gdy w urzędzie panuje kompletny rozgardiasz",
+          "W jego pokoju zawsze panował okropny rozgardiasz."
+        ],
+        "wordForms": [
+          "rozgardiasz",
+          "rozgardiaszu",
+          "rozgardiaszowi",
+          "rozgardiaszem",
+          "rozgardiasze",
+          "rozgardiaszów"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "b260f782",
+      "createdAt": "2026-08-13T19:02:32.698Z"
+    },
+    {
+      "id": "e72c46ab-f9c3-439e-8496-024104bab32c",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:rywalizacja",
+      "payload": {
+        "lemma": "rywalizacja",
+        "language": "pl",
+        "translation": "соперничество, конкуренция",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "konkurencja",
+          "współzawodnictwo",
+          "zmagania"
+        ],
+        "examples": [
+          "Zdrowa rywalizacja w sporcie pomaga osiągać lepsze wyniki.",
+          "Rywalizacja między firmami doprowadziła do sporu."
+        ],
+        "wordForms": [
+          "rywalizacja",
+          "rywalizacji",
+          "rywalizację",
+          "rywalizacją",
+          "rywalizacje",
+          "rywalizacjami"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "234f134a",
+      "createdAt": "2026-08-13T19:02:32.701Z"
+    },
+    {
+      "id": "84632195-be4a-443e-b0da-141b6339a7ec",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:siemanko",
+      "payload": {
+        "lemma": "siemanko",
+        "language": "pl",
+        "translation": "привет, хай (очень неформальное, сленговое)",
+        "partOfSpeech": "междометие",
+        "synonyms": [
+          "cześć",
+          "elo",
+          "witaj"
+        ],
+        "examples": [
+          "Wchodząc do urzędu, mówimy zazwyczaj oficjalne \"dzień dobry\", choć do znajomego chętniej zawołamy swobodne \"cześć\" lub siemanko.",
+          "Siemanko, co słychać? Dawno się nie widzieliśmy!"
+        ],
+        "wordForms": [
+          "siemanko"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "03f374cb",
+      "createdAt": "2026-08-13T19:02:32.706Z"
+    },
+    {
+      "id": "611091cb-acd5-4ae3-9c34-a6eb0e9cf6d2",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:sprawunek",
+      "payload": {
+        "lemma": "sprawunek",
+        "language": "pl",
+        "translation": "покупка, приобретение, покупка (товар)",
+        "partOfSpeech": "существительное",
+        "synonyms": [
+          "zakup",
+          "nabytek",
+          "przedmiot"
+        ],
+        "examples": [
+          "musimy odebrać awizo lub złożyć reklamację na wadliwy sprawunek.",
+          "Cieszę się z udanego sprawunku, który udało mi się zdobyć na wyprzedaży."
+        ],
+        "wordForms": [
+          "sprawunek",
+          "sprawunku",
+          "sprawunkowi",
+          "sprawunkiem",
+          "sprawunku",
+          "sprawunków"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "c20148c8",
+      "createdAt": "2026-08-13T19:02:32.711Z"
+    },
+    {
+      "id": "04d43e8b-61a4-47b8-a106-4a98b171afb7",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:uciążliwej",
+      "payload": {
+        "lemma": "uciążliwej",
+        "language": "pl",
+        "translation": "обременительной, утомительной",
+        "partOfSpeech": "прилагательное (przymiotnik)",
+        "synonyms": [
+          "męczący",
+          "dokuczliwy",
+          "uciążny"
+        ],
+        "examples": [
+          "Praca w ciągłym hałasie jest niezwykle uciążliwa.",
+          "Musieliśmy znieść długą i uciążliwą podróż."
+        ],
+        "wordForms": [
+          "uciążliwy",
+          "uciążliwa",
+          "uciążliwe",
+          "uciążliwego",
+          "uciążliwej",
+          "uciążliwych"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "f323e0d3",
+      "createdAt": "2026-08-13T19:02:32.717Z"
+    },
+    {
+      "id": "027bc484-0dc7-47b0-9857-7ceabdaa4dfe",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:ulgę",
+      "payload": {
+        "lemma": "ulgę",
+        "language": "pl",
+        "translation": "облегчение",
+        "partOfSpeech": "существительное",
+        "synonyms": [
+          "odprężenie",
+          "ukojenie",
+          "wytchnienie"
+        ],
+        "examples": [
+          "Kończąc te zmagania i mówiąc na pożegnanie \"do widzenia\", czujemy ulgę.",
+          "Poczułem ogromną ulgę, gdy dowiedziałem się, że wszystko jest w porządku."
+        ],
+        "wordForms": [
+          "ulga",
+          "ulgi",
+          "uldze",
+          "ulgą",
+          "ulgę",
+          "ulgom"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "eb2c8072",
+      "createdAt": "2026-08-13T19:02:32.720Z"
+    },
+    {
+      "id": "f77bdebe-0fb6-400c-b311-eb8314320e29",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wdrożyć",
+      "payload": {
+        "lemma": "wdrożyć",
+        "language": "pl",
+        "translation": "внедрить",
+        "partOfSpeech": "глагол",
+        "synonyms": [
+          "wprowadzić",
+          "zastosować",
+          "zrealizować"
+        ],
+        "examples": [
+          "Firma planuje wdrożyć nowy system zarządzania.",
+          "Musimy jak najszybciej wdrożyć te zmiany w życie."
+        ],
+        "wordForms": [
+          "wdrożę",
+          "wdrożysz",
+          "wdroży",
+          "wdrożymy",
+          "wdrożył",
+          "wdrożony"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "33bd4490",
+      "createdAt": "2026-08-13T19:02:32.726Z"
+    },
+    {
+      "id": "274cd9af-f526-4929-a6fd-0fea2aed62d4",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wspaniały",
+      "payload": {
+        "lemma": "wspaniały",
+        "language": "pl",
+        "translation": "прекрасный, великолепный, замечательный, чудесный",
+        "partOfSpeech": "przymiotnik (прилагательное)",
+        "synonyms": [
+          "cudowny",
+          "znakomity",
+          "doskonały"
+        ],
+        "examples": [
+          "To był wspaniały dzień!",
+          "Ona ma wspaniałe pomysły."
+        ],
+        "wordForms": [
+          "wspaniały",
+          "wspaniała",
+          "wspaniałe",
+          "wspaniałych",
+          "wspaniałemu",
+          "wspaniałymi"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "b2ae8ab1",
+      "createdAt": "2026-08-13T19:02:32.735Z"
+    },
+    {
+      "id": "fa58e060-23b0-44a5-85a4-8ccb697b681f",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:zawołamy",
+      "payload": {
+        "lemma": "zawołamy",
+        "language": "pl",
+        "translation": "позовем, окликнем, закричим",
+        "partOfSpeech": "глагол",
+        "synonyms": [
+          "krzyknąć",
+          "wykrzyknąć",
+          "ozwać się"
+        ],
+        "examples": [
+          "Zawołamy go, żeby przyszedł na kolację.",
+          "Wchodząc do urzędu, mówimy zazwyczaj oficjalne \"dzień dobry\", choć do znajomego chętniej zawołamy swobodne \"cześć\" lub siemanko."
+        ],
+        "wordForms": [
+          "zawołać",
+          "zawołam",
+          "zawołasz",
+          "zawoła",
+          "zawołacie",
+          "zawołają"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "0988a477",
+      "createdAt": "2026-08-13T19:02:32.750Z"
+    },
+    {
+      "id": "e3b33b11-51fc-4e30-ac26-6dbdd14a7ce1",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:zbędna",
+      "payload": {
+        "lemma": "zbędna",
+        "language": "pl",
+        "translation": "ненужная, излишняя, лишняя",
+        "partOfSpeech": "прилагательное",
+        "synonyms": [
+          "niepotrzebna",
+          "zbyteczna",
+          "nadmierna"
+        ],
+        "examples": [
+          "To jest absolutnie zbędna rzecz.",
+          "Unikaj zbędnych słów."
+        ],
+        "wordForms": [
+          "zbędny",
+          "zbędne",
+          "zbędni",
+          "zbędną",
+          "zbędnych",
+          "zbędnym"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "b3bb404b",
+      "createdAt": "2026-08-13T19:02:32.754Z"
+    }
+  ],
+  "dedupedCount": 0,
+  "storedAt": "2026-08-13T19:02:33.429Z"
+}
