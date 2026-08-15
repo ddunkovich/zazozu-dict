@@ -1,0 +1,492 @@
+{
+  "ok": true,
+  "batchId": "1c79a61c-0c0a-4431-8302-82a21c346eaa",
+  "clientVersion": "016.0.0",
+  "baseVersion": "dict-2026.08.14-1258e14",
+  "contributions": [
+    {
+      "id": "b7991cda-6e78-4466-9d37-1f883c595028",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:człowiek",
+      "payload": {
+        "lemma": "człowiek",
+        "language": "pl",
+        "translation": "люди",
+        "partOfSpeech": "существительное",
+        "synonyms": [
+          "osoby",
+          "społeczeństwo",
+          "ludzkość"
+        ],
+        "examples": [
+          "Młodzi ludzie często podróżują.",
+          "Na placu zebrało się wielu ludzi."
+        ],
+        "wordForms": [
+          "człowiek",
+          "ludzie",
+          "ludzi",
+          "ludziom",
+          "ludźmi",
+          "ludziach"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "society",
+        "ruSimilarity": 85,
+        "frequencyRank": 40
+      },
+      "payloadHash": "623d193e",
+      "createdAt": "2026-08-14T05:46:53.954Z"
+    },
+    {
+      "id": "33af0224-c01e-48d0-8982-f40b8ecaf078",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:coraz",
+      "payload": {
+        "lemma": "coraz",
+        "language": "pl",
+        "translation": "всё (более/больше)",
+        "partOfSpeech": "частица",
+        "synonyms": [
+          "coraz bardziej",
+          "stopniowo"
+        ],
+        "examples": [
+          "Z roku na rok robi się coraz cieplej.",
+          "Język polski staje się dla mnie coraz łatwiejszy."
+        ],
+        "wordForms": [
+          "coraz"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "abstract",
+        "ruSimilarity": 15,
+        "frequencyRank": 350
+      },
+      "payloadHash": "8621ce37",
+      "createdAt": "2026-08-14T05:47:02.121Z"
+    },
+    {
+      "id": "17022283-da24-4115-b45d-76bc7524b9e5",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:pszeniczny",
+      "payload": {
+        "lemma": "pszeniczny",
+        "language": "pl",
+        "translation": "пшеничный",
+        "partOfSpeech": "adjective",
+        "synonyms": [
+          "pszenny",
+          "zbożowy"
+        ],
+        "examples": [
+          "Piwo pszeniczne jest bardzo popularne w Niemczech.",
+          "Do wypieku tego chleba użyto mąki pszenicznej."
+        ],
+        "wordForms": [
+          "pszeniczny",
+          "pszeniczna",
+          "pszeniczne",
+          "pszenicznego",
+          "pszenicznych",
+          "pszenicznym"
+        ],
+        "isPhrase": false,
+        "level": "C1",
+        "category": "food",
+        "ruSimilarity": 85,
+        "frequencyRank": 8000
+      },
+      "payloadHash": "8f98c785",
+      "createdAt": "2026-08-14T05:47:19.365Z"
+    },
+    {
+      "id": "3eb61cb9-dddf-4c9d-bd05-dd91b08cc807",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:chmielić",
+      "payload": {
+        "lemma": "chmielić",
+        "language": "pl",
+        "translation": "охмеленный (с добавлением хмеля)",
+        "partOfSpeech": "imiesłów przymiotnikowy bierny",
+        "synonyms": [
+          "nachmielony",
+          "aromatyzowany chmielem"
+        ],
+        "examples": [
+          "To piwo jest tradycyjnie chmielone na zimno.",
+          "Mocno chmielone trunki charakteryzują się wyraźną goryczką."
+        ],
+        "wordForms": [
+          "chmielony",
+          "chmielona",
+          "chmielone",
+          "chmieleni",
+          "chmielonych",
+          "chmielonym"
+        ],
+        "isPhrase": false,
+        "level": "C2",
+        "category": "food",
+        "ruSimilarity": 75,
+        "frequencyRank": 12500
+      },
+      "payloadHash": "85728d2b",
+      "createdAt": "2026-08-14T05:47:47.267Z"
+    },
+    {
+      "id": "e4e4ff32-4282-46a6-bf0d-b59f16af20f2",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:mocno",
+      "payload": {
+        "lemma": "mocno",
+        "language": "pl",
+        "translation": "сильно, крепко",
+        "partOfSpeech": "наречие",
+        "synonyms": [
+          "silnie",
+          "bardzo",
+          "solidnie"
+        ],
+        "examples": [
+          "Wiatr wieje dzisiaj bardzo mocno.",
+          "Trzymaj mnie mocno za rękę."
+        ],
+        "wordForms": [
+          "mocniej",
+          "najmocniej"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "general",
+        "ruSimilarity": 70,
+        "frequencyRank": 350
+      },
+      "payloadHash": "9cd1372f",
+      "createdAt": "2026-08-14T05:47:54.789Z"
+    },
+    {
+      "id": "bb2e01fb-8a8e-4d23-a7c4-fb60aa3ee3ad",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:dzięki",
+      "payload": {
+        "lemma": "dzięki",
+        "language": "pl",
+        "translation": "благодаря",
+        "partOfSpeech": "przyimek",
+        "synonyms": [
+          "za sprawą",
+          "skutkiem",
+          "poprzez"
+        ],
+        "examples": [
+          "Dzięki tobie wszystko się udało.",
+          "Dzięki dobrej pogodzie mogliśmy iść na spacer."
+        ],
+        "wordForms": [
+          "dzięki"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "relations",
+        "ruSimilarity": 15,
+        "frequencyRank": 350
+      },
+      "payloadHash": "7f402a9d",
+      "createdAt": "2026-08-14T05:48:19.951Z"
+    },
+    {
+      "id": "89d160c1-5679-4406-8b85-46849ff9b030",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:to",
+      "payload": {
+        "lemma": "to",
+        "language": "pl",
+        "surface": "temu",
+        "context": "Dzięki temu degustacja piwa stała się dla niektórych prawdziwym hobby, a fani tego napoju często odwiedzają lokalne browary oraz festiwale.",
+        "translation": "этому",
+        "partOfSpeech": "pronoun",
+        "synonyms": [
+          "tym",
+          "owemu"
+        ],
+        "examples": [
+          "Dzięki temu możemy zaoszczędzić dużo czasu.",
+          "Przyglądam się temu z wielkim zaciekawieniem."
+        ],
+        "wordForms": [
+          "to",
+          "tego",
+          "temu",
+          "tym"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "grammar",
+        "ruSimilarity": 70,
+        "frequencyRank": 120
+      },
+      "payloadHash": "ec753acd",
+      "createdAt": "2026-08-14T05:48:20.143Z"
+    },
+    {
+      "id": "9b68541d-cbc3-4002-a025-d6c10c172c1a",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:degustacja",
+      "payload": {
+        "lemma": "degustacja",
+        "language": "pl",
+        "translation": "дегустация",
+        "partOfSpeech": "существительное",
+        "synonyms": [
+          "próbowanie",
+          "smakowanie",
+          "testowanie"
+        ],
+        "examples": [
+          "Zapraszamy na bezpłatną degustację lokalnych win.",
+          "Podczas festiwalu odbyła się degustacja tradycyjnych serów."
+        ],
+        "wordForms": [
+          "degustacja",
+          "degustacji",
+          "degustację",
+          "degustacją",
+          "degustacjo",
+          "degustacje"
+        ],
+        "isPhrase": false,
+        "level": "B2",
+        "category": "food",
+        "ruSimilarity": 95,
+        "frequencyRank": 6500
+      },
+      "payloadHash": "13d5c8ab",
+      "createdAt": "2026-08-14T05:48:23.085Z"
+    },
+    {
+      "id": "c3fa7dde-28db-4fa9-a23a-7c8051c42d88",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:również",
+      "payload": {
+        "lemma": "również",
+        "language": "pl",
+        "translation": "также, тоже",
+        "partOfSpeech": "наречие",
+        "synonyms": [
+          "także",
+          "też",
+          "ponadto"
+        ],
+        "examples": [
+          "On również chce pojechać na tę wycieczkę.",
+          "To rozwiązanie jest również bardzo skuteczne."
+        ],
+        "wordForms": [
+          "również"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "general",
+        "ruSimilarity": 20,
+        "frequencyRank": 120
+      },
+      "payloadHash": "a7c07629",
+      "createdAt": "2026-08-14T05:48:33.848Z"
+    },
+    {
+      "id": "dc9bca64-3b7f-4703-aff5-4c1eb1fc4689",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wspomnieć",
+      "payload": {
+        "lemma": "wspomnieć",
+        "language": "pl",
+        "translation": "упомянуть, вспомнить",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "nadmienić",
+          "przypomnieć",
+          "bąknąć"
+        ],
+        "examples": [
+          "Warto wspomnieć o tym projekcie podczas spotkania.",
+          "Wspomniał o swojej dawnej pracy tylko raz."
+        ],
+        "wordForms": [
+          "wspomnę",
+          "wspomnisz",
+          "wspomniał",
+          "wspomnieli",
+          "wspomniano",
+          "wspomniawszy"
+        ],
+        "isPhrase": false,
+        "level": "A2",
+        "category": "communication",
+        "ruSimilarity": 85,
+        "frequencyRank": 1200
+      },
+      "payloadHash": "a2d99989",
+      "createdAt": "2026-08-14T05:48:39.857Z"
+    },
+    {
+      "id": "c9103b7e-b689-4c48-9444-f8c092237dd1",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:kultura",
+      "payload": {
+        "lemma": "kultura",
+        "language": "pl",
+        "surface": "kulturze",
+        "context": "Warto również wspomnieć o samej kulturze picia piwa.",
+        "translation": "культура",
+        "partOfSpeech": "существительное",
+        "synonyms": [
+          "cywilizacja",
+          "ogłada",
+          "obyczajowość"
+        ],
+        "examples": [
+          "Polska kultura ma długą i bogatą historię.",
+          "Warto dbać o kulturę języka na co dzień."
+        ],
+        "wordForms": [
+          "kultura",
+          "kultury",
+          "kulturze",
+          "kulturę",
+          "kulturą",
+          "kultur"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "society",
+        "ruSimilarity": 95,
+        "frequencyRank": 450
+      },
+      "payloadHash": "9a33877b",
+      "createdAt": "2026-08-14T05:48:48.238Z"
+    },
+    {
+      "id": "ab3e9e60-337c-4ce1-91b8-2854cbb60e36",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:stouty",
+      "payload": {
+        "lemma": "stouty",
+        "language": "pl",
+        "surface": "stouty",
+        "context": "Ludzie coraz chętniej wybierają piwa pszeniczne, ciemne stouty czy mocno chmielone IPA."
+      },
+      "payloadHash": "cd0466ca",
+      "createdAt": "2026-08-14T05:49:03.265Z"
+    },
+    {
+      "id": "a9d7b70e-91ef-4987-bbb0-22ab5bcbccd3",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:podsumowywać",
+      "payload": {
+        "lemma": "podsumowywać",
+        "language": "pl",
+        "translation": "подытоживая, подводя итог",
+        "partOfSpeech": "деепричастие",
+        "synonyms": [
+          "rekapitulując",
+          "konkludując",
+          "streszczając"
+        ],
+        "examples": [
+          "Podsumowując dyskusję, chciałbym podziękować wszystkim za udział.",
+          "Podsumowując, projekt zakończył się pełnym sukcesem."
+        ],
+        "wordForms": [
+          "podsumowując",
+          "podsumowuję",
+          "podsumowuje",
+          "podsumowywał",
+          "podsumowano",
+          "podsumować"
+        ],
+        "isPhrase": false,
+        "level": "A2",
+        "category": "communication",
+        "ruSimilarity": 70,
+        "frequencyRank": 1850
+      },
+      "payloadHash": "785323e9",
+      "createdAt": "2026-08-14T05:50:30.609Z"
+    },
+    {
+      "id": "9084370d-c7a3-4e9f-9dd4-4607a9facd94",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:woleć",
+      "payload": {
+        "lemma": "woleć",
+        "language": "pl",
+        "translation": "предпочитать",
+        "partOfSpeech": "глагол",
+        "synonyms": [
+          "preferować",
+          "wybierać",
+          "przekładać"
+        ],
+        "examples": [
+          "Wolimy pić herbatę zamiast kawy.",
+          "Co wolicie robić w wolnym czasie?"
+        ],
+        "wordForms": [
+          "wolę",
+          "wolisz",
+          "woli",
+          "wolimy",
+          "wolicie",
+          "wolą"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "preferences",
+        "ruSimilarity": 20,
+        "frequencyRank": 800
+      },
+      "payloadHash": "fe58448e",
+      "createdAt": "2026-08-14T05:56:16.985Z"
+    },
+    {
+      "id": "9b35bd6f-b1bb-452b-aad1-de5ab3bb14d9",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wskazany",
+      "payload": {
+        "lemma": "wskazany",
+        "language": "pl",
+        "translation": "указанная, приведённая",
+        "partOfSpeech": "прилагательное",
+        "synonyms": [
+          "wymieniona",
+          "określona",
+          "zaznaczona"
+        ],
+        "examples": [
+          "Wskazana osoba nie pojawiła się na przesłuchaniu.",
+          "Wskazana fraza jest często używana w internecie."
+        ],
+        "wordForms": [
+          "wskazany",
+          "wskazana",
+          "wskazane",
+          "wskazani",
+          "wskazanych",
+          "wskazanym"
+        ],
+        "isPhrase": false,
+        "level": "A2",
+        "category": "communication",
+        "ruSimilarity": 60,
+        "frequencyRank": 1500
+      },
+      "payloadHash": "ac42fbb8",
+      "createdAt": "2026-08-14T14:15:49.173Z"
+    }
+  ],
+  "dedupedCount": 0,
+  "storedAt": "2026-08-15T09:07:27.160Z"
+}
