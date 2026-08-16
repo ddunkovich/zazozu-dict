@@ -47,3 +47,15 @@ test('processBatch: невалидный пакет возвращает оши�
   const res = processBatch({ contributions: [{ type: 'bogus', payload: {} }] })
   assert.equal(res.ok, false)
 })
+
+test('validateContribution: delete_from_base с entryKey валидно', () => {
+  assert.deepEqual(
+    validateContribution({ type: 'delete_from_base', entryKey: 'pl:lemma:certyfikować_systemy', payload: {} }),
+    [],
+  )
+})
+
+test('validateContribution: delete_from_base без entryKey невалидно', () => {
+  const e = validateContribution({ type: 'delete_from_base', payload: {} })
+  assert.ok(e.some((s) => s.includes('entryKey')))
+})
