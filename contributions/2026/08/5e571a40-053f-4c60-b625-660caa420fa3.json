@@ -1,0 +1,981 @@
+{
+  "ok": true,
+  "batchId": "5e571a40-053f-4c60-b625-660caa420fa3",
+  "clientVersion": "016.0.0",
+  "baseVersion": "dict-2026.08.16-0ff80a8",
+  "contributions": [
+    {
+      "id": "7d435b3c-54e7-444e-a8dd-4a72d2d94fb1",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:należeć",
+      "payload": {
+        "lemma": "należeć",
+        "language": "pl",
+        "translation": "принадлежать, надлежать, следовать",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "wypadać",
+          "musieć",
+          "dotyczyć"
+        ],
+        "examples": [
+          "Ta książka należy do mojego brata.",
+          "Należy pamiętać o regularnym podlewaniu kwiatów."
+        ],
+        "wordForms": [
+          "należeć",
+          "należy",
+          "należą",
+          "należał",
+          "należało",
+          "należący"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "communication",
+        "ruSimilarity": 40,
+        "frequencyRank": 150
+      },
+      "payloadHash": "ab54a505",
+      "createdAt": "2026-08-16T10:54:01.012Z"
+    },
+    {
+      "id": "24019af2-b14e-402d-afb3-b4510e118b10",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:system",
+      "payload": {
+        "lemma": "system",
+        "language": "pl",
+        "translation": "система",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "układ",
+          "struktura",
+          "schemat"
+        ],
+        "examples": [
+          "Nowy system operacyjny działa bardzo szybko.",
+          "Musimy wprowadzić zmiany w całym systemie edukacji."
+        ],
+        "wordForms": [
+          "system",
+          "systemie",
+          "systemu",
+          "systemy",
+          "systemów",
+          "systemami"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "technology",
+        "ruSimilarity": 95,
+        "frequencyRank": 180
+      },
+      "payloadHash": "71679d80",
+      "createdAt": "2026-08-16T10:54:42.161Z"
+    },
+    {
+      "id": "d1f2c585-f5c2-485c-9678-80f63ed1671a",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:ukończenie",
+      "payload": {
+        "lemma": "ukończenie",
+        "language": "pl",
+        "translation": "окончание, завершение, выпуск",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "zakończenie",
+          "sfinalizowanie",
+          "zamknięcie"
+        ],
+        "examples": [
+          "Warunkiem przyjęcia na studia jest ukończenie szkoły średniej.",
+          "Po ukończeniu tego projektu będziemy mogli odpocząć."
+        ],
+        "wordForms": [
+          "ukończenie",
+          "ukończenia",
+          "ukończeniu",
+          "ukończeniem",
+          "ukończeń"
+        ],
+        "isPhrase": false,
+        "level": "A2",
+        "category": "education",
+        "ruSimilarity": 50,
+        "frequencyRank": 1800
+      },
+      "payloadHash": "0a3c1202",
+      "createdAt": "2026-08-16T11:29:21.473Z"
+    },
+    {
+      "id": "c0021c2a-dcae-40d3-8726-766212b009f2",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:c2",
+      "payload": {
+        "lemma": "c2",
+        "language": "pl",
+        "translation": "уровень C2, владение языком в совершенстве",
+        "partOfSpeech": "rzeczownik",
+        "examples": [
+          "Do uzyskania stopnia doktora wymagana jest znajomość języka na poziomie C2.",
+          "Jego znajomość języka angielskiego została oceniona na poziom C2."
+        ],
+        "wordForms": [
+          "C2"
+        ],
+        "isPhrase": false,
+        "level": "B2",
+        "category": "education",
+        "ruSimilarity": 100,
+        "frequencyRank": 4500
+      },
+      "payloadHash": "3454e77d",
+      "createdAt": "2026-08-16T11:35:40.953Z"
+    },
+    {
+      "id": "4668d665-1883-43f3-80db-c27e1ad95e60",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:b2",
+      "payload": {
+        "lemma": "b2",
+        "language": "pl",
+        "translation": "уровень B2, средне-продвинутый уровень",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "średniozaawansowany wyższy"
+        ],
+        "examples": [
+          "Wymogiem przyjęcia na studia jest znajomość języka polskiego na poziomie B2.",
+          "Zdałem egzamin i uzyskałem certyfikat B2 z języka angielskiego."
+        ],
+        "wordForms": [
+          "B2"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "education",
+        "ruSimilarity": 90,
+        "frequencyRank": 3500
+      },
+      "payloadHash": "f53dd0ef",
+      "createdAt": "2026-08-16T11:35:51.231Z"
+    },
+    {
+      "id": "72ad962e-5a7c-40b6-af2f-337685c64f0d",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:doktor",
+      "payload": {
+        "lemma": "doktor",
+        "language": "pl",
+        "translation": "доктор, врач, кандидат наук",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "lekarz",
+          "medyk"
+        ],
+        "examples": [
+          "Mój brat obronił rozprawę i uzyskał stopień doktora.",
+          "Doktor przyjmuje pacjentów w gabinecie na drugim piętrze."
+        ],
+        "wordForms": [
+          "doktor",
+          "doktora",
+          "doktorowi",
+          "doktorem",
+          "doktorze",
+          "doktorzy"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "education",
+        "ruSimilarity": 95,
+        "frequencyRank": 650
+      },
+      "payloadHash": "c1af2c05",
+      "createdAt": "2026-08-16T11:35:56.047Z"
+    },
+    {
+      "id": "9fcee1aa-5134-46a3-a1af-645fdc87225f",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:drugi",
+      "payload": {
+        "lemma": "drugi",
+        "language": "pl",
+        "surface": "II",
+        "context": "- ukończenia studiów II stopnia lub jednolitych magisterskich – C1;",
+        "translation": "второй",
+        "partOfSpeech": "liczebnik",
+        "synonyms": [
+          "kolejny",
+          "następny"
+        ],
+        "examples": [
+          "To jest już drugi tom tej encyklopedii.",
+          "Mieszkam na drugim piętrze w nowej kamienicy."
+        ],
+        "wordForms": [
+          "drugi",
+          "drugiego",
+          "drugiemu",
+          "drugim",
+          "druga",
+          "drugie",
+          "II"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "education",
+        "ruSimilarity": 85,
+        "frequencyRank": 60
+      },
+      "payloadHash": "ca000a2c",
+      "createdAt": "2026-08-16T11:36:03.270Z"
+    },
+    {
+      "id": "419dfb8d-4c68-4f9d-a828-79407660e1ea",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:który",
+      "payload": {
+        "lemma": "który",
+        "language": "pl",
+        "translation": "который, какой",
+        "partOfSpeech": "zaimek",
+        "synonyms": [
+          "jaki"
+        ],
+        "examples": [
+          "Który z tych samochodów jest twój?",
+          "To jest dom, w którym mieszkam od lat."
+        ],
+        "wordForms": [
+          "który",
+          "która",
+          "które",
+          "których",
+          "którym",
+          "którego"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "grammar",
+        "ruSimilarity": 80,
+        "frequencyRank": 20
+      },
+      "payloadHash": "f8cbce2c",
+      "createdAt": "2026-08-16T11:36:20.482Z"
+    },
+    {
+      "id": "93269a69-d814-4eb2-a1ec-4ad853d6a459",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:o",
+      "payload": {
+        "lemma": "o",
+        "language": "pl",
+        "translation": "о, об, про",
+        "partOfSpeech": "przyimek",
+        "examples": [
+          "Rozmawialiśmy o naszej przyszłości przez całą noc.",
+          "Prosił o pomoc w rozwiązaniu trudnego problemu."
+        ],
+        "wordForms": [
+          "o",
+          "ob"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "general",
+        "ruSimilarity": 100,
+        "frequencyRank": 12
+      },
+      "payloadHash": "191dc374",
+      "createdAt": "2026-08-16T13:23:58.166Z"
+    },
+    {
+      "id": "66b9b915-bdb0-4fff-bc24-5b5526f96963",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:mowa",
+      "payload": {
+        "lemma": "mowa",
+        "language": "pl",
+        "translation": "речь, выступление",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "przemówienie",
+          "język",
+          "dyskurs"
+        ],
+        "examples": [
+          "Jego oficjalna mowa wywarła ogromne wrażenie na zebranych gościach.",
+          "W tym artykule jest mowa o prawach człowieka."
+        ],
+        "wordForms": [
+          "mowa",
+          "mowy",
+          "mowie",
+          "mowę",
+          "mową",
+          "mowach"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "society",
+        "ruSimilarity": 70,
+        "frequencyRank": 450
+      },
+      "payloadHash": "ac772e1b",
+      "createdAt": "2026-08-16T13:25:52.060Z"
+    },
+    {
+      "id": "bb42e6bd-2a93-4fe0-9216-4dbaed30ebdc",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:lub",
+      "payload": {
+        "lemma": "lub",
+        "language": "pl",
+        "translation": "или, либо",
+        "partOfSpeech": "spójnik",
+        "synonyms": [
+          "albo",
+          "bądź"
+        ],
+        "examples": [
+          "Kupię czarną lub białą koszulę.",
+          "Możesz napisać do nas e-mail lub zadzwonić pod podany numer."
+        ],
+        "wordForms": [
+          "lub"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "society",
+        "ruSimilarity": 0,
+        "frequencyRank": 15
+      },
+      "payloadHash": "78462c74",
+      "createdAt": "2026-08-16T13:35:23.273Z"
+    },
+    {
+      "id": "40faeda1-9843-4b1f-bad3-4d33b264af27",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:cudzoziemiec",
+      "payload": {
+        "lemma": "cudzoziemiec",
+        "language": "pl",
+        "translation": "иностранец",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "obcokrajowiec",
+          "obcy"
+        ],
+        "examples": [
+          "Każdy cudzoziemiec musi posiadać ważny paszport przy przekraczaniu granicy.",
+          "Policja sprawdziła dokumenty cudzoziemców mieszkających w akademiku."
+        ],
+        "wordForms": [
+          "cudzoziemiec",
+          "cudzoziemca",
+          "cudzoziemcowi",
+          "cudzoziemcem",
+          "cudzoziemcy",
+          "cudzoziemców"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "society",
+        "ruSimilarity": 30,
+        "frequencyRank": 2500
+      },
+      "payloadHash": "5e7cfbb8",
+      "createdAt": "2026-08-16T13:58:21.074Z"
+    },
+    {
+      "id": "95d91f4d-ba68-4ee3-bccb-efe5ed46ecb3",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:czerwiec",
+      "payload": {
+        "lemma": "czerwiec",
+        "language": "pl",
+        "surface": "czerwca",
+        "context": "Informujemy przy tym, iż wszystkie wnioski o przyznanie certyfikatu złożone przed 9 czerwca zostaną rozpatrzone zgodnie z dotychczasowymi przepisami.",
+        "translation": "июнь",
+        "partOfSpeech": "rzeczownik",
+        "examples": [
+          "Czerwiec to pierwszy miesiąc lata.",
+          "W czerwcu często wyjeżdżamy na urlop."
+        ],
+        "wordForms": [
+          "czerwiec",
+          "czerwca",
+          "czerwcowi",
+          "czerwcem",
+          "czerwcu",
+          "czerwce"
+        ],
+        "isPhrase": false,
+        "level": "A2",
+        "category": "nature",
+        "ruSimilarity": 0,
+        "frequencyRank": 1200
+      },
+      "payloadHash": "04d92352",
+      "createdAt": "2026-08-16T14:17:25.899Z"
+    },
+    {
+      "id": "ce313d70-ec8e-4df8-8371-e46dae18383c",
+      "type": "delete_from_base",
+      "entryKey": "pl:collocation:certyfikować_systemy",
+      "payload": {
+        "lemma": "certyfikować systemy",
+        "language": "pl"
+      },
+      "payloadHash": "d0bcb394",
+      "createdAt": "2026-08-16T15:39:47.620Z"
+    },
+    {
+      "id": "1d65314e-7c43-40b0-82b0-18fa369a2713",
+      "type": "delete_from_base",
+      "entryKey": "pl:collocation:dostępność_systemu",
+      "payload": {
+        "lemma": "dostępność systemu",
+        "language": "pl"
+      },
+      "payloadHash": "202e20b5",
+      "createdAt": "2026-08-16T15:40:48.342Z"
+    },
+    {
+      "id": "0d2d059f-588f-42aa-88fc-196a70708b44",
+      "type": "delete_from_base",
+      "entryKey": "pl:collocation:aktualizować_system",
+      "payload": {
+        "lemma": "aktualizować system",
+        "language": "pl"
+      },
+      "payloadHash": "285740e7",
+      "createdAt": "2026-08-16T15:40:53.999Z"
+    },
+    {
+      "id": "23e2cb58-0ee1-4d46-84ca-120bb4763fa1",
+      "type": "delete_from_base",
+      "entryKey": "pl:lemma:ekosystem biznesowy",
+      "payload": {
+        "lemma": "ekosystem biznesowy",
+        "language": "pl"
+      },
+      "payloadHash": "93ec566d",
+      "createdAt": "2026-08-16T15:41:05.954Z"
+    },
+    {
+      "id": "d01d4f18-5a26-4959-8fd4-123934e85522",
+      "type": "delete_from_base",
+      "entryKey": "pl:collocation:migrować_systemy",
+      "payload": {
+        "lemma": "migrować systemy",
+        "language": "pl"
+      },
+      "payloadHash": "c8d4f0c6",
+      "createdAt": "2026-08-16T15:41:09.620Z"
+    },
+    {
+      "id": "48d3c18b-1ca6-4290-8a8c-92d38bb05527",
+      "type": "delete_from_base",
+      "entryKey": "pl:collocation:przywracać_system",
+      "payload": {
+        "lemma": "przywracać system",
+        "language": "pl"
+      },
+      "payloadHash": "21823d88",
+      "createdAt": "2026-08-16T15:41:19.804Z"
+    },
+    {
+      "id": "c53f7ff1-bf17-499d-ab12-5a931ff4aa67",
+      "type": "delete_from_base",
+      "entryKey": "pl:collocation:integrować_systemy",
+      "payload": {
+        "lemma": "integrować systemy",
+        "language": "pl"
+      },
+      "payloadHash": "e7a3eaac",
+      "createdAt": "2026-08-16T15:41:26.522Z"
+    },
+    {
+      "id": "17a315cf-158b-42a3-a723-481513b00d89",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:ustęp",
+      "payload": {
+        "lemma": "ustęp",
+        "language": "pl",
+        "translation": "пункт, абзац, параграф",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "paragraf",
+          "punkt"
+        ],
+        "examples": [
+          "Wspomniany przepis znajduje się w drugim ustępie ustawy.",
+          "Proszę dokładnie przeczytać ustęp pierwszy tego artykułu."
+        ],
+        "wordForms": [
+          "ustęp",
+          "ustępu",
+          "ustępowi",
+          "ustępem",
+          "ustępie",
+          "ustępy",
+          "ust"
+        ],
+        "isPhrase": false,
+        "level": "A2",
+        "category": "law",
+        "ruSimilarity": 0,
+        "frequencyRank": 1500
+      },
+      "payloadHash": "38fee81e",
+      "createdAt": "2026-08-16T16:11:45.487Z"
+    },
+    {
+      "id": "b77eaf5d-c75b-4b8c-bb36-f765a2a5d7ea",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:poziom",
+      "payload": {
+        "lemma": "poziom",
+        "language": "pl",
+        "translation": "уровень",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "stopień",
+          "pułap",
+          "standard"
+        ],
+        "examples": [
+          "Ten kurs pomoże ci podnieść poziom języka polskiego.",
+          "Na jakim poziomie biegłości jest twój język angielski?"
+        ],
+        "wordForms": [
+          "poziom",
+          "poziomu",
+          "poziomowi",
+          "poziomem",
+          "poziomie",
+          "poziomy"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "education",
+        "ruSimilarity": 0,
+        "frequencyRank": 400
+      },
+      "payloadHash": "9fffbf0e",
+      "createdAt": "2026-08-16T16:19:10.250Z"
+    },
+    {
+      "id": "6ab3921a-bc44-4340-b7f6-a02a77ac58ca",
+      "type": "delete_from_base",
+      "entryKey": "pl:collocation:niski_poziom",
+      "payload": {
+        "lemma": "niski poziom",
+        "language": "pl"
+      },
+      "payloadHash": "1e0ef9a1",
+      "createdAt": "2026-08-16T16:19:28.575Z"
+    },
+    {
+      "id": "e856f7be-d12e-423d-880f-e84146b45336",
+      "type": "delete_from_base",
+      "entryKey": "pl:collocation:poziom_integracji",
+      "payload": {
+        "lemma": "poziom integracji",
+        "language": "pl"
+      },
+      "payloadHash": "3db15e37",
+      "createdAt": "2026-08-16T16:27:13.399Z"
+    },
+    {
+      "id": "32c0808b-de16-4d6f-8377-51bfce1974f4",
+      "type": "delete_from_base",
+      "entryKey": "pl:collocation:poziom_wiedzy",
+      "payload": {
+        "lemma": "poziom wiedzy",
+        "language": "pl"
+      },
+      "payloadHash": "6c9d41c7",
+      "createdAt": "2026-08-16T16:27:19.749Z"
+    },
+    {
+      "id": "9d59272e-315a-4069-9784-fd843f1b3281",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wniosek",
+      "payload": {
+        "lemma": "wniosek",
+        "language": "pl",
+        "surface": "wnioski",
+        "context": "Informujemy przy tym, iż wszystkie wnioski o przyznanie certyfikatu złożone przed 9 czerwca zostaną rozpatrzone zgodnie z dotychczasowymi przepisami.",
+        "translation": "заявление, запрос, вывод",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "podanie",
+          "konkluzja",
+          "pismo"
+        ],
+        "examples": [
+          "Wypełniłem oficjalny wniosek o wydanie nowego dowodu osobistego.",
+          "Komisja przeanalizowała wszystkie złożone wnioski."
+        ],
+        "wordForms": [
+          "wniosek",
+          "wniosku",
+          "wnioskiem",
+          "wnioski",
+          "wniosków",
+          "wnioskom"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "law",
+        "ruSimilarity": 0,
+        "frequencyRank": 450
+      },
+      "payloadHash": "2bad8141",
+      "createdAt": "2026-08-16T16:31:16.942Z"
+    },
+    {
+      "id": "17b6e8b4-4969-46d0-a131-ba64961a4783",
+      "type": "delete_from_base",
+      "entryKey": "pl:collocation:wysoki_poziom",
+      "payload": {
+        "lemma": "wysoki poziom",
+        "language": "pl"
+      },
+      "payloadHash": "67069ff9",
+      "createdAt": "2026-08-16T16:37:48.996Z"
+    },
+    {
+      "id": "73b19000-a36f-4a06-a2d8-5c0d1451d42d",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:językowy",
+      "payload": {
+        "lemma": "językowy",
+        "language": "pl",
+        "translation": "языковой, языковедческий",
+        "partOfSpeech": "przymiotnik",
+        "synonyms": [
+          "lingwistyczny"
+        ],
+        "examples": [
+          "Cudzoziemiec ubiega się o certyfikat na określonym poziomie biegłości językowej.",
+          "W tej szkole oferujemy różnorodne kursy językowe dla dorosłych."
+        ],
+        "wordForms": [
+          "językowy",
+          "językowego",
+          "językowemu",
+          "językowym",
+          "językowa",
+          "językowej",
+          "językową",
+          "językowe",
+          "językowi",
+          "językowych",
+          "językowymi"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "education",
+        "ruSimilarity": 85,
+        "frequencyRank": 850
+      },
+      "payloadHash": "e867191f",
+      "createdAt": "2026-08-16T20:16:41.830Z"
+    },
+    {
+      "id": "825d8bb8-aeb3-428b-80e3-83b06c5bb16a",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:forma",
+      "payload": {
+        "lemma": "forma",
+        "language": "pl",
+        "translation": "форма, вид, способ",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "postać",
+          "kształt",
+          "wzór"
+        ],
+        "examples": [
+          "Uczniowie wybierają najwygodniejszą formę nauki.",
+          "Różne formy aktywności fizycznej pomagają zachować zdrowie."
+        ],
+        "wordForms": [
+          "forma",
+          "formy",
+          "formie",
+          "formę",
+          "formą",
+          "formo",
+          "formom",
+          "formami",
+          "formach",
+          "form"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "education",
+        "ruSimilarity": 90,
+        "frequencyRank": 450
+      },
+      "payloadHash": "5735833c",
+      "createdAt": "2026-08-16T20:20:38.493Z"
+    },
+    {
+      "id": "a37af25b-7eea-4738-abfd-991806be7ebc",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wszystek",
+      "payload": {
+        "lemma": "wszystek",
+        "language": "pl",
+        "translation": "весь, всякий, целый",
+        "partOfSpeech": "zaimek",
+        "synonyms": [
+          "cały",
+          "każdy"
+        ],
+        "examples": [
+          "Wszyscy uczniowie zdali egzamin końcowy z doskonałym wynikiem.",
+          "Wszystkie dokumenty zostały już podpisane przez dyrektora."
+        ],
+        "wordForms": [
+          "wszystek",
+          "wszystkiego",
+          "wszystkiemu",
+          "wszystkim",
+          "wszystka",
+          "wszystkiej",
+          "wszystką",
+          "wszystko",
+          "wszyscy",
+          "wszystkich",
+          "wszystkie",
+          "wszystkimi"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "general",
+        "ruSimilarity": 85,
+        "frequencyRank": 25
+      },
+      "payloadHash": "10b9561f",
+      "createdAt": "2026-08-16T20:46:42.543Z"
+    },
+    {
+      "id": "494cd16a-48d9-4691-86bf-c4aec55a1990",
+      "type": "delete_from_base",
+      "entryKey": "pl:lemma:epistemologiczny",
+      "payload": {
+        "lemma": "epistemologiczny",
+        "language": "pl"
+      },
+      "payloadHash": "7dfada88",
+      "createdAt": "2026-08-16T20:54:32.625Z"
+    },
+    {
+      "id": "4bd3c1ae-de7e-4035-b380-7dcc0bfbc716",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wyścig",
+      "payload": {
+        "lemma": "wyścig",
+        "language": "pl",
+        "translation": "гонка, состязание, забег",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "gonitwa",
+          "rywalizacja",
+          "turniej"
+        ],
+        "examples": [
+          "Jutro odbędzie się wielki wyścig kolarski.",
+          "Kierowcy przygotowują się do niedzielnego wyścigu."
+        ],
+        "wordForms": [
+          "wyścig",
+          "wyścigu",
+          "wyścigowi",
+          "wyścigiem",
+          "wyścigi",
+          "wyścigów",
+          "wyścigom",
+          "wyścigami",
+          "wyścigach"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "sport",
+        "ruSimilarity": 0,
+        "frequencyRank": 2500
+      },
+      "payloadHash": "b6dbb820",
+      "createdAt": "2026-08-17T16:42:02.181Z"
+    },
+    {
+      "id": "d369eaf6-1988-4783-a38b-d594bf88494f",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:konny",
+      "payload": {
+        "lemma": "konny",
+        "language": "pl",
+        "translation": "конный",
+        "partOfSpeech": "przymiotnik",
+        "synonyms": [
+          "jeździecki"
+        ],
+        "examples": [
+          "W parku można było zobaczyć konny patrol policji.",
+          "Na wyścigach konnych zgromadziły się tłumy kibiców."
+        ],
+        "wordForms": [
+          "konny",
+          "konnego",
+          "konnemu",
+          "konnym",
+          "konna",
+          "konnej",
+          "konną",
+          "konne",
+          "konni",
+          "konnych",
+          "konnymi"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "nature",
+        "ruSimilarity": 90,
+        "frequencyRank": 2500
+      },
+      "payloadHash": "c3f050d8",
+      "createdAt": "2026-08-17T16:42:46.191Z"
+    },
+    {
+      "id": "345a2655-4e07-4b44-a797-be19fe26d39e",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wprost",
+      "payload": {
+        "lemma": "wprost",
+        "language": "pl",
+        "translation": "прямо, непосредственно, откровенно",
+        "partOfSpeech": "przysłówek",
+        "synonyms": [
+          "bezpośrednio",
+          "otwarcie",
+          "prosto"
+        ],
+        "examples": [
+          "Powiedział mi wprost, co o tym wszystkim myśli.",
+          "Regulamin wyścigów wprost zakazuje stosowania takich praktyk."
+        ],
+        "wordForms": [
+          "wprost"
+        ],
+        "isPhrase": false,
+        "level": "A2",
+        "category": "communication",
+        "ruSimilarity": 20,
+        "frequencyRank": 1200
+      },
+      "payloadHash": "7cc8d5dc",
+      "createdAt": "2026-08-17T16:42:48.297Z"
+    },
+    {
+      "id": "1c742055-858f-42aa-a4a1-6a6492abe20e",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:zabraniać",
+      "payload": {
+        "lemma": "zabraniać",
+        "language": "pl",
+        "translation": "запрещать, воспрещать",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "zakazywać",
+          "zabraniać"
+        ],
+        "examples": [
+          "Regulamin wyścigów wyraźnie zabrania takich praktyk.",
+          "Prawo zabraniało wjazdu do parku po godzinie dwudziestej."
+        ],
+        "wordForms": [
+          "zabraniać",
+          "zabraniam",
+          "zabraniasz",
+          "zabrania",
+          "zabraniamy",
+          "zabraniacie",
+          "zabraniają",
+          "zabraniałem",
+          "zabraniałam",
+          "zabraniałeś",
+          "zabraniałaś",
+          "zabraniał",
+          "zabraniała",
+          "zabraniało",
+          "zabranialiśmy",
+          "zabraniałyśmy",
+          "zabranialiście",
+          "zabraniałyście",
+          "zabraniali",
+          "zabraniały"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "law",
+        "ruSimilarity": 80,
+        "frequencyRank": 2500
+      },
+      "payloadHash": "31c539bf",
+      "createdAt": "2026-08-17T16:43:48.777Z"
+    },
+    {
+      "id": "a7271410-9939-4636-bac5-c81103de95a0",
+      "type": "delete_from_base",
+      "entryKey": "pl:lemma:emergencja",
+      "payload": {
+        "lemma": "emergencja",
+        "language": "pl"
+      },
+      "payloadHash": "c91b7800",
+      "createdAt": "2026-08-22T11:32:55.930Z"
+    },
+    {
+      "id": "c2c99e93-dbd6-46f5-8e25-e81769947097",
+      "type": "delete_from_base",
+      "entryKey": "pl:lemma:konstytuować",
+      "payload": {
+        "lemma": "konstytuować",
+        "language": "pl"
+      },
+      "payloadHash": "e8327118",
+      "createdAt": "2026-08-22T11:33:18.797Z"
+    },
+    {
+      "id": "92055795-660d-4eac-a218-0befe223a1ff",
+      "type": "delete_from_base",
+      "entryKey": "pl:lemma:fenomenologiczny",
+      "payload": {
+        "lemma": "fenomenologiczny",
+        "language": "pl"
+      },
+      "payloadHash": "426b63bd",
+      "createdAt": "2026-08-22T11:33:26.965Z"
+    },
+    {
+      "id": "7890f4d7-ef4d-4c95-bd36-22b148a3b0c1",
+      "type": "delete_from_base",
+      "entryKey": "pl:lemma:intertekstualność",
+      "payload": {
+        "lemma": "intertekstualność",
+        "language": "pl"
+      },
+      "payloadHash": "61d8ebb7",
+      "createdAt": "2026-08-22T11:34:06.243Z"
+    }
+  ],
+  "dedupedCount": 0,
+  "storedAt": "2026-08-22T12:51:39.638Z"
+}
