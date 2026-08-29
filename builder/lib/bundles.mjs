@@ -6,14 +6,15 @@ import { sha256Hex } from './checksum.mjs'
 //
 // Бандл пишется в формате VocabularyEntry (как ждёт frontend/vocabularyBank), а не
 // в DictionaryEntry: обратный маппинг зеркалит vocabularyBank.toDictionaryEntry —
-// ru ← translations[0].text; level/category/frequencyRank/ruSimilarity/nuances/
-// register/funFact/wordForms/isPhrase/… ← metadata; id ← dictionaryId; pl ← lemma.
+// ru ← translations[0].text; metadata → поля VocabularyEntry; id = entryKey.
 
 /** DictionaryEntry (source-сборка) → VocabularyEntry (формат клиента). */
 export function toVocabularyEntry(e) {
   const m = e.metadata ?? {}
   const v = {
-    id: e.dictionaryId ?? '',
+    id: e.entryKey ?? '',
+    entryKey: e.entryKey ?? '',
+    dictionaryId: e.dictionaryId ?? undefined,
     pl: e.lemma,
     lemma: e.lemma,
     ru: e.translations?.[0]?.text ?? '',

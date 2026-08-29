@@ -34,6 +34,7 @@ export function buildDictionary(sources, opts = {}) {
     const e = normalizeSourceEntry(raw, lang, 'lemma')
     const errs = validateSourceEntry(e)
     if (errs.length) throw new Error(`invalid source entry ${e.entryKey || e.lemma}: ${errs.join(', ')}`)
+    if (byKey.has(e.entryKey)) throw new Error(`duplicate entryKey ${e.entryKey}`)
     byKey.set(e.entryKey, { ...e, examples: e.examples ? [...e.examples] : [], collocations: e.collocations ? [...e.collocations] : [], synonyms: e.synonyms ? [...e.synonyms] : [] })
   }
 
@@ -116,7 +117,11 @@ function idMapFromManifestEntries(prevEntries) {
   // VocabularyEntry (id + lemma/pl, без entryKey — тогда entryKey пересчитываем).
   const m = new Map()
   for (const e of prevEntries ?? []) {
-    const dictionaryId = e.dictionaryId ?? e.id
+    const dictionaryId = /^d\d+$/.test(String(e.dictionaryId ?? ''))
+      ? e.dictionaryId
+      : /^d\d+$/.test(String(e.id ?? ''))
+        ? e.id
+        : null
     if (!dictionaryId) continue
     const lemma = e.lemma || e.pl
     const entryKey = e.entryKey || (lemma ? buildEntryKey('pl', 'lemma', lemma) : null)

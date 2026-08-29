@@ -55,15 +55,15 @@ test('бандл в формате VocabularyEntry (обратный маппи�
   const czytac = list.find((w) => w.pl === 'czytać')
   assert.ok(czytac)
   assert.equal(czytac.ru, 'читать') // translations[0].text → ru
-  assert.equal(typeof czytac.id, 'string') // dictionaryId → id
-  assert.equal(typeof czytac.frequencyRank, 'number') // из metadata
-  assert.equal(czytac.entryKey, undefined) // клиентский формат без entryKey
+  assert.equal(czytac.id, 'pl:lemma:czytać')
+  assert.equal(czytac.entryKey, 'pl:lemma:czytać')
+  assert.ok(/^d\d+$/.test(czytac.dictionaryId))
   assert.ok('isPhrase' in czytac && 'wordForms' in czytac && 'level' in czytac)
 })
 
 test('стабильность id, когда prev — бандл VocabularyEntry (путь runCli)', () => {
   const first = buildDictionary(baseSources, { version: 'v1', generatedAt: 'T' })
-  const prevEntries = JSON.parse(first.bundles[0].content) // VocabularyEntry[], без entryKey
+  const prevEntries = JSON.parse(first.bundles[0].content) // VocabularyEntry[] с entryKey
   const withNew = { ...baseSources, lemmas: [...baseSources.lemmas, { lemma: 'kot', ru: 'кот' }] }
   const second = buildDictionary(withNew, { version: 'v2', generatedAt: 'T', prevEntries })
   const idOf = (entries, key) => entries.find((e) => e.entryKey === key)?.dictionaryId
@@ -77,8 +77,27 @@ test('remap записывается в манифест', () => {
   assert.deepEqual(manifest.remap, remap)
 })
 
-test('невалидный source приводит к ошибке сборки', () => {
-  assert.throws(() => buildDictionary({ lemmas: [{ ru: 'без леммы' }] }, { version: 'v1' }))
+test('дубликат entryKey в source — ошибка сборки', () => {
+  assert.throws(
+    () =>
+      buildDictionary(
+        {
+          lemmas: [
+            { lemma: 'kot', ru: 'кот' },
+            { lemma: 'kot', ru: 'котёнок' },
+          ],
+          examples: [],
+          collocations: [],
+          synonyms: [],
+        },
+        { version: 'v1' },
+      ),
+    /duplicate entryKey/,
+  )
+})
+
+test('запись без леммы — ошибка сборки', () => {
+  assert.throws(() => buildDictionary({ lemmas: [{ ru: 'без леммы' }], examples: [], collocations: [], synonyms: [] }, { version: 'v1' }))
 })
 
 test('frequencyRank: канонический плотный ранг по сигналу, source не нужен глобально', () => {
