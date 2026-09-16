@@ -3,7 +3,9 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import { validateContribution, validateSourceEntry } from '../builder/lib/validate.mjs'
+import { foldWordFormsIntoMetadata } from '../builder/lib/normalize.mjs'
 import { processBatch, normalizeContribution } from '../builder/intake.mjs'
+import { buildDictionary } from '../builder/build.mjs'
 
 test('валидные предложения всех 4 типов проходят', () => {
   assert.deepEqual(validateContribution({ type: 'new_lemma', payload: { lemma: 'kot', language: 'pl' } }), [])
@@ -58,4 +60,30 @@ test('validateContribution: delete_from_base с entryKey валидно', () => 
 test('validateContribution: delete_from_base без entryKey невалидно', () => {
   const e = validateContribution({ type: 'delete_from_base', payload: {} })
   assert.ok(e.some((s) => s.includes('entryKey')))
+})
+
+test('foldWordFormsIntoMetadata сливает корневой wordForms в metadata и удаляет корень', () => {
+  const folded = foldWordFormsIntoMetadata({
+    lemma: 'aberracja',
+    metadata: { wordForms: ['aberracja', 'aberracji'] },
+    wordForms: ['aberracjach', 'aberracji'],
+  })
+  assert.equal('wordForms' in folded, false)
+  assert.deepEqual(folded.metadata.wordForms, ['aberracja', 'aberracji', 'aberracjach'])
+
+  const { bundles } = buildDictionary(
+    {
+      lemmas: [
+        {
+          lemma: 'aberracja',
+          ru: 'аберрация',
+          metadata: { wordForms: ['aberracja'] },
+          wordForms: ['aberracjach'],
+        },
+      ],
+    },
+    { version: 'v1', generatedAt: 'T' },
+  )
+  const list = JSON.parse(bundles[0].content)
+  assert.deepEqual(list[0].wordForms, ['aberracja', 'aberracjach'])
 })
