@@ -1,4 +1,5 @@
 import { stableStringify } from './normalize.mjs'
+import { unionWordForms } from './normalize.mjs'
 import { sha256Hex } from './checksum.mjs'
 
 // Разбивка словаря на бандлы для клиента (Q1: JSON-доставка). Детерминизм: записи
@@ -26,7 +27,7 @@ export function toVocabularyEntry(e) {
     synonyms: Array.isArray(e.synonyms) ? e.synonyms : [],
     frequencyRank: typeof m.frequencyRank === 'number' ? m.frequencyRank : 0,
     ruSimilarity: typeof m.ruSimilarity === 'number' ? m.ruSimilarity : 0,
-    wordForms: Array.isArray(m.wordForms) ? m.wordForms : [],
+    wordForms: unionWordForms(m.wordForms, e.wordForms),
     nuances: typeof m.nuances === 'string' ? m.nuances : '',
     isPhrase: typeof m.isPhrase === 'boolean' ? m.isPhrase : (e.lemma?.includes(' ') ?? false),
   }
