@@ -1,0 +1,5035 @@
+{
+  "ok": true,
+  "batchId": "1808f6f2-6ee5-4c84-b402-acf82d2397c2",
+  "clientVersion": "016.0.0",
+  "baseVersion": "dict-2026.09.17-af4a89b",
+  "contributions": [
+    {
+      "id": "a62df31c-70d9-4403-8f59-4cd37450897c",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:mrużyć",
+      "payload": {
+        "lemma": "mrużyć",
+        "language": "pl",
+        "translation": "щурить, прищуривать",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "przymrużać",
+          "przymykać"
+        ],
+        "examples": [
+          "Dziewczynka mruży oczy, gdy patrzy prosto w słońce.",
+          "Kiedy mrużył powiekę, wyglądał na bardzo tajemniczego."
+        ],
+        "wordForms": [
+          "mrużyć",
+          "mrużę",
+          "mrużysz",
+          "mruży",
+          "mrużymy",
+          "mrużycie",
+          "mrużą",
+          "mrużyłem",
+          "mrużyłam",
+          "mrużyłeś",
+          "mrużyłaś",
+          "mrużył",
+          "mrużyła",
+          "mrużyło",
+          "mrużyliśmy",
+          "mrużyłyśmy",
+          "mrużyli",
+          "mrużyły",
+          "mruż",
+          "mrużąc"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "body",
+        "ruSimilarity": 30,
+        "frequencyRank": 3500
+      },
+      "payloadHash": "e66aafc0",
+      "createdAt": "2026-09-18T16:10:10.907Z"
+    },
+    {
+      "id": "778e36fd-05d0-43d3-8a13-a5d7d900196b",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:drąg",
+      "payload": {
+        "lemma": "drąg",
+        "language": "pl",
+        "translation": "жердь, шест, дрын",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "kij",
+          "pal",
+          "tyczka"
+        ],
+        "examples": [
+          "Mężczyzna podparł się ciężkim drągiem, aby ułatwić sobie marsz.",
+          "Na placu budowy leżały drewniane drągi przygotowane do montażu."
+        ],
+        "wordForms": [
+          "drąg",
+          "drąga",
+          "drągowi",
+          "drągiem",
+          "drągu",
+          "drągi",
+          "drągów",
+          "drągom",
+          "drągami",
+          "drągach"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "objects",
+        "ruSimilarity": 40,
+        "frequencyRank": 3800
+      },
+      "payloadHash": "3894219c",
+      "createdAt": "2026-09-18T16:10:32.968Z"
+    },
+    {
+      "id": "83639f0c-8ec9-4440-ae61-a0bb00c63a94",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:nonszalancko",
+      "payload": {
+        "lemma": "nonszalancko",
+        "language": "pl",
+        "translation": "развязно, небрежно, ноншалантно",
+        "partOfSpeech": "przysłówek",
+        "synonyms": [
+          "niedbale",
+          "swobodnie",
+          "lekceważąco"
+        ],
+        "examples": [
+          "Mężczyzna nonszalancko usiadł na kanapie i zapalił papierosa.",
+          "Odpowiedział na pytanie bardzo nonszalancko, wzruszając ramionami."
+        ],
+        "wordForms": [
+          "nonszalancko"
+        ],
+        "isPhrase": false,
+        "level": "B2",
+        "category": "behavior",
+        "ruSimilarity": 80,
+        "frequencyRank": 4200
+      },
+      "payloadHash": "5c89f7bb",
+      "createdAt": "2026-09-18T16:11:34.814Z"
+    },
+    {
+      "id": "683745ee-07cc-456d-9685-02239616454a",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wsączać",
+      "payload": {
+        "lemma": "wsączać",
+        "language": "pl",
+        "translation": "вцеживать, просачивать, вливать",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "wlewać",
+          "wpuszczać",
+          "przenikać"
+        ],
+        "examples": [
+          "Mgła zaczęła powoli wsączać się do wnętrza pokoju.",
+          "Lekarz ostrożnie wsącza lek do kroplówki."
+        ],
+        "wordForms": [
+          "wsączać",
+          "wsączam",
+          "wsączasz",
+          "wsącza",
+          "wsączamy",
+          "wsączacie",
+          "wsączają",
+          "wsączałem",
+          "wsączałam",
+          "wsączałeś",
+          "wsączałaś",
+          "wsączał",
+          "wsączała",
+          "wsączało",
+          "wsączaliśmy",
+          "wsączałyśmy",
+          "wsączaliście",
+          "wsączałyście",
+          "wsączali",
+          "wsączały",
+          "wsączaj"
+        ],
+        "isPhrase": false,
+        "level": "B2",
+        "category": "nature",
+        "ruSimilarity": 70,
+        "frequencyRank": 4500
+      },
+      "payloadHash": "37f73fff",
+      "createdAt": "2026-09-18T16:12:10.176Z"
+    },
+    {
+      "id": "1bf83a72-61c4-42c2-bc97-c81a56f75815",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:pełznąć",
+      "payload": {
+        "lemma": "pełznąć",
+        "language": "pl",
+        "surface": "pełznąc",
+        "context": "Przez szczelinę natychmiast zaczęła wsączać się mgła, unosząc się leniwie wokół Kelsiera, zbierając na podłodze i pełznąc przez kurz jak nieśmiałe zwierzę.",
+        "translation": "ползти, ползать",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "czołgać się",
+          "płyznąć",
+          "sunąć"
+        ],
+        "examples": [
+          "Mgła leniwie pełznie po powierzchani ziemi.",
+          "Ranny wąż zaczął wolno pełznąć w stronę gęstych krzaków."
+        ],
+        "wordForms": [
+          "pełznąć",
+          "pełznę",
+          "pełzniesz",
+          "pełznie",
+          "pełźniemy",
+          "pełźniecie",
+          "pełzną",
+          "pełznąłem",
+          "pełznąłeś",
+          "pełznął",
+          "pełznęłam",
+          "pełznęłaś",
+          "pełznęła",
+          "pełznęło",
+          "pełznęliśmy",
+          "pełznęliście",
+          "pełznęli",
+          "pełznęłyśmy",
+          "pełznęłyście",
+          "pełznęły",
+          "pełznąc"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "movement",
+        "ruSimilarity": 85,
+        "frequencyRank": 3800
+      },
+      "payloadHash": "8d0ec437",
+      "createdAt": "2026-09-18T16:13:40.740Z"
+    },
+    {
+      "id": "b8452333-73a3-441a-a35e-5da7a7021839",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wić",
+      "payload": {
+        "lemma": "wić",
+        "language": "pl",
+        "translation": "вить, извиваться, плести",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "kręcić",
+          "oplatać",
+          "snuć"
+        ],
+        "examples": [
+          "Rzeka wije się malowniczo przez całą dolinę.",
+          "Dziewczyna wiła piękny wianek z polnych kwiatów."
+        ],
+        "wordForms": [
+          "wić",
+          "wiję",
+          "wijesz",
+          "wije",
+          "wijemy",
+          "wijecie",
+          "wiją",
+          "wiłem",
+          "wiłam",
+          "wiło",
+          "wili",
+          "wiły",
+          "wij",
+          "wijmy",
+          "wijcie",
+          "wijący",
+          "wijąca",
+          "wijące"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "nature",
+        "ruSimilarity": 80,
+        "frequencyRank": 3500
+      },
+      "payloadHash": "46a67b65",
+      "createdAt": "2026-09-18T16:15:01.527Z"
+    },
+    {
+      "id": "3db6b91a-91f3-43a2-a379-73381010b8d0",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:zahukani",
+      "payload": {
+        "lemma": "zahukani",
+        "language": "pl",
+        "translation": "запуганные",
+        "partOfSpeech": "",
+        "wordForms": [
+          "zahukani"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "694f05b9",
+      "createdAt": "2026-09-18T16:30:39.740Z"
+    },
+    {
+      "id": "b5f48ab8-a1c2-4d48-b758-4f2ae6916f66",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:renegatem",
+      "payload": {
+        "lemma": "renegatem",
+        "language": "pl",
+        "translation": "отступником",
+        "partOfSpeech": "",
+        "wordForms": [
+          "renegatem"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "ef17fa2f",
+      "createdAt": "2026-09-18T16:32:24.908Z"
+    },
+    {
+      "id": "14ca76cb-a869-4d78-9c2f-73f1e932b1a2",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:zauważalny",
+      "payload": {
+        "lemma": "zauważalny",
+        "language": "pl",
+        "translation": "заметный",
+        "partOfSpeech": "",
+        "wordForms": [
+          "zauważalny"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "55936760",
+      "createdAt": "2026-09-18T16:34:49.797Z"
+    },
+    {
+      "id": "cc1a4703-018a-4479-9d1c-915e650fd0a6",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:dal",
+      "payload": {
+        "lemma": "dal",
+        "language": "pl",
+        "surface": "dala",
+        "context": "- Na Zachodzie panują lokalni lordowie - mówił Kelsier - i żyją z dala od żelaznej pięści Ostatniego Imperatora i jego obligatorów.",
+        "translation": "даль, отдаление, расстояние",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "odległość",
+          "oddalenie",
+          "dystans"
+        ],
+        "examples": [
+          "Statek powoli odpływał w siną dal.",
+          "Mój dom rodzinny znajduje się z dala od miejskiego zgiełku."
+        ],
+        "wordForms": [
+          "dal",
+          "dali",
+          "dala",
+          "dalą",
+          "dale",
+          "dalom",
+          "dalami",
+          "dalach"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "travel",
+        "ruSimilarity": 90,
+        "frequencyRank": 2100
+      },
+      "payloadHash": "4c072cd1",
+      "createdAt": "2026-09-19T21:40:32.620Z"
+    },
+    {
+      "id": "df36f00a-5170-499f-86fa-abe84154eaf6",
+      "type": "delete_from_base",
+      "entryKey": "pl:lemma:taka",
+      "payload": {
+        "lemma": "taka",
+        "language": "pl"
+      },
+      "payloadHash": "01b15b20",
+      "createdAt": "2026-09-19T21:44:21.475Z"
+    },
+    {
+      "id": "74a4d1d4-0b62-40ee-be06-50f49ace90e1",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:mruknąć",
+      "payload": {
+        "lemma": "mruknąć",
+        "language": "pl",
+        "translation": "буркнуть, пробормотать, проворчать",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "bąknąć",
+          "burknąć",
+          "mruczeć"
+        ],
+        "examples": [
+          "Starszy mężczyzna mruknął coś pod nosem i wyszedł z pokoju.",
+          "Kiedy zapytałem go o drogę, mruknął tylko niewyraźną odpowiedź."
+        ],
+        "wordForms": [
+          "mruknąć",
+          "mruknę",
+          "mrukniesz",
+          "mruknie",
+          "mrukniemy",
+          "mrukniecie",
+          "mrukną",
+          "mruknął",
+          "mruknęła",
+          "mruknęło",
+          "mruknęli",
+          "mruknęły",
+          "mruknij",
+          "mruknijmy",
+          "mruknijcie",
+          "mruknąwszy"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "communication",
+        "ruSimilarity": 30,
+        "frequencyRank": 2800
+      },
+      "payloadHash": "9b3a0aad",
+      "createdAt": "2026-09-19T21:45:50.189Z"
+    },
+    {
+      "id": "e1e0f469-ab3e-4ae1-a829-d3883d1420e2",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wpaść",
+      "payload": {
+        "lemma": "wpaść",
+        "language": "pl",
+        "surface": "wpadłbym",
+        "context": "- Nie wpadłbym na to, że kum Tepper ostatnio był w posiadłości lorda Renoux.",
+        "translation": "попасть, зайти, догадаться",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "zajść",
+          "wstąpić",
+          "domyślić się"
+        ],
+        "examples": [
+          "Nigdy bym nie wpadł na taki genialny pomysł.",
+          "Wpadnij do nas jutro na kawę po pracy."
+        ],
+        "wordForms": [
+          "wpaść",
+          "wpadnę",
+          "wpadniesz",
+          "wpadnie",
+          "wpadniemy",
+          "wpadniecie",
+          "wpadną",
+          "wpadłem",
+          "wpadłam",
+          "wpadłeś",
+          "wpadłaś",
+          "wpadł",
+          "wpadła",
+          "wpadło",
+          "wpadliśmy",
+          "wpadłyśmy",
+          "wpadli",
+          "wpadły",
+          "wpadnij",
+          "wpadnijcie",
+          "wpadłbym"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "action",
+        "ruSimilarity": 85,
+        "frequencyRank": 650
+      },
+      "payloadHash": "6e411501",
+      "createdAt": "2026-09-19T21:46:01.075Z"
+    },
+    {
+      "id": "2c3bbe17-9db9-496e-a313-ed57a0a51630",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:kum",
+      "payload": {
+        "lemma": "kum",
+        "language": "pl",
+        "translation": "кум, приятель",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "kumań",
+          "kamrat",
+          "kumpel"
+        ],
+        "examples": [
+          "Mój kum obiecał pomóc mi przy budowie stodoły.",
+          "Dawno nie widziałem mojego drogiego kuma."
+        ],
+        "wordForms": [
+          "kum",
+          "kuma",
+          "kumowi",
+          "kumem",
+          "kumie",
+          "kumowie",
+          "kumy",
+          "kumów",
+          "kumom",
+          "kumami",
+          "kumach"
+        ],
+        "isPhrase": false,
+        "level": "C1",
+        "category": "society",
+        "ruSimilarity": 100,
+        "frequencyRank": 8500
+      },
+      "payloadHash": "08b28d41",
+      "createdAt": "2026-09-19T21:46:15.870Z"
+    },
+    {
+      "id": "27514adb-77ce-47d1-9556-cdf34f5a7149",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:jeść",
+      "payload": {
+        "lemma": "jeść",
+        "language": "pl",
+        "surface": "jadłeś",
+        "context": "Kiedy ostatnio jadłeś z nim kolację, czy powiedział ci o czymś, o czym nie powiedział mnie?",
+        "translation": "есть, кушать, питаться",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "spożywać",
+          "konsumować",
+          "posilać się"
+        ],
+        "examples": [
+          "Zwykle jem śniadanie o ósmej rano.",
+          "Dzieci chętnie jadły świeże owoce w ogrodzie."
+        ],
+        "wordForms": [
+          "jeść",
+          "jem",
+          "jesz",
+          "je",
+          "jemy",
+          "jecie",
+          "jedzą",
+          "jadłem",
+          "jadłeś",
+          "jadł",
+          "jadłam",
+          "jadłaś",
+          "jadła",
+          "jadło",
+          "jedliśmy",
+          "jedliście",
+          "jedli",
+          "jadłyśmy",
+          "jadły",
+          "jedz"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "food",
+        "ruSimilarity": 90,
+        "frequencyRank": 120
+      },
+      "payloadHash": "b9fb61ce",
+      "createdAt": "2026-09-19T21:52:16.563Z"
+    },
+    {
+      "id": "4d213560-d443-4521-a86f-dd2a24688acc",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:coś",
+      "payload": {
+        "lemma": "coś",
+        "language": "pl",
+        "translation": "что-то, нечто, кое-что",
+        "partOfSpeech": "zaimek",
+        "examples": [
+          "Widzę coś ciekawego na horyzoncie.",
+          "Musimy porozmawiać o czymś ważnym."
+        ],
+        "wordForms": [
+          "coś",
+          "czegoś",
+          "czemuś",
+          "czymś"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "general",
+        "ruSimilarity": 70,
+        "frequencyRank": 50
+      },
+      "payloadHash": "4913fc8e",
+      "createdAt": "2026-09-19T21:54:21.258Z"
+    },
+    {
+      "id": "df8d25e8-bf58-49da-8659-6bfae124e71d",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:mąciwoda",
+      "payload": {
+        "lemma": "mąciwoda",
+        "language": "pl",
+        "translation": "смутьян, подстрекатель, интриган",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "podżegacz",
+          "intrygant",
+          "prowokator"
+        ],
+        "examples": [
+          "Ten mąciwoda zawsze próbuje skłócić ze sobą sąsiadów.",
+          "Policja szybko zatrzymała mąciwodę, który podburzał tłum."
+        ],
+        "wordForms": [
+          "mąciwoda",
+          "mąciwody",
+          "mąciwodzie",
+          "mąciwodę",
+          "mąciwodą",
+          "mąciwodo",
+          "mąciwodowie",
+          "mąciwodów",
+          "mąciwodom",
+          "mąciwodami",
+          "mąciwodach"
+        ],
+        "isPhrase": false,
+        "level": "C1",
+        "category": "society",
+        "ruSimilarity": 40,
+        "frequencyRank": 8500
+      },
+      "payloadHash": "ba907e23",
+      "createdAt": "2026-09-21T16:28:11.123Z"
+    },
+    {
+      "id": "5e41a1f7-693c-4713-ab31-62d04a7129ab",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wzbudziłeś",
+      "payload": {
+        "lemma": "wzbudziłeś",
+        "language": "pl",
+        "translation": "ты вызвал",
+        "partOfSpeech": "",
+        "wordForms": [
+          "wzbudziłeś"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "d51fa70b",
+      "createdAt": "2026-09-21T16:29:34.668Z"
+    },
+    {
+      "id": "47d0563b-a62c-4e88-ab13-9f49f945b283",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wzniecasz",
+      "payload": {
+        "lemma": "wzniecasz",
+        "language": "pl",
+        "translation": "разжигаешь",
+        "partOfSpeech": "",
+        "wordForms": [
+          "wzniecasz"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "99ea1d62",
+      "createdAt": "2026-09-21T16:29:40.499Z"
+    },
+    {
+      "id": "f15a20d4-6094-48a0-9afa-c434639f0122",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:przynieść",
+      "payload": {
+        "lemma": "przynieść",
+        "language": "pl",
+        "surface": "przyniosłem",
+        "context": "Nie mam najmniejszego zamiaru zjadać waszej żywności, przyniosłem własną.",
+        "translation": "принести",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "dostarczyć",
+          "przetransportować"
+        ],
+        "examples": [
+          "Nie mam zamiaru zjadać waszej żywności, przyniosłem własną.",
+          "Czy możesz przynieść mi szklankę wody?"
+        ],
+        "wordForms": [
+          "przynieść",
+          "przyniosę",
+          "przyniesiesz",
+          "przyniesie",
+          "przyniesiemy",
+          "przyniesiecie",
+          "przyniosą",
+          "przyniosłem",
+          "przyniosłeś",
+          "przyniósł",
+          "przyniosłam",
+          "przyniosłaś",
+          "przyniosła",
+          "przyniosło",
+          "przynieśliśmy",
+          "przynieśliście",
+          "przynieśli",
+          "przyniosłyśmy",
+          "przyniosłyście",
+          "przyniosły",
+          "przynieś"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "action",
+        "ruSimilarity": 85,
+        "frequencyRank": 650
+      },
+      "payloadHash": "68538843",
+      "createdAt": "2026-09-21T16:30:31.123Z"
+    },
+    {
+      "id": "4fcdb3d0-4354-4488-b116-36ed56cd456e",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wysypać",
+      "payload": {
+        "lemma": "wysypać",
+        "language": "pl",
+        "translation": "высыпать",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "rozsypać",
+          "opróżnić",
+          "zrzucać"
+        ],
+        "examples": [
+          "Kobieta wysypała resztki mąki do miski.",
+          "Musimy wysypać zawartość torby na stół."
+        ],
+        "wordForms": [
+          "wysypać",
+          "wysypię",
+          "wysypiesz",
+          "wysypie",
+          "wysypiemy",
+          "wysypiecie",
+          "wysypią",
+          "wysypał",
+          "wysypała",
+          "wysypało",
+          "wysypali",
+          "wysypały",
+          "wysyp"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "general",
+        "ruSimilarity": 90,
+        "frequencyRank": 3500
+      },
+      "payloadHash": "80d038d3",
+      "createdAt": "2026-09-21T16:32:15.229Z"
+    },
+    {
+      "id": "d228ccc3-74c8-42a4-9eb4-c26380b1592d",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:odbić",
+      "payload": {
+        "lemma": "odbić",
+        "language": "pl",
+        "translation": "отбить, отскочить, отразить",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "odskoczyć",
+          "odeprzeć",
+          "odbijać"
+        ],
+        "examples": [
+          "Piłka odbiła się od ściany i spadła na ziemię.",
+          "Bramkarz zdołał odbić groźny strzał napastnika."
+        ],
+        "wordForms": [
+          "odbić",
+          "odbiję",
+          "odbijesz",
+          "odbije",
+          "odbijemy",
+          "odbijecie",
+          "odbiją",
+          "odbiłem",
+          "odbiłam",
+          "odbiłeś",
+          "odbiłaś",
+          "odbił",
+          "odbiła",
+          "odbiło",
+          "odbiliśmy",
+          "odbiłyście",
+          "odbiły",
+          "odbili",
+          "odbij"
+        ],
+        "isPhrase": false,
+        "level": "A2",
+        "category": "action",
+        "ruSimilarity": 85,
+        "frequencyRank": 1200
+      },
+      "payloadHash": "86da2647",
+      "createdAt": "2026-09-21T19:08:20.186Z"
+    },
+    {
+      "id": "a9988cfc-a448-4a0b-bf6e-ed38245fbd21",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:klepisko",
+      "payload": {
+        "lemma": "klepisko",
+        "language": "pl",
+        "translation": "глинобитный пол, ток",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "podłoże",
+          "tok"
+        ],
+        "examples": [
+          "Nektaryna potoczyła się po twardym klepisku.",
+          "Stary rolnik dokładnie zamiatał klepisko w stodole."
+        ],
+        "wordForms": [
+          "klepisko",
+          "klepiska",
+          "klepisku",
+          "klepiskiem",
+          "klepisk",
+          "klepiskom",
+          "klepiskami",
+          "klepiskach"
+        ],
+        "isPhrase": false,
+        "level": "B2",
+        "category": "agriculture",
+        "ruSimilarity": 70,
+        "frequencyRank": 4200
+      },
+      "payloadHash": "2c5f5538",
+      "createdAt": "2026-09-21T19:08:22.780Z"
+    },
+    {
+      "id": "ef490056-0fef-4a92-bdc1-3115aa28e266",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:niemłody",
+      "payload": {
+        "lemma": "niemłody",
+        "language": "pl",
+        "translation": "немолодой, пожилой",
+        "partOfSpeech": "przymiotnik",
+        "synonyms": [
+          "starszy",
+          "podstarzały",
+          "wiekowy"
+        ],
+        "examples": [
+          "Niemłody już mężczyzna podszedł powoli do okna.",
+          "W bibliotece pracowała niemłoda kobieta w okularach."
+        ],
+        "wordForms": [
+          "niemłody",
+          "niemłodego",
+          "niemłodemu",
+          "niemłodym",
+          "niemłoda",
+          "niemłodej",
+          "niemłodą",
+          "niemłode",
+          "niemłodzi",
+          "niemłodych",
+          "niemłodymi"
+        ],
+        "isPhrase": false,
+        "level": "B2",
+        "category": "body",
+        "ruSimilarity": 95,
+        "frequencyRank": 4200
+      },
+      "payloadHash": "2f7dd56d",
+      "createdAt": "2026-09-21T19:09:20.667Z"
+    },
+    {
+      "id": "289929c4-98b4-4166-9f0d-4108d6181549",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:prychnąć",
+      "payload": {
+        "lemma": "prychnąć",
+        "language": "pl",
+        "translation": "фыркнуть, прыснуть",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "parsknąć",
+          "fuknąć",
+          "sapnąć"
+        ],
+        "examples": [
+          "Mężczyzna prychnął z pogardą na tę propozycję.",
+          "Kiedy usłyszała ten żart, prychnęła głośno śmiechem."
+        ],
+        "wordForms": [
+          "prychnąć",
+          "prychnę",
+          "prychniesz",
+          "prychnie",
+          "prychniemy",
+          "prychniecie",
+          "prychną",
+          "prychnąłem",
+          "prychnąłeś",
+          "prychnął",
+          "prychnęłam",
+          "prychnęłaś",
+          "prychnęła",
+          "prychnęło",
+          "prychnęliśmy",
+          "prychnęli",
+          "prychnęły",
+          "prychnij",
+          "prychnijcie"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "body",
+        "ruSimilarity": 70,
+        "frequencyRank": 3400
+      },
+      "payloadHash": "b3755f30",
+      "createdAt": "2026-09-21T19:09:54.164Z"
+    },
+    {
+      "id": "52c2c42f-726e-41b2-81f4-b903b9f7ef2e",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:kompromitacja",
+      "payload": {
+        "lemma": "kompromitacja",
+        "language": "pl",
+        "translation": "компрометация, позор, конфуз",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "wstyd",
+          "hańba",
+          "blamaż"
+        ],
+        "examples": [
+          "Jego spiżarnia to kompromitacja dla tak wspaniałej posesji.",
+          "Występ drużyny zakończył się całkowitą kompromitacją."
+        ],
+        "wordForms": [
+          "kompromitacja",
+          "kompromitacji",
+          "kompromitację",
+          "kompromitacją",
+          "kompromitacjo",
+          "kompromitacje",
+          "kompromitacjom",
+          "kompromitacjami",
+          "kompromitacjach"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "society",
+        "ruSimilarity": 85,
+        "frequencyRank": 2850
+      },
+      "payloadHash": "dc380abc",
+      "createdAt": "2026-09-21T19:10:29.834Z"
+    },
+    {
+      "id": "ef04bcef-acaa-4051-a547-51e35b148851",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:pobladnąć",
+      "payload": {
+        "lemma": "pobladnąć",
+        "language": "pl",
+        "translation": "побледнеть",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "zblednąć",
+          "poszarzeć",
+          "zbieleć"
+        ],
+        "examples": [
+          "Na widok wypadku natychmiast pobladła ze strachu.",
+          "Pacjent nagle pobladł i osunął się na krzesło."
+        ],
+        "wordForms": [
+          "pobladnąć",
+          "pobladnę",
+          "pobladniesz",
+          "pobladnie",
+          "pobladniemy",
+          "pobladniecie",
+          "pobladną",
+          "pobladłem",
+          "pobladłam",
+          "pobladłeś",
+          "pobladłaś",
+          "pobladł",
+          "pobladła",
+          "pobladło",
+          "pobladliśmy",
+          "pobladłyśmy",
+          "pobladliście",
+          "pobladłyście",
+          "pobladli",
+          "pobladły"
+        ],
+        "isPhrase": false,
+        "level": "B2",
+        "category": "body",
+        "ruSimilarity": 85,
+        "frequencyRank": 4200
+      },
+      "payloadHash": "bb98fcb8",
+      "createdAt": "2026-09-21T19:10:50.871Z"
+    },
+    {
+      "id": "e3353f90-473e-400e-8922-3db14099780b",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wybrać",
+      "payload": {
+        "lemma": "wybrać",
+        "language": "pl",
+        "surface": "wybrałeś",
+        "context": "- To tam się wybrałeś dzisiaj - szepnął.",
+        "translation": "выбрать, отправиться, собраться",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "udać się",
+          "wyselekcjonować",
+          "zdecydować się"
+        ],
+        "examples": [
+          "Jutro wcześnie rano wybierzemy się w góry.",
+          "Musisz wreszcie wybrać jedną z tych ofert pracy."
+        ],
+        "wordForms": [
+          "wybrać",
+          "wybiorę",
+          "wybierzesz",
+          "wybierze",
+          "wybierzemy",
+          "wybierzecie",
+          "wybiorą",
+          "wybrałem",
+          "wybrałeś",
+          "wybrał",
+          "wybrałam",
+          "wybrałaś",
+          "wybrała",
+          "wybrało",
+          "wybraliśmy",
+          "wybraliście",
+          "wybrali",
+          "wybrały",
+          "wybierz",
+          "wybierzcie"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "travel",
+        "ruSimilarity": 75,
+        "frequencyRank": 280
+      },
+      "payloadHash": "7f24094e",
+      "createdAt": "2026-09-21T19:11:04.588Z"
+    },
+    {
+      "id": "509be47d-cfcf-4d14-8089-ed0a72165008",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:okraść",
+      "payload": {
+        "lemma": "okraść",
+        "language": "pl",
+        "surface": "Okradłeś",
+        "context": "Okradłeś pana!",
+        "translation": "окрасть, обокрасть",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "obrabować",
+          "ograbić",
+          "splądrować"
+        ],
+        "examples": [
+          "Złodzieje bezczelnie okradli starszą kobietę w tramwaju.",
+          "Boję się, że ktoś mnie okradnie podczas podróży."
+        ],
+        "wordForms": [
+          "okraść",
+          "okradnę",
+          "okradniesz",
+          "okradnie",
+          "okradniemy",
+          "okradniecie",
+          "okradną",
+          "okradłem",
+          "okradłeś",
+          "okradł",
+          "okradłam",
+          "okradłaś",
+          "okradła",
+          "okradło",
+          "okradliśmy",
+          "okradliście",
+          "okradli",
+          "okradłyśmy",
+          "okradłyście",
+          "okradły"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "law",
+        "ruSimilarity": 95,
+        "frequencyRank": 3400
+      },
+      "payloadHash": "41997c43",
+      "createdAt": "2026-09-21T19:11:16.386Z"
+    },
+    {
+      "id": "3c6de0e7-95e4-4919-b2b3-838a65ccda1f",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:poszedłeś",
+      "payload": {
+        "lemma": "poszedłeś",
+        "language": "pl",
+        "translation": "ты пошёл",
+        "partOfSpeech": "",
+        "wordForms": [
+          "poszedłeś"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "56a756fd",
+      "createdAt": "2026-09-21T19:11:21.769Z"
+    },
+    {
+      "id": "756b4432-933d-48ac-b025-d8d8de511564",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wśliznięcie",
+      "payload": {
+        "lemma": "wśliznięcie",
+        "language": "pl",
+        "translation": "проскальзывание, пролезание",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "wniknięcie",
+          "wkradnięcie",
+          "przeniknięcie"
+        ],
+        "examples": [
+          "Wśliznięcie się do strzeżonego budynku wymagało niezwykłej zręczności.",
+          "Po cichym wśliznięciu się do pokoju zamknął za sobą drzwi."
+        ],
+        "wordForms": [
+          "wśliznięcie",
+          "wśliznięcia",
+          "wśliznięciu",
+          "wśliznięciem",
+          "wśliznięć",
+          "wśliznięciom",
+          "wśliznięciami",
+          "wśliznięciach"
+        ],
+        "isPhrase": false,
+        "level": "B2",
+        "category": "movement",
+        "ruSimilarity": 70,
+        "frequencyRank": 4500
+      },
+      "payloadHash": "4d8b0ca6",
+      "createdAt": "2026-09-21T19:12:38.381Z"
+    },
+    {
+      "id": "3d3683f7-0974-4d50-aab8-aa495f8aa327",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:żubr",
+      "payload": {
+        "lemma": "żubr",
+        "language": "pl",
+        "translation": "зубр",
+        "partOfSpeech": "rzeczownik",
+        "examples": [
+          "W Puszczy Białowieskiej żyje żubr.",
+          "Turysci obserwowali stadko żubrów z bezpiecznej odległości."
+        ],
+        "wordForms": [
+          "żubr",
+          "żubra",
+          "żubrowi",
+          "żubrem",
+          "żubrze",
+          "żubry",
+          "żubrów",
+          "żubrom",
+          "żubrami",
+          "żubrach"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "nature",
+        "ruSimilarity": 90,
+        "frequencyRank": 3500
+      },
+      "payloadHash": "943843f0",
+      "createdAt": "2026-09-27T19:14:07.723Z"
+    },
+    {
+      "id": "2f251b2f-eb02-4a39-9b82-a3d39f9a3dc3",
+      "type": "delete_from_base",
+      "entryKey": "pl:lemma:ramia",
+      "payload": {
+        "lemma": "ramia",
+        "language": "pl"
+      },
+      "payloadHash": "39926ea1",
+      "createdAt": "2026-09-28T20:32:17.160Z"
+    },
+    {
+      "id": "a8b82325-0104-4bb6-ab74-5b7f90112a60",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:skrzel",
+      "payload": {
+        "lemma": "skrzel",
+        "language": "pl",
+        "translation": "жабра",
+        "partOfSpeech": "rzeczownik",
+        "examples": [
+          "Ryba pobiera tlen z wody za pomocą skrzeli.",
+          "Uszkodzony skrzel utrudniał zwierzęciu swobodne oddychanie."
+        ],
+        "wordForms": [
+          "skrzel",
+          "skrzela",
+          "skrzelu",
+          "skrzelem",
+          "skrzele",
+          "skrzeli",
+          "skrzelom",
+          "skrzelami",
+          "skrzelach"
+        ],
+        "isPhrase": false,
+        "level": "B2",
+        "category": "nature",
+        "ruSimilarity": 0,
+        "frequencyRank": 4200
+      },
+      "payloadHash": "929fc288",
+      "createdAt": "2026-09-28T20:34:01.959Z"
+    },
+    {
+      "id": "3ffb70e8-5fac-404d-9bd8-823d8559ba8f",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:jarzynówka",
+      "payload": {
+        "lemma": "jarzynówka",
+        "language": "pl",
+        "translation": "овощная лавка",
+        "partOfSpeech": "",
+        "wordForms": [
+          "jarzynówka"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "8400e6cd",
+      "createdAt": "2026-09-29T08:24:59.046Z"
+    },
+    {
+      "id": "aa77e411-3fec-4e9f-8296-1371975147b2",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:rozwodniona",
+      "payload": {
+        "lemma": "rozwodniona",
+        "language": "pl",
+        "translation": "разбавленная",
+        "partOfSpeech": "",
+        "wordForms": [
+          "rozwodniona"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "5c3e4d54",
+      "createdAt": "2026-09-29T08:25:00.764Z"
+    },
+    {
+      "id": "2d465ce4-6b8b-43af-b047-e505c6a35610",
+      "type": "new_lemma",
+      "entryKey": "pl:collocation:składać_się",
+      "payload": {
+        "lemma": "składać się",
+        "language": "pl",
+        "translation": "состоять",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "zawierać",
+          "obejmować"
+        ],
+        "examples": [
+          "Skorupa ziemska składa się z wielkich płyt tektonicznych.",
+          "Ten zespół składał się z doświadczonych naukowców."
+        ],
+        "wordForms": [
+          "składać się",
+          "składam się",
+          "składasz się",
+          "składa się",
+          "składamy się",
+          "składacie się",
+          "składają się",
+          "składałem się",
+          "składałam się",
+          "składałeś się",
+          "składałaś się",
+          "składał się",
+          "składała się",
+          "składało się",
+          "składaliśmy się",
+          "składałyśmy się",
+          "składaliście się",
+          "składałyście się",
+          "składali się",
+          "składały się",
+          "składa się z"
+        ],
+        "isPhrase": true,
+        "level": "A1",
+        "category": "nature",
+        "ruSimilarity": 40,
+        "frequencyRank": 450
+      },
+      "payloadHash": "07df5de0",
+      "createdAt": "2026-09-29T18:15:16.104Z"
+    },
+    {
+      "id": "7f28331b-f6f2-40dc-b06d-89eed30923e8",
+      "type": "delete_from_base",
+      "entryKey": "pl:lemma:wilki",
+      "payload": {
+        "lemma": "wilki",
+        "language": "pl"
+      },
+      "payloadHash": "399978b3",
+      "createdAt": "2026-09-29T19:10:09.063Z"
+    },
+    {
+      "id": "91ed746f-f41a-4993-b3dc-d5732eb9bf28",
+      "type": "delete_from_base",
+      "entryKey": "pl:lemma:jeleni",
+      "payload": {
+        "lemma": "jeleni",
+        "language": "pl"
+      },
+      "payloadHash": "3687cdd8",
+      "createdAt": "2026-09-29T19:10:52.495Z"
+    },
+    {
+      "id": "2c31b656-36b9-406a-abfe-e32264177501",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:leśnicy",
+      "payload": {
+        "lemma": "leśnicy",
+        "language": "pl",
+        "translation": "лесоводы",
+        "partOfSpeech": "",
+        "wordForms": [
+          "leśnicy"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "45042637",
+      "createdAt": "2026-09-29T19:12:09.707Z"
+    },
+    {
+      "id": "1cab4495-d6ca-4f30-95b0-1d69c87b4d95",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:lęgowy",
+      "payload": {
+        "lemma": "lęgowy",
+        "language": "pl",
+        "translation": "гнездовой",
+        "partOfSpeech": "przymiotnik",
+        "synonyms": [
+          "gniazdowy",
+          "gniazdzony"
+        ],
+        "examples": [
+          "Park narodowy ogranicza ruch turystów w sezonie lęgowym.",
+          "Ptaki budują lęgowe gniazda na trudnodostępnych skałach."
+        ],
+        "wordForms": [
+          "lęgowy",
+          "lęgowego",
+          "lęgowemu",
+          "lęgowym",
+          "lęgowa",
+          "lęgowej",
+          "lęgową",
+          "lęgowe",
+          "lęgowych",
+          "lęgowi"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "nature",
+        "ruSimilarity": 90,
+        "frequencyRank": 3000
+      },
+      "payloadHash": "35f6345d",
+      "createdAt": "2026-09-29T19:13:24.818Z"
+    },
+    {
+      "id": "613f14e0-aab6-4e24-b75e-ba44172a7bcd",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:unesco",
+      "payload": {
+        "lemma": "unesco",
+        "language": "pl",
+        "translation": "ЮНЕСКО",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "organizacja"
+        ],
+        "examples": [
+          "UNESCO wpisało kopalnię na listę światowego dziedzictwa.",
+          "Organizacja UNESCO dba o ochronę kultury."
+        ],
+        "wordForms": [
+          "unesco"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "society",
+        "ruSimilarity": 10,
+        "frequencyRank": 3000
+      },
+      "payloadHash": "d9acefb1",
+      "createdAt": "2026-09-29T22:43:27.504Z"
+    },
+    {
+      "id": "34f0c32a-1623-44ef-b66c-768354bb5cd8",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:odłamywać",
+      "payload": {
+        "lemma": "odłamywać",
+        "language": "pl",
+        "translation": "отламывать",
+        "partOfSpeech": "",
+        "wordForms": [
+          "odłamywać"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "d75a2167",
+      "createdAt": "2026-09-29T22:43:50.252Z"
+    },
+    {
+      "id": "2e5d7474-747c-4a64-9559-776f4afe169e",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:bulgotować",
+      "payload": {
+        "lemma": "bulgotować",
+        "language": "pl",
+        "translation": "кипеть, выкипать",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "wrzeć",
+          "przelewać się",
+          "pękać"
+        ],
+        "examples": [
+          "Garnek zupy bulgotał na kuchence, aż przelewał się przez krawędź.",
+          "Kiedy woda zaczęła bulgotować, dodałem makaron."
+        ],
+        "wordForms": [
+          "bulgotować",
+          "bulgotuję",
+          "bulgotujesz",
+          "bulgotuje",
+          "bulgotujemy",
+          "bulgotujecie",
+          "bulgotują",
+          "bulgotował",
+          "bulgotowała",
+          "bulgotowało",
+          "bulgotowali",
+          "bulgotowały",
+          "bulgotuj",
+          "bulgotujcie",
+          "bulgotując",
+          "bulgotowanym",
+          "bulgotowanego",
+          "bulgotowanemu",
+          "bulgotowaną",
+          "bulgotowanymi",
+          "bulgotał"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "food",
+        "ruSimilarity": 65,
+        "frequencyRank": 3500
+      },
+      "payloadHash": "50af0f5e",
+      "createdAt": "2026-09-29T22:47:38.356Z"
+    },
+    {
+      "id": "bd20cc8a-b238-4410-bc17-7f42bbf410ed",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:mikoryzą",
+      "payload": {
+        "lemma": "mikoryzą",
+        "language": "pl",
+        "translation": "микоризой",
+        "partOfSpeech": "",
+        "wordForms": [
+          "mikoryzą"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "4da8c275",
+      "createdAt": "2026-09-30T18:42:16.603Z"
+    },
+    {
+      "id": "9f797c1e-fe29-4a12-8be2-a3469793bb82",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:mszyc",
+      "payload": {
+        "lemma": "mszyc",
+        "language": "pl",
+        "translation": "тля",
+        "partOfSpeech": "",
+        "wordForms": [
+          "mszyc"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "afa66c1b",
+      "createdAt": "2026-09-30T18:44:51.623Z"
+    },
+    {
+      "id": "c274b82a-1ac6-4b59-a877-5d6355747f95",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:glimfatyczny",
+      "payload": {
+        "lemma": "glimfatyczny",
+        "language": "pl",
+        "translation": "глимфатический",
+        "partOfSpeech": "przymiotnik",
+        "synonyms": [
+          "glimfowy",
+          "limfatyczny"
+        ],
+        "examples": [
+          "Naukowcy badają glimfatyczny mechanizm oczyszczania mózgu.",
+          "Ten glimfatyczny układ aktywny jest podczas глубокого сна."
+        ],
+        "wordForms": [
+          "glimfatyczny",
+          "glimfatycznego",
+          "glimfatycznemu",
+          "glimfatycznym",
+          "glimfatyczna",
+          "glimfatycznej",
+          "glimfatyczną",
+          "glimfatyczne",
+          "glimfatycznych",
+          "glimfatycznymi"
+        ],
+        "isPhrase": false,
+        "level": "B2",
+        "category": "body",
+        "ruSimilarity": 80,
+        "frequencyRank": 4500
+      },
+      "payloadHash": "919dcf8e",
+      "createdAt": "2026-10-01T07:00:03.872Z"
+    },
+    {
+      "id": "1e254de7-d4f5-4966-9af7-f8048a000317",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wypłukiwać",
+      "payload": {
+        "lemma": "wypłukiwać",
+        "language": "pl",
+        "translation": "вымывать, выполаскивать, вымывать водой",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "płukać",
+          "wymywać",
+          "usuwać"
+        ],
+        "examples": [
+          "Płyn mózgowo-rdzeniowy skutecznie wypłukuje toksyczne białka z organizmu.",
+          "Woda wypłukiwała resztki detergentu z pranych tkanin."
+        ],
+        "wordForms": [
+          "wypłukiwać",
+          "wypłukuję",
+          "wypłukujesz",
+          "wypłukuje",
+          "wypłukujemy",
+          "wypłukujecie",
+          "wypłukują",
+          "wypłukiwałem",
+          "wypłukiwałam",
+          "wypłukiwałeś",
+          "wypłukiwałaś",
+          "wypłukiwał",
+          "wypłukiwała",
+          "wypłukiwało",
+          "wypłukiwaliśmy",
+          "wypłukiwałyśmy",
+          "wypłukiwaliście",
+          "wypłukiwałyście",
+          "wypłukiwali",
+          "wypłukiwały",
+          "wypłukuj"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "health",
+        "ruSimilarity": 70,
+        "frequencyRank": 3500
+      },
+      "payloadHash": "95b9be05",
+      "createdAt": "2026-10-01T07:03:32.615Z"
+    },
+    {
+      "id": "7b01b8fd-e3cf-4f8e-ab38-ee8978235d23",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:beta-amyloid",
+      "payload": {
+        "lemma": "beta-amyloid",
+        "language": "pl",
+        "translation": "бета-амилоид",
+        "partOfSpeech": "rzeczownik",
+        "examples": [
+          "Płyn ten wypłukuje szkodliwy beta-amyloid z mózgu.",
+          "Odkładanie się beta-amyloidu prowadzi do zaburzeń neurologicznych."
+        ],
+        "wordForms": [
+          "beta-amyloid",
+          "beta-amyloidu",
+          "beta-amyloidowi",
+          "beta-amyloidem",
+          "beta-amyloidzie",
+          "beta-amyloidy",
+          "beta-amyloidów",
+          "beta-amyloidom",
+          "beta-amyloidami",
+          "beta-amyloidach"
+        ],
+        "isPhrase": false,
+        "level": "B2",
+        "category": "science",
+        "ruSimilarity": 95,
+        "frequencyRank": 4500
+      },
+      "payloadHash": "cb8a9b66",
+      "createdAt": "2026-10-01T07:04:39.512Z"
+    },
+    {
+      "id": "74ffafe0-0c5b-484e-a709-c6fb6085fd5e",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:higieniczny",
+      "payload": {
+        "lemma": "higieniczny",
+        "language": "pl",
+        "translation": "гигиенический, гигиеничный",
+        "partOfSpeech": "przymiotnik",
+        "synonyms": [
+          "czysty",
+          "zdrowy",
+          "sanitarny"
+        ],
+        "examples": [
+          "Prawidłowy sen to zatem nie lenistwo, lecz kluczowy proces higieniczny.",
+          "Warto dbać o zachowanie higienicznych warunków w miejscu pracy."
+        ],
+        "wordForms": [
+          "higieniczny",
+          "higienicznego",
+          "higienicznemu",
+          "higienicznym",
+          "higieniczna",
+          "higienicznej",
+          "higieniczną",
+          "higieniczne",
+          "higieniczni",
+          "higienicznych",
+          "higienicznymi"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "health",
+        "ruSimilarity": 90,
+        "frequencyRank": 3500
+      },
+      "payloadHash": "6e8d8b9f",
+      "createdAt": "2026-10-01T07:09:31.666Z"
+    },
+    {
+      "id": "ab4c8e28-c6ca-424d-9305-ee8a1962546f",
+      "type": "new_lemma",
+      "entryKey": "pl:collocation:rozsiąść_się",
+      "payload": {
+        "lemma": "rozsiąść się",
+        "language": "pl",
+        "translation": "удобно сесть, усадиться, развалиться",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "rozgościć się",
+          "usadowić się",
+          "rozepchnąć się"
+        ],
+        "examples": [
+          "Mężczyzna rozsiadł się w głębokim fotelu i zaczął czytać gazecie.",
+          "Turyści rozsiądą się przy ognisku, gdy tylko zjedzą kolację."
+        ],
+        "wordForms": [
+          "rozsiąść się",
+          "rozsiądę się",
+          "rozsiądziesz się",
+          "rozsiądzie się",
+          "rozsiądziemy się",
+          "rozsiądziecie się",
+          "rozsiądą się",
+          "rozsiadłem się",
+          "rozsiadłam się",
+          "rozsiadłeś się",
+          "rozsiadłaś się",
+          "rozsiadł się",
+          "rozsiadła się",
+          "rozsiadło się",
+          "rozsiadły się",
+          "rozsiądź się",
+          "rozsiądźcie się",
+          "rozsiadł"
+        ],
+        "isPhrase": true,
+        "level": "B2",
+        "category": "body",
+        "ruSimilarity": 70,
+        "frequencyRank": 4150
+      },
+      "payloadHash": "b282d649",
+      "createdAt": "2026-10-03T18:58:18.601Z"
+    },
+    {
+      "id": "6f0ef35e-2242-468e-87da-67d3778dfbde",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:kasza",
+      "payload": {
+        "lemma": "kasza",
+        "language": "pl",
+        "translation": "каша, крупа",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "krupnica"
+        ],
+        "examples": [
+          "Jutro na obiad ugotujemy smaczną kaszę.",
+          "Rano na śniadanie dzieci zjadły miskę gorącej kaszy."
+        ],
+        "wordForms": [
+          "kasza",
+          "kaszy",
+          "kaszę",
+          "kaszą",
+          "kaszo",
+          "kasze",
+          "kasz",
+          "kaszom",
+          "kaszami",
+          "kaszach"
+        ],
+        "isPhrase": false,
+        "level": "A2",
+        "category": "food",
+        "ruSimilarity": 90,
+        "frequencyRank": 1200
+      },
+      "payloadHash": "0d4bbb50",
+      "createdAt": "2026-10-03T18:59:27.673Z"
+    },
+    {
+      "id": "a6fca41a-5e65-4075-b5f3-4660370e5169",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:przykuśtykać",
+      "payload": {
+        "lemma": "przykuśtykać",
+        "language": "pl",
+        "translation": "подойти ближе",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "podejdź bliżej",
+          "zbliż się",
+          "podsjedł"
+        ],
+        "examples": [
+          "Gość przykuśtykał, aby uzyskać więcej informacji.",
+          "Dzieci przykuśtykały do stolika, aby rysować."
+        ],
+        "wordForms": [
+          "przykuśtykać",
+          "przykuśtykam",
+          "przykuśtykasz",
+          "przykuśtyka",
+          "przykuśtykamy",
+          "przykuśtykacie",
+          "przykuśtykał",
+          "przykuśtykała",
+          "przykuśtykało",
+          "przykuśtykali",
+          "przykuśtykały",
+          "przykuśtykaj",
+          "przykuśtykajcie",
+          "przykuśtykajmy",
+          "przykuśtykując",
+          "przykuśtyku",
+          "przykuśtykach"
+        ],
+        "isPhrase": false,
+        "level": "B2",
+        "category": "society",
+        "ruSimilarity": 65,
+        "frequencyRank": 4500
+      },
+      "payloadHash": "083b8754",
+      "createdAt": "2026-10-03T19:01:15.726Z"
+    },
+    {
+      "id": "542ec3c3-1088-43b3-acb0-78f763d1a3d3",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:próbować",
+      "payload": {
+        "lemma": "próbować",
+        "language": "pl",
+        "surface": "próbowałem",
+        "context": "- Kiedy ostatnio próbowałem pańskiego jedzenia, żołądek bolał mnie przez trzy dni.",
+        "translation": "пробовать, пытаться",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "usiłować",
+          "starać się",
+          "kosztować"
+        ],
+        "examples": [
+          "Ona często próbuje lokalnych potraw podczas podróży.",
+          "Próbujemy rozwiązać ten trudny problem od samego rana."
+        ],
+        "wordForms": [
+          "próbować",
+          "próbuję",
+          "próbujesz",
+          "próbuje",
+          "próbujemy",
+          "próbujecie",
+          "próbują",
+          "próbowałem",
+          "próbowałeś",
+          "próbował",
+          "próbowałam",
+          "próbowała",
+          "próbowało",
+          "próbowaliśmy",
+          "próbowaliście",
+          "próbowali",
+          "próbuj",
+          "próbujmy",
+          "próbujcie"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "food",
+        "ruSimilarity": 90,
+        "frequencyRank": 350
+      },
+      "payloadHash": "aa207601",
+      "createdAt": "2026-10-03T19:03:26.254Z"
+    },
+    {
+      "id": "de2cbff1-8a89-4144-9d6c-954502370d53",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:dożywać",
+      "payload": {
+        "lemma": "dożywać",
+        "language": "pl",
+        "translation": "доживать",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "przeżywać",
+          "wegetować"
+        ],
+        "examples": [
+          "Niewielu mieszkańców tej wioski dożywa tak sędziwego wieku.",
+          "Staruszka dożywała swoich dni w cichym, spokojnym domku nad jeziorem."
+        ],
+        "wordForms": [
+          "dożywać",
+          "dożywam",
+          "dożywasz",
+          "dożywa",
+          "dożywamy",
+          "dożywacie",
+          "dożywają",
+          "dożywałem",
+          "dożywałam",
+          "dożywałeś",
+          "dożywałaś",
+          "dożywał",
+          "dożywała",
+          "dożywało",
+          "dożywaliśmy",
+          "dożywałyśmy",
+          "dożywali",
+          "dożywały",
+          "dożywaj"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "life",
+        "ruSimilarity": 85,
+        "frequencyRank": 3200
+      },
+      "payloadHash": "9ba2b056",
+      "createdAt": "2026-10-03T19:17:35.236Z"
+    },
+    {
+      "id": "9c4a37d5-21a7-42a5-93fe-1b62b119fd7f",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:mennis",
+      "payload": {
+        "lemma": "mennis",
+        "language": "pl",
+        "translation": "меннис",
+        "partOfSpeech": "",
+        "wordForms": [
+          "mennis"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "d0db57a1",
+      "createdAt": "2026-10-03T19:19:12.424Z"
+    },
+    {
+      "id": "6f7e6a69-6fb7-4d5b-bd67-bd51a6f6855e",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:znów",
+      "payload": {
+        "lemma": "znów",
+        "language": "pl",
+        "translation": "снова",
+        "partOfSpeech": "",
+        "wordForms": [
+          "znów"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "d339f033",
+      "createdAt": "2026-10-03T19:19:34.082Z"
+    },
+    {
+      "id": "106348e8-6686-424c-8061-09aa398ec884",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:marnotrawienie",
+      "payload": {
+        "lemma": "marnotrawienie",
+        "language": "pl",
+        "translation": "расточительство, пустая трата, растрачивание",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "marnowanie",
+          "rozrzutność",
+          "trwonienie"
+        ],
+        "examples": [
+          "Marnotrawienie czasu i energii do niczego nie prowadzi.",
+          "Unikaj marnotrawienia zasobów naturalnych naszej planety."
+        ],
+        "wordForms": [
+          "marnotrawienie",
+          "marnotrawienia",
+          "marnotrawieniu",
+          "marnotrawieniem",
+          "marnotrawień",
+          "marnotrawieniom",
+          "marnotrawieniami",
+          "marnotrawieniach"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "abstract",
+        "ruSimilarity": 0,
+        "frequencyRank": 3500
+      },
+      "payloadHash": "19465062",
+      "createdAt": "2026-10-03T19:20:38.098Z"
+    },
+    {
+      "id": "f223a9db-04d7-4c6b-aa26-bca16f0963d0",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wygłodzić",
+      "payload": {
+        "lemma": "wygłodzić",
+        "language": "pl",
+        "translation": "изморить голодом, уморить голодом",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "zagłodzić",
+          "wymęczyć",
+          "wycieńczyć"
+        ],
+        "examples": [
+          "Długa oblężenie mogło wygłodzić całe miasto.",
+          "Wygłodzeni ludzie szukali jakiegokolwiek pożywienia."
+        ],
+        "wordForms": [
+          "wygłodzić",
+          "wygłodzę",
+          "wygłodzisz",
+          "wygłodzi",
+          "wygłodzimy",
+          "wygłodzicie",
+          "wygłodzą",
+          "wygłodziłem",
+          "wygłodziłam",
+          "wygłodziłeś",
+          "wygłodziłaś",
+          "wygłodził",
+          "wygłodziła",
+          "wygłodziło",
+          "wygłodzili",
+          "wygłodziły",
+          "wygłodź",
+          "wygłodzonym",
+          "wygłodzonych",
+          "wygłodzony"
+        ],
+        "isPhrase": false,
+        "level": "B2",
+        "category": "body",
+        "ruSimilarity": 70,
+        "frequencyRank": 4200
+      },
+      "payloadHash": "05522af2",
+      "createdAt": "2026-10-03T19:21:49.264Z"
+    },
+    {
+      "id": "42632311-49ca-40d0-83c2-a89c20112bc1",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:harówki",
+      "payload": {
+        "lemma": "harówki",
+        "language": "pl",
+        "translation": "трудолюбие",
+        "partOfSpeech": "",
+        "wordForms": [
+          "harówki"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "030ef99d",
+      "createdAt": "2026-10-03T19:22:07.424Z"
+    },
+    {
+      "id": "89d6ec43-900f-42ce-9408-86ae89ba1e81",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:sromotną",
+      "payload": {
+        "lemma": "sromotną",
+        "language": "pl",
+        "translation": "позорную",
+        "partOfSpeech": "",
+        "wordForms": [
+          "sromotną"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "90a21df3",
+      "createdAt": "2026-10-03T19:24:04.602Z"
+    },
+    {
+      "id": "e23783b6-e9cc-4598-aa80-2ed9cf0ded31",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:zresztą",
+      "payload": {
+        "lemma": "zresztą",
+        "language": "pl",
+        "translation": "впрочем",
+        "partOfSpeech": "",
+        "wordForms": [
+          "zresztą"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "ecbe481e",
+      "createdAt": "2026-10-03T19:24:43.092Z"
+    },
+    {
+      "id": "abfce19c-f7dc-43ec-9a3a-c5a93ee09a0e",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:mącicielem",
+      "payload": {
+        "lemma": "mącicielem",
+        "language": "pl",
+        "translation": "смутьяном",
+        "partOfSpeech": "",
+        "wordForms": [
+          "mącicielem"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "2ad9bd2f",
+      "createdAt": "2026-10-03T19:24:51.508Z"
+    },
+    {
+      "id": "db0ed495-64ef-4781-8133-a39995cb9fe1",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:dobowy",
+      "payload": {
+        "lemma": "dobowy",
+        "language": "pl",
+        "translation": "суточный, 24-часовой",
+        "partOfSpeech": "przymiotnik",
+        "synonyms": [
+          "całodobowy",
+          "24-godzinny"
+        ],
+        "examples": [
+          "Rytm dobowy człowieka zależy od światła słonecznego.",
+          "Kupiłem bilet dobowy na komunikację miejską."
+        ],
+        "wordForms": [
+          "dobowy",
+          "dobowego",
+          "dobowemu",
+          "dobowym",
+          "dobowa",
+          "dobowej",
+          "dobową",
+          "dobowe",
+          "dobowi",
+          "dobowych",
+          "dobowymi"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "time",
+        "ruSimilarity": 30,
+        "frequencyRank": 2500
+      },
+      "payloadHash": "02935c08",
+      "createdAt": "2026-10-05T19:59:10.738Z"
+    },
+    {
+      "id": "529c287a-30c3-44de-8f00-331c179d0d1c",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:pęcznieć",
+      "payload": {
+        "lemma": "pęcznieć",
+        "language": "pl",
+        "translation": "набухать, разбухать, пухнуть",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "puchnąć",
+          "nabrzmiewać"
+        ],
+        "examples": [
+          "Nasiona pęcznieją w wodzie przed wysianiem.",
+          "Drewniane drzwi pęczniały od wilgoci podczas deszczowej zimnej jesieni."
+        ],
+        "wordForms": [
+          "pęcznieć",
+          "pęcznieję",
+          "pęczniejesz",
+          "pęcznieje",
+          "pęczniejemy",
+          "pęczniejecie",
+          "pęcznieją",
+          "pęczniałem",
+          "pęczniałam",
+          "pęczniałeś",
+          "pęczniałaś",
+          "pęczniał",
+          "pęczniała",
+          "pęczniało",
+          "pęcznieliśmy",
+          "pęczniałyśmy",
+          "pęcznieliście",
+          "pęczniałyście",
+          "pęcznieli",
+          "pęczniały",
+          "pęczniej"
+        ],
+        "isPhrase": false,
+        "level": "B2",
+        "category": "nature",
+        "ruSimilarity": 30,
+        "frequencyRank": 4500
+      },
+      "payloadHash": "ac561b03",
+      "createdAt": "2026-10-05T20:00:08.338Z"
+    },
+    {
+      "id": "469c1589-c937-4bb1-bed7-bccc3d6692a8",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:białkowy",
+      "payload": {
+        "lemma": "białkowy",
+        "language": "pl",
+        "translation": "белковый, протеиновый",
+        "partOfSpeech": "przymiotnik",
+        "synonyms": [
+          "proteinowy"
+        ],
+        "examples": [
+          "Ten proces jest kontrolowany przez specjalny białkowy zegar biologiczny o nazwie BMAL.",
+          "Dieta powszechnie uznawana za zdrową powinna zawierać odpowiednią ilość produktów białkowych."
+        ],
+        "wordForms": [
+          "białkowy",
+          "białkowego",
+          "białkowemu",
+          "białkowym",
+          "białkowa",
+          "białkowej",
+          "białkową",
+          "białkowe",
+          "białkowi",
+          "białkowych",
+          "białkowymi"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "science",
+        "ruSimilarity": 90,
+        "frequencyRank": 3500
+      },
+      "payloadHash": "9de3b5cb",
+      "createdAt": "2026-10-05T20:04:38.617Z"
+    },
+    {
+      "id": "b7206390-a7a7-4ed3-8f84-1bfc3f507d7a",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:pozapojazdowy",
+      "payload": {
+        "lemma": "pozapojazdowy",
+        "language": "pl",
+        "translation": "внекорабельный",
+        "partOfSpeech": "przymiotnik",
+        "examples": [
+          "Aktywność pozapojazdowa wymaga użycia specjalistycznego skafandra ciśnieniowego.",
+          "Astronauci pomyślnie zakończyli skomplikowany montaż podczas spaceru pozapojazdowego."
+        ],
+        "wordForms": [
+          "pozapojazdowy",
+          "pozapojazdowa",
+          "pozapojazdowe",
+          "pozapojazdowego",
+          "pozapojazdowej",
+          "pozapojazdowemu",
+          "pozapojazdowym",
+          "pozapojazdową",
+          "pozapojazdowi",
+          "pozapojazdowych",
+          "pozapojazdowymi"
+        ],
+        "isPhrase": false,
+        "level": "B2",
+        "category": "technology",
+        "ruSimilarity": 30,
+        "frequencyRank": 5000
+      },
+      "payloadHash": "8d304308",
+      "createdAt": "2026-10-05T20:13:00.396Z"
+    },
+    {
+      "id": "d5fb4867-d7f3-4724-808d-a1b436115843",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:spawaniu",
+      "payload": {
+        "lemma": "spawaniu",
+        "language": "pl",
+        "translation": "сварке",
+        "partOfSpeech": "",
+        "wordForms": [
+          "spawaniu"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "523596fd",
+      "createdAt": "2026-10-05T20:14:16.835Z"
+    },
+    {
+      "id": "504cd62c-5ce1-4249-8b25-f59a567ac1c6",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wielopierścieniowych",
+      "payload": {
+        "lemma": "wielopierścieniowych",
+        "language": "pl",
+        "translation": "многокольцевых",
+        "partOfSpeech": "",
+        "wordForms": [
+          "wielopierścieniowych"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "cb81d853",
+      "createdAt": "2026-10-05T20:14:52.141Z"
+    },
+    {
+      "id": "48240d8e-4e11-42d8-8f0e-3b3b93b9c443",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:węglowodór",
+      "payload": {
+        "lemma": "węglowodór",
+        "language": "pl",
+        "translation": "углеводород",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "węglowodory",
+          "hydrocarbons",
+          "organic compound"
+        ],
+        "examples": [
+          "Naukowcy wyjaśniają to zjawisko obecnością wielopierścieniowych węglowodorów aromatycznych.",
+          "Ten węglowodór jest niebezpieczny dla środowiska."
+        ],
+        "wordForms": [
+          "węglowodór",
+          "węglowodoru",
+          "węglowodorowi",
+          "węglowodorem",
+          "węglowodrze",
+          "węglowodory",
+          "węglowodorów",
+          "węglowodorom"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "science",
+        "ruSimilarity": 95,
+        "frequencyRank": 3000
+      },
+      "payloadHash": "43e1562b",
+      "createdAt": "2026-10-05T20:14:56.504Z"
+    },
+    {
+      "id": "34287876-f376-48e8-aca7-ab850ce19aa3",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:osiadać",
+      "payload": {
+        "lemma": "osiadać",
+        "language": "pl",
+        "translation": "оседать, оsequence, опускаться",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "osadzać się",
+          "opadać",
+          "spadać"
+        ],
+        "examples": [
+          "Kurz często osiada na starych meblach w meblarskim magazynie.",
+          "Pył wulkaniczny osiadał na dachach domów przez całą noc."
+        ],
+        "wordForms": [
+          "osiadać",
+          "osiadam",
+          "osiadasz",
+          "osiada",
+          "osiadamy",
+          "osiadacie",
+          "osiadają",
+          "osiadałem",
+          "osiadałam",
+          "osiadałeś",
+          "osiadałaś",
+          "osiadał",
+          "osiadała",
+          "osiadało",
+          "osiadaliśmy",
+          "osiadałyśmy",
+          "osiadaliście",
+          "osiadałyście",
+          "osiadali",
+          "osiadały"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "nature",
+        "ruSimilarity": 85,
+        "frequencyRank": 3500
+      },
+      "payloadHash": "622cc69e",
+      "createdAt": "2026-10-05T20:54:25.557Z"
+    },
+    {
+      "id": "cdfa3e48-7da5-49cd-b67d-3d1bdcf28cf6",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:przyczepiają",
+      "payload": {
+        "lemma": "przyczepiają",
+        "language": "pl",
+        "translation": "прикрепляют",
+        "partOfSpeech": "",
+        "wordForms": [
+          "przyczepiają"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "95fd0e5a",
+      "createdAt": "2026-10-05T20:55:16.748Z"
+    },
+    {
+      "id": "1b4c342f-c8b1-4d04-889c-e92b33eb57c0",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:ozon",
+      "payload": {
+        "lemma": "ozon",
+        "language": "pl",
+        "translation": "озон",
+        "partOfSpeech": "",
+        "wordForms": [
+          "ozon"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "aa69ac41",
+      "createdAt": "2026-10-05T20:56:24.332Z"
+    },
+    {
+      "id": "61f20178-94ef-4252-b046-8013154a5d87",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:perfumiarzy",
+      "payload": {
+        "lemma": "perfumiarzy",
+        "language": "pl",
+        "translation": "парфюмеров",
+        "partOfSpeech": "",
+        "wordForms": [
+          "perfumiarzy"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "82e9e671",
+      "createdAt": "2026-10-05T20:57:10.303Z"
+    },
+    {
+      "id": "48de53d4-0a6a-4d26-ad5a-640d0874959d",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:smakowy",
+      "payload": {
+        "lemma": "smakowy",
+        "language": "pl",
+        "translation": "вкусовой",
+        "partOfSpeech": "przymiotnik",
+        "examples": [
+          "Ludzkie kubki smakowe reagują na pięć podstawowych smaków.",
+          "Kupiłem nowy syrop smakowy do kawy."
+        ],
+        "wordForms": [
+          "smakowy",
+          "smakowego",
+          "smakowemu",
+          "smakowym",
+          "smakowa",
+          "smakowej",
+          "smakową",
+          "smakowe",
+          "smakowi",
+          "smakowych",
+          "smakowymi"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "body",
+        "ruSimilarity": 40,
+        "frequencyRank": 3500
+      },
+      "payloadHash": "a54f4705",
+      "createdAt": "2026-10-08T19:30:38.952Z"
+    },
+    {
+      "id": "5724beed-7644-4e4a-b762-0ff1dba6c2a5",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:decybel",
+      "payload": {
+        "lemma": "decybel",
+        "language": "pl",
+        "translation": "децибел",
+        "partOfSpeech": "rzeczownik",
+        "examples": [
+          "Poziom hałasu w hali produkcyjnej przekraczał osiemdziesiąt decybeli.",
+          "Decybel jest jednostką miary poziomu dźwięku."
+        ],
+        "wordForms": [
+          "decybel",
+          "decybela",
+          "decybelowi",
+          "decybelem",
+          "decybelu",
+          "decybele",
+          "decybeli",
+          "decybelom",
+          "decybelami",
+          "decybelach"
+        ],
+        "isPhrase": false,
+        "level": "B2",
+        "category": "technology",
+        "ruSimilarity": 95,
+        "frequencyRank": 4500
+      },
+      "payloadHash": "64fc8711",
+      "createdAt": "2026-10-08T19:32:11.757Z"
+    },
+    {
+      "id": "306d1433-aaab-4d97-b56e-9512e903abc3",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:kardamon",
+      "payload": {
+        "lemma": "kardamon",
+        "language": "pl",
+        "translation": "кардамон",
+        "partOfSpeech": "rzeczownik",
+        "examples": [
+          "Kardamon jest jedną z najdroższych przypraw na świecie.",
+          "Dodaj odrobinę mielonego kardamonu do porannej kawy."
+        ],
+        "wordForms": [
+          "kardamon",
+          "kardamonu",
+          "kardamonowi",
+          "kardamonem",
+          "kardamonie",
+          "kardamony",
+          "kardamonów",
+          "kardamonom",
+          "kardamonami",
+          "kardamonach"
+        ],
+        "isPhrase": false,
+        "level": "B2",
+        "category": "food",
+        "ruSimilarity": 95,
+        "frequencyRank": 4500
+      },
+      "payloadHash": "387e266b",
+      "createdAt": "2026-10-08T19:33:03.889Z"
+    },
+    {
+      "id": "64eafbd4-b602-4dc5-ad7a-66e869699755",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wiedziałeś",
+      "payload": {
+        "lemma": "wiedziałeś",
+        "language": "pl",
+        "translation": "ты знал",
+        "partOfSpeech": "",
+        "wordForms": [
+          "wiedziałeś"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "3f9d52cd",
+      "createdAt": "2026-10-13T21:15:33.586Z"
+    },
+    {
+      "id": "7833c445-d0e5-4d85-b1cc-ba7450e47dd5",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:analitycznego",
+      "payload": {
+        "lemma": "analitycznego",
+        "language": "pl",
+        "translation": "аналитического",
+        "partOfSpeech": "",
+        "wordForms": [
+          "analitycznego"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "6f6bb887",
+      "createdAt": "2026-10-13T21:18:18.591Z"
+    },
+    {
+      "id": "8eb06f55-3f17-433f-a231-aac0d697ae5b",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:dwutysięcznego",
+      "payload": {
+        "lemma": "dwutysięcznego",
+        "language": "pl",
+        "translation": "двухтысячного",
+        "partOfSpeech": "",
+        "wordForms": [
+          "dwutysięcznego"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "1e8ff719",
+      "createdAt": "2026-10-13T21:18:55.716Z"
+    },
+    {
+      "id": "7af37599-747b-489c-a5d9-1f76273dece8",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:myślowym",
+      "payload": {
+        "lemma": "myślowym",
+        "language": "pl",
+        "translation": "мыслительным",
+        "partOfSpeech": "",
+        "wordForms": [
+          "myślowym"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "94951230",
+      "createdAt": "2026-10-13T21:19:41.162Z"
+    },
+    {
+      "id": "4ca856f2-c2c9-471c-b925-8e5b3ec304ef",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:speakerzy",
+      "payload": {
+        "lemma": "speakerzy",
+        "language": "pl",
+        "translation": "докладчики",
+        "partOfSpeech": "",
+        "wordForms": [
+          "speakerzy"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "a91b2605",
+      "createdAt": "2026-10-13T21:21:36.160Z"
+    },
+    {
+      "id": "546b83a7-ebe1-495d-864a-99fd4080548c",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:native",
+      "payload": {
+        "lemma": "native",
+        "language": "pl",
+        "translation": "родной",
+        "partOfSpeech": "",
+        "wordForms": [
+          "native"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "7589f6b1",
+      "createdAt": "2026-10-13T21:21:38.646Z"
+    },
+    {
+      "id": "99592381-8837-4fb6-8e4c-bb1e47ee57c0",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:zaprzeczyć",
+      "payload": {
+        "lemma": "zaprzeczyć",
+        "language": "pl",
+        "surface": "zaprzeczyłem",
+        "context": "- Dlatego nie zaprzeczyłem.",
+        "translation": "опровергнуть, отрицать, оспорить",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "zanegować",
+          "odrzucić",
+          "podważyć"
+        ],
+        "examples": [
+          "Nikt nie potrafił zaprzeczyć przedłożonym dowodom.",
+          "Podejrzany kategorycznie zaprzeczył wszystkim oskarżeniom."
+        ],
+        "wordForms": [
+          "zaprzeczyć",
+          "zaprzeczę",
+          "zaprzeczysz",
+          "zaprzeczy",
+          "zaprzeczymy",
+          "zaprzeczycie",
+          "zaprzeczą",
+          "zaprzeczyłem",
+          "zaprzeczyłeś",
+          "zaprzeczył",
+          "zaprzeczyłam",
+          "zaprzeczyłaś",
+          "zaprzeczyła",
+          "zaprzeczyło",
+          "zaprzeczyliśmy",
+          "zaprzeczyliście",
+          "zaprzeczyli",
+          "zaprzeczyłyśmy",
+          "zaprzeczyłyście",
+          "zaprzeczyły"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "communication",
+        "ruSimilarity": 40,
+        "frequencyRank": 2800
+      },
+      "payloadHash": "a6d04cc5",
+      "createdAt": "2026-10-17T11:48:58.378Z"
+    },
+    {
+      "id": "0ec0ae4a-26a2-4fae-866d-313d7b108bc7",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wejść",
+      "payload": {
+        "lemma": "wejść",
+        "language": "pl",
+        "surface": "wszedłem",
+        "context": "Właściwie to były jedyne prawdziwe słowa, jakie Tepper wypowiedział od chwili, kiedy tu wszedłem.",
+        "translation": "войти, зайти",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "wkroczyć",
+          "wstąpić",
+          "wleźć"
+        ],
+        "examples": [
+          "Muszę natychmiast wejść do środka, ponieważ pada deszcz.",
+          "Oni weszli do pokoju w cichości i usiedli na kanapie."
+        ],
+        "wordForms": [
+          "wejść",
+          "wejdę",
+          "wejdziesz",
+          "wejdzie",
+          "wejdziemy",
+          "wejdziecie",
+          "wejdą",
+          "wszedłem",
+          "wszedłeś",
+          "wszedł",
+          "weszłam",
+          "weszłaś",
+          "weszła",
+          "weszło",
+          "weszliśmy",
+          "weszli",
+          "weszły",
+          "wejdź",
+          "wejdźmy",
+          "wejdźcie"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "movement",
+        "ruSimilarity": 70,
+        "frequencyRank": 250
+      },
+      "payloadHash": "257fea02",
+      "createdAt": "2026-10-17T11:50:28.239Z"
+    },
+    {
+      "id": "ba60614a-fe28-4a03-af10-c32c395b33b4",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:widzieć",
+      "payload": {
+        "lemma": "widzieć",
+        "language": "pl",
+        "surface": "widziałem",
+        "context": "- Wiesz, takie blizny widziałem tylko u jednej osoby - i ta osoba nie żyła.",
+        "translation": "видеть, замечать",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "dostrzegać",
+          "obserwować",
+          "oglądać"
+        ],
+        "examples": [
+          "Widzę piękny ogród z okna mojego pokoju.",
+          "Dawno nie widziałem mojego starego przyjaciela."
+        ],
+        "wordForms": [
+          "widzieć",
+          "widzę",
+          "widzisz",
+          "widzi",
+          "widzimy",
+          "widzicie",
+          "widzą",
+          "widziałem",
+          "widziałam",
+          "widziałeś",
+          "widziałaś",
+          "widział",
+          "widziała",
+          "widziało",
+          "widzieliśmy",
+          "widziałyśmy",
+          "widzieliście",
+          "widziałyście",
+          "widzieli",
+          "widziały"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "perception",
+        "ruSimilarity": 90,
+        "frequencyRank": 50
+      },
+      "payloadHash": "dbf12258",
+      "createdAt": "2026-10-17T11:52:12.337Z"
+    },
+    {
+      "id": "1ebf96ea-7824-44ab-91aa-d9754a0a0b6b",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:podżeganie",
+      "payload": {
+        "lemma": "podżeganie",
+        "language": "pl",
+        "translation": "подстрекательство, подстрекание",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "podjudzanie",
+          "prowokowanie",
+          "podpuszczanie"
+        ],
+        "examples": [
+          "Podżeganie do przestępstwa jest surowo karane przez prawo.",
+          "Oskarżono go o podżeganie do buntu w wojsku."
+        ],
+        "wordForms": [
+          "podżeganie",
+          "podżegania",
+          "podżeganiu",
+          "podżeganiem",
+          "podżegań",
+          "podżeganiom",
+          "podżeganiami",
+          "podżeganiach"
+        ],
+        "isPhrase": false,
+        "level": "B2",
+        "category": "law",
+        "ruSimilarity": 30,
+        "frequencyRank": 4500
+      },
+      "payloadHash": "205b3c4f",
+      "createdAt": "2026-10-17T11:52:59.410Z"
+    },
+    {
+      "id": "bc3eff8d-39d8-454a-99f6-ad6fc70474e1",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:kelsier",
+      "payload": {
+        "lemma": "kelsier",
+        "language": "pl",
+        "translation": "Кельсер",
+        "partOfSpeech": "rzeczownik",
+        "examples": [
+          "Kelsier spojrzał na swoje dłonie i przedramiona.",
+          "Wszyscy mieszkańcy wioski zaufali Kelsierowi."
+        ],
+        "wordForms": [
+          "kelsier",
+          "kelsiera",
+          "kelsierowi",
+          "kelsierem",
+          "kelsierze"
+        ],
+        "isPhrase": false,
+        "level": "C1",
+        "category": "literature",
+        "ruSimilarity": 80,
+        "frequencyRank": 10000
+      },
+      "payloadHash": "1a2668e0",
+      "createdAt": "2026-10-17T11:53:24.333Z"
+    },
+    {
+      "id": "f5519c19-6951-4d9c-a654-ceb239a82750",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wytrzeszczyć",
+      "payload": {
+        "lemma": "wytrzeszczyć",
+        "language": "pl",
+        "translation": "выпучить, вылупить, вытрещить",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "wybałuszyć",
+          "rozwierać"
+        ],
+        "examples": [
+          "Mennis wytrzeszczył oczy ze zdziwienia na widok nieznajomego.",
+          "Nie wytrzeszczaj oczu, bo wygląda to bardzo nienaturalnie."
+        ],
+        "wordForms": [
+          "wytrzeszczyć",
+          "wytrzeszczę",
+          "wytrzeszczysz",
+          "wytrzeszczy",
+          "wytrzeszczymy",
+          "wytrzeszczycie",
+          "wytrzeszcza",
+          "wytrzeszczyłem",
+          "wytrzeszczyłam",
+          "wytrzeszczyłeś",
+          "wytrzeszczyłaś",
+          "wytrzeszczył",
+          "wytrzeszczyła",
+          "wytrzeszczyło",
+          "wytrzeszczyli",
+          "wytrzeszczyły",
+          "wytrzeszcz",
+          "wytrzeszczcie"
+        ],
+        "isPhrase": false,
+        "level": "B2",
+        "category": "body",
+        "ruSimilarity": 40,
+        "frequencyRank": 6500
+      },
+      "payloadHash": "a38d17b5",
+      "createdAt": "2026-10-19T21:38:08.637Z"
+    },
+    {
+      "id": "90860db9-a103-41c8-8333-e5e7f9458829",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wytrzeszczył",
+      "payload": {
+        "lemma": "wytrzeszczył",
+        "language": "pl",
+        "translation": "выпучил глаза",
+        "partOfSpeech": "",
+        "wordForms": [
+          "wytrzeszczył"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "4d4b2573",
+      "createdAt": "2026-10-20T19:24:21.475Z"
+    },
+    {
+      "id": "bee58ccc-3d21-4cda-8617-cc231a59f4ba",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:zniekształcały",
+      "payload": {
+        "lemma": "zniekształcały",
+        "language": "pl",
+        "translation": "искажали",
+        "partOfSpeech": "",
+        "wordForms": [
+          "zniekształcały"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "6f28a393",
+      "createdAt": "2026-10-20T19:25:03.365Z"
+    },
+    {
+      "id": "a351f047-fa8e-4d96-9ad9-56eec9b1c752",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wsłuchując",
+      "payload": {
+        "lemma": "wsłuchując",
+        "language": "pl",
+        "translation": "вслушиваясь",
+        "partOfSpeech": "",
+        "wordForms": [
+          "wsłuchując"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "6882d6c0",
+      "createdAt": "2026-10-20T19:25:20.068Z"
+    },
+    {
+      "id": "c86ab263-a81c-49ec-8398-cba5c440b215",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:piskliwe",
+      "payload": {
+        "lemma": "piskliwe",
+        "language": "pl",
+        "translation": "пронзительный",
+        "partOfSpeech": "",
+        "wordForms": [
+          "piskliwe"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "43fdc64b",
+      "createdAt": "2026-10-20T19:25:31.971Z"
+    },
+    {
+      "id": "d0d524ce-6f30-4922-94eb-74f776d7f55a",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:cynę",
+      "payload": {
+        "lemma": "cynę",
+        "language": "pl",
+        "translation": "олово",
+        "partOfSpeech": "",
+        "wordForms": [
+          "cynę"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "17874b38",
+      "createdAt": "2026-10-20T19:32:32.611Z"
+    },
+    {
+      "id": "86c72903-ce29-4d17-8a20-814366c8b7d6",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:cyna",
+      "payload": {
+        "lemma": "cyna",
+        "language": "pl",
+        "translation": "олово",
+        "partOfSpeech": "",
+        "wordForms": [
+          "cyna"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "3bfbb968",
+      "createdAt": "2026-10-20T19:32:40.778Z"
+    },
+    {
+      "id": "3204be12-bc22-4652-9126-2654e2aff68f",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:allomantycznymi",
+      "payload": {
+        "lemma": "allomantycznymi",
+        "language": "pl",
+        "translation": "алломантическими",
+        "partOfSpeech": "",
+        "wordForms": [
+          "allomantycznymi"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "c57d727b",
+      "createdAt": "2026-10-20T19:33:06.532Z"
+    },
+    {
+      "id": "80f5b6bd-b23f-4adb-9eed-aecd4f7fff32",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:cyny",
+      "payload": {
+        "lemma": "cyny",
+        "language": "pl",
+        "translation": "цинка",
+        "partOfSpeech": "",
+        "wordForms": [
+          "cyny"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "0c9955d8",
+      "createdAt": "2026-10-20T19:34:03.036Z"
+    },
+    {
+      "id": "c373be7c-471b-42ef-8292-53aa01f44689",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:ożyła",
+      "payload": {
+        "lemma": "ożyła",
+        "language": "pl",
+        "translation": "ожила",
+        "partOfSpeech": "",
+        "wordForms": [
+          "ożyła"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "c764e9ce",
+      "createdAt": "2026-10-20T19:34:22.432Z"
+    },
+    {
+      "id": "375775ae-029c-4b4d-a900-ad2baf0a0314",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wezbrały",
+      "payload": {
+        "lemma": "wezbrały",
+        "language": "pl",
+        "translation": "разлились",
+        "partOfSpeech": "",
+        "wordForms": [
+          "wezbrały"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "14576f01",
+      "createdAt": "2026-10-20T19:35:28.266Z"
+    },
+    {
+      "id": "61c4f8af-6f39-404e-b689-c6a60e37655b",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wyostrzać",
+      "payload": {
+        "lemma": "wyostrzać",
+        "language": "pl",
+        "translation": "обострять, заострять",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "zaostrzać",
+          "wyczulać",
+          "wzmacniać"
+        ],
+        "examples": [
+          "Ciemność wokół niego skutecznie wyostrzała pozostałe zmysły.",
+          "Regularne ćwiczenia umysłowe wyostrzają pamięć i koncentrację."
+        ],
+        "wordForms": [
+          "wyostrzać",
+          "wyostrzam",
+          "wyostrzasz",
+          "wyostrza",
+          "wyostrzamy",
+          "wyostrzacie",
+          "wyostrzają",
+          "wyostrzałem",
+          "wyostrzałam",
+          "wyostrzałeś",
+          "wyostrzałaś",
+          "wyostrzeń",
+          "wyostrzała",
+          "wyostrzało",
+          "wyostrzali",
+          "wyostrzały",
+          "wyostrzaj",
+          "wyostrzając",
+          "wyostrzany"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "perception",
+        "ruSimilarity": 60,
+        "frequencyRank": 3800
+      },
+      "payloadHash": "fd955b14",
+      "createdAt": "2026-10-20T19:36:04.801Z"
+    },
+    {
+      "id": "ccc1cbd0-2657-42bb-9e6e-933c46ec6d2f",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wychwytywać",
+      "payload": {
+        "lemma": "wychwytywać",
+        "language": "pl",
+        "translation": "улавливать, перехватывать, засекать",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "wyłapywać",
+          "rejestrować",
+          "dostrzegać"
+        ],
+        "examples": [
+          "Jego nadnaturalny słuch wychwytywał krzyki z daleka.",
+          "Nowy mikrofon bez problemu wychwytuje nawet najcichsze dźwięki."
+        ],
+        "wordForms": [
+          "wychwytywać",
+          "wychwytuję",
+          "wychwytujesz",
+          "wychwytuje",
+          "wychwytujemy",
+          "wychwytujecie",
+          "wychwytują",
+          "wychwytywał",
+          "wychwytywała",
+          "wychwytywało",
+          "wychwytywali",
+          "wychwytywały",
+          "wychwytuj",
+          "wychwytujmy",
+          "wychwytujcie"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "perception",
+        "ruSimilarity": 40,
+        "frequencyRank": 3800
+      },
+      "payloadHash": "136a06f7",
+      "createdAt": "2026-10-20T19:36:56.177Z"
+    },
+    {
+      "id": "0ba0c816-65bb-4994-87a7-35e768dfef04",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:zagrzmieć",
+      "payload": {
+        "lemma": "zagrzmieć",
+        "language": "pl",
+        "translation": "загреметь, прогреметь",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "zahuczeć",
+          "zadudnić",
+          "zagrzmotać"
+        ],
+        "examples": [
+          "Nagle w oddali zagrzmiał potężny piorun.",
+          "Gromki głos nauczyciela zagrzmi w całej klasie."
+        ],
+        "wordForms": [
+          "zagrzmieć",
+          "zagrzmię",
+          "zagrzmisz",
+          "zagrzmi",
+          "zagrzmimy",
+          "zagrzmicie",
+          "zagrzmią",
+          "zagrzmiałem",
+          "zagrzmiałam",
+          "zagrzmiałeś",
+          "zagrzmiałaś",
+          "zagrzmiał",
+          "zagrzmiała",
+          "zagrzmiało",
+          "zagrzmieli",
+          "zagrzmiały",
+          "zagrzmij"
+        ],
+        "isPhrase": false,
+        "level": "B2",
+        "category": "nature",
+        "ruSimilarity": 85,
+        "frequencyRank": 4200
+      },
+      "payloadHash": "79820a82",
+      "createdAt": "2026-10-20T19:37:52.736Z"
+    },
+    {
+      "id": "f3be4514-7057-4648-b81b-c6f263ea7fc4",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wyczulić",
+      "payload": {
+        "lemma": "wyczulić",
+        "language": "pl",
+        "translation": "вычутливость, обострить, сделать чувствительным",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "uwrażliwić",
+          "uczuulić"
+        ],
+        "examples": [
+          "To doświadczenie mogło wyczulić jego zmysły na najmniejszy fałsz.",
+          "Wyczulonych na ból ludzi łatwo zranić słowem."
+        ],
+        "wordForms": [
+          "wyczulić",
+          "wyczulę",
+          "wyczulisz",
+          "wyczuli",
+          "wyczulimy",
+          "wyczulicie",
+          "wyczulą",
+          "wyczuliłem",
+          "wyczuliłam",
+          "wyczulił",
+          "wyczuliła",
+          "wyczuliło",
+          "wyczuliliśmy",
+          "wyczuliłyśmy",
+          "wyczuliliście",
+          "wyczuliłyście",
+          "wyczulili",
+          "wyczuliły",
+          "wyczul",
+          "wyczulony",
+          "wyczulonych"
+        ],
+        "isPhrase": false,
+        "level": "B2",
+        "category": "emotion",
+        "ruSimilarity": 40,
+        "frequencyRank": 4500
+      },
+      "payloadHash": "f20c121b",
+      "createdAt": "2026-10-20T19:38:10.812Z"
+    },
+    {
+      "id": "dcc250fc-6e97-4835-a2ed-e5d480097070",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:posłałby",
+      "payload": {
+        "lemma": "posłałby",
+        "language": "pl",
+        "translation": "послал бы",
+        "partOfSpeech": "",
+        "wordForms": [
+          "posłałby"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "cba536a1",
+      "createdAt": "2026-10-20T19:38:31.243Z"
+    },
+    {
+      "id": "81e3a035-80ff-41e4-b823-ba1ed7726d47",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wiedzieliśmy",
+      "payload": {
+        "lemma": "wiedzieliśmy",
+        "language": "pl",
+        "translation": "мы знали",
+        "partOfSpeech": "",
+        "wordForms": [
+          "wiedzieliśmy"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "adca4afb",
+      "createdAt": "2026-10-20T19:38:45.883Z"
+    },
+    {
+      "id": "4e525235-07ce-4420-9f0a-1b30f21e2041",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:inkwizytorów",
+      "payload": {
+        "lemma": "inkwizytorów",
+        "language": "pl",
+        "translation": "инквизиторов",
+        "partOfSpeech": "",
+        "wordForms": [
+          "inkwizytorów"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "0eb6c6a5",
+      "createdAt": "2026-10-20T19:44:22.568Z"
+    },
+    {
+      "id": "dc833ed7-4a1f-495b-8a90-1de7bd7ffdd6",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:hasające",
+      "payload": {
+        "lemma": "hasające",
+        "language": "pl",
+        "translation": "скачущие",
+        "partOfSpeech": "",
+        "wordForms": [
+          "hasające"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "877c29c0",
+      "createdAt": "2026-10-20T19:44:39.298Z"
+    },
+    {
+      "id": "5e6187ae-dbb7-44cc-a933-c66ee0b1380a",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:mogłyby",
+      "payload": {
+        "lemma": "mogłyby",
+        "language": "pl",
+        "translation": "могли бы",
+        "partOfSpeech": "",
+        "wordForms": [
+          "mogłyby"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "2e44d96d",
+      "createdAt": "2026-10-20T19:44:52.027Z"
+    },
+    {
+      "id": "ac2091ff-8c8b-41c0-b95b-599406edf1e9",
+      "type": "delete_from_base",
+      "entryKey": "pl:lemma:johnson",
+      "payload": {
+        "lemma": "Johnson",
+        "language": "pl"
+      },
+      "payloadHash": "46107264",
+      "createdAt": "2026-10-20T20:53:02.306Z"
+    },
+    {
+      "id": "9c634b68-765b-449a-a9e7-2f4c662b7149",
+      "type": "delete_from_base",
+      "entryKey": "pl:lemma:johna",
+      "payload": {
+        "lemma": "Johna",
+        "language": "pl"
+      },
+      "payloadHash": "24d0e5d3",
+      "createdAt": "2026-10-20T20:53:07.570Z"
+    },
+    {
+      "id": "0b02b33f-0965-418e-9ae9-831d5ac0bc74",
+      "type": "delete_from_base",
+      "entryKey": "pl:lemma:john",
+      "payload": {
+        "lemma": "John",
+        "language": "pl"
+      },
+      "payloadHash": "397ab07a",
+      "createdAt": "2026-10-20T20:53:12.939Z"
+    },
+    {
+      "id": "a976497e-76c4-47e4-9b37-19af8b91821b",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:cykanie",
+      "payload": {
+        "lemma": "cykanie",
+        "language": "pl",
+        "translation": "стрекотание, стрекот, тиканье",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "cykot",
+          "świergot",
+          "cykotanie"
+        ],
+        "examples": [
+          "Ciche cykanie świerszcza przypominało o ciepłych, letnich wieczorach.",
+          "Słyszeliśmy wyraźne cykania owadów dobiegające z gęstej trawy."
+        ],
+        "wordForms": [
+          "cykanie",
+          "cykania",
+          "cykaniu",
+          "cykaniem",
+          "cykań",
+          "cykaniom",
+          "cykaniami",
+          "cykaniach"
+        ],
+        "isPhrase": false,
+        "level": "C1",
+        "category": "nature",
+        "ruSimilarity": 70,
+        "frequencyRank": 8500
+      },
+      "payloadHash": "d7b8b71c",
+      "createdAt": "2026-10-23T06:07:22.024Z"
+    },
+    {
+      "id": "128a25ca-66c6-458a-bc7d-c376655a6bfe",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:odnóże",
+      "payload": {
+        "lemma": "odnóże",
+        "language": "pl",
+        "translation": "конечность, ножка",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "kończyna",
+          "noga"
+        ],
+        "examples": [
+          "Pajęczak ma osiem d длинnych odnóży.",
+          "Na przednim odnóżu owada znajduje się narząd słuchu."
+        ],
+        "wordForms": [
+          "odnóże",
+          "odnóża",
+          "odnóżu",
+          "odnóżem",
+          "odnóży",
+          "odnóżom",
+          "odnóżami",
+          "odnóżach"
+        ],
+        "isPhrase": false,
+        "level": "B2",
+        "category": "nature",
+        "ruSimilarity": 30,
+        "frequencyRank": 4500
+      },
+      "payloadHash": "b8f60fad",
+      "createdAt": "2026-10-23T06:08:20.091Z"
+    },
+    {
+      "id": "ce47dd95-8feb-4150-97a9-3c176fb23886",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:tuż",
+      "payload": {
+        "lemma": "tuż",
+        "language": "pl",
+        "translation": "сразу, прямо, вплотную",
+        "partOfSpeech": "przyimek",
+        "synonyms": [
+          "zaraz",
+          "bezpośrednio",
+          "blisko"
+        ],
+        "examples": [
+          "Mieszkamy tuż obok parku miejskiego.",
+          "Pociąg odjechał tuż przed naszym przybyciem."
+        ],
+        "wordForms": [
+          "tuż"
+        ],
+        "isPhrase": false,
+        "level": "A2",
+        "category": "space",
+        "ruSimilarity": 0,
+        "frequencyRank": 1200
+      },
+      "payloadHash": "f04064a1",
+      "createdAt": "2026-10-23T06:08:30.045Z"
+    },
+    {
+      "id": "aaf8c890-7926-4c95-93c6-d53797c145e4",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:bębenkowy",
+      "payload": {
+        "lemma": "bębenkowy",
+        "language": "pl",
+        "translation": "барабанный",
+        "partOfSpeech": "przymiotnik",
+        "examples": [
+          "Błona bębenkowa odbiera drgania z otoczenia.",
+          "Lekarz zdiagnozował zapalenie jamy bębenkowej."
+        ],
+        "wordForms": [
+          "bębenkowy",
+          "bębenkowego",
+          "bębenkowemu",
+          "bębenkowym",
+          "bębenkowa",
+          "bębenkowej",
+          "bębenkową",
+          "bębenkowe",
+          "bębenkowi",
+          "bębenkowych",
+          "bębenkowymi"
+        ],
+        "isPhrase": false,
+        "level": "B2",
+        "category": "body",
+        "ruSimilarity": 30,
+        "frequencyRank": 6500
+      },
+      "payloadHash": "7eec72c4",
+      "createdAt": "2026-10-23T06:13:04.527Z"
+    },
+    {
+      "id": "ea580f1b-29d3-41e6-96d9-58eecbaa09b3",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:linienie",
+      "payload": {
+        "lemma": "linienie",
+        "language": "pl",
+        "translation": "линька",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "wylinka"
+        ],
+        "examples": [
+          "Z wiekiem owady te potrafią regenerować swoje narządy podczas kolejnych linień.",
+          "Proces linienia jest kluczowy dla prawidłowego wzrostu niektórych zwierząt."
+        ],
+        "wordForms": [
+          "linienie",
+          "linienia",
+          "linieniu",
+          "linieniem",
+          "linień"
+        ],
+        "isPhrase": false,
+        "level": "C2",
+        "category": "nature",
+        "ruSimilarity": 80,
+        "frequencyRank": 12000
+      },
+      "payloadHash": "d3a9b6a2",
+      "createdAt": "2026-10-23T06:19:17.544Z"
+    },
+    {
+      "id": "bade1cd5-1275-426f-819b-2ef079f027dd",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:usytuować",
+      "payload": {
+        "lemma": "usytuować",
+        "language": "pl",
+        "translation": "расположить, разместить, поместить",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "umieścić",
+          "zlokalizować",
+          "postawić"
+        ],
+        "examples": [
+          "Nowy budynek postanowiono usytuować w samym centrum miasta.",
+          "Firma usytuuje swoje biuro blisko stacji kolejowej."
+        ],
+        "wordForms": [
+          "usytuować",
+          "usytuuję",
+          "usytuujesz",
+          "usytuuje",
+          "usytuujemy",
+          "usytuujecie",
+          "usytuują",
+          "usytuowałem",
+          "usytuowałam",
+          "usytuowałeś",
+          "usytuowałaś",
+          "usytuował",
+          "usytuowała",
+          "usytuowało",
+          "usytuowaliśmy",
+          "usytuowałyśmy",
+          "usytuowaliście",
+          "usytuowałyście",
+          "usytuowali",
+          "usytuowały",
+          "usytuowane"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "architecture",
+        "ruSimilarity": 20,
+        "frequencyRank": 3500
+      },
+      "payloadHash": "dc1eda41",
+      "createdAt": "2026-10-23T21:42:06.906Z"
+    },
+    {
+      "id": "034c945c-abdf-4db9-8ccf-a4d5f00dd14e",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:wrotowy",
+      "payload": {
+        "lemma": "wrotowy",
+        "language": "pl",
+        "translation": "воротный",
+        "partOfSpeech": "przymiotnik",
+        "synonyms": [
+          "bramny"
+        ],
+        "examples": [
+          "Wrotowy mechanizm uległ awarii z powodu rdzy.",
+          "Do zamku prowadziły potężne wrotowe bramy."
+        ],
+        "wordForms": [
+          "wrotowy",
+          "wrotowego",
+          "wrotowemu",
+          "wrotowym",
+          "wrotowa",
+          "wrotowej",
+          "wrotową",
+          "wrotowe",
+          "wrotowych",
+          "wrotowymi",
+          "wrotowi"
+        ],
+        "isPhrase": false,
+        "level": "C2",
+        "category": "architecture",
+        "ruSimilarity": 70,
+        "frequencyRank": 15000
+      },
+      "payloadHash": "a5298de2",
+      "createdAt": "2026-10-23T21:42:08.062Z"
+    },
+    {
+      "id": "988094c3-4b1e-4bc4-aadf-08519e5bd640",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:palisada",
+      "payload": {
+        "lemma": "palisada",
+        "language": "pl",
+        "translation": "палисад, частокол",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "częstokół",
+          "ostrokoł",
+          "ogrodzenie"
+        ],
+        "examples": [
+          "Wokół dawnej osady wzniesiono wysoką palisadę z grubych pni.",
+          "Do mierzenia czasu wykorzystywali cienie rzucane przez wysokie palisady."
+        ],
+        "wordForms": [
+          "palisada",
+          "palisady",
+          "palisadzie",
+          "palisadę",
+          "palisadą",
+          "palisado",
+          "palisad",
+          "palisadom",
+          "palisadami",
+          "palisadach"
+        ],
+        "isPhrase": false,
+        "level": "B2",
+        "category": "architecture",
+        "ruSimilarity": 90,
+        "frequencyRank": 4200
+      },
+      "payloadHash": "6270b155",
+      "createdAt": "2026-10-23T21:42:24.151Z"
+    },
+    {
+      "id": "6b196bf1-4101-4950-a618-4cc1d2019fce",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:także",
+      "payload": {
+        "lemma": "także",
+        "language": "pl",
+        "translation": "также, też, также и",
+        "partOfSpeech": "partykuła",
+        "synonyms": [
+          "również",
+          "też",
+          "ponadto"
+        ],
+        "examples": [
+          "Dzięki temu potrafili wyznaczyć nie tylko pory dnia, ale także dokładny moment przesilenia letniego i zimowego.",
+          "W spotkaniu uczestniczyli naukowcy, a także przedstawiciele władz lokalnych."
+        ],
+        "wordForms": [
+          "także"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "general",
+        "ruSimilarity": 70,
+        "frequencyRank": 120
+      },
+      "payloadHash": "1816658c",
+      "createdAt": "2026-10-23T21:42:52.570Z"
+    },
+    {
+      "id": "fd0f7878-6de1-453a-a9f6-e57dcee40503",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:przesilenie",
+      "payload": {
+        "lemma": "przesilenie",
+        "language": "pl",
+        "translation": "солнцестояние, перелом, кризис",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "solstycjum",
+          "przełom",
+          "Kryzys"
+        ],
+        "examples": [
+          "Dzięki temu potrafili wyznaczyć dokładny moment przesilenia letniego.",
+          "W grudniu obchodzimy zimowe przesilenie, kiedy dzień jest najkrótszy."
+        ],
+        "wordForms": [
+          "przesilenie",
+          "przesilenia",
+          "przesileniu",
+          "przesileniem",
+          "przesileniach",
+          "przesileniom",
+          "przesileniami"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "nature",
+        "ruSimilarity": 10,
+        "frequencyRank": 3500
+      },
+      "payloadHash": "d1816bf1",
+      "createdAt": "2026-10-23T21:43:00.277Z"
+    },
+    {
+      "id": "2cdcc178-5cf6-4a53-bd60-a9de02a5feeb",
+      "type": "new_lemma",
+      "entryKey": "pl:collocation:stawać_się",
+      "payload": {
+        "lemma": "stawać się",
+        "language": "pl",
+        "translation": "становиться, делаться",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "robić się",
+          "przekształcać się"
+        ],
+        "examples": [
+          "Jesienią drewno staje się ciemniejsze.",
+          "Z dnia na dzień pogoda stawała się coraz chłodniejsza."
+        ],
+        "wordForms": [
+          "stawać się",
+          "staję się",
+          "stajesz się",
+          "staje się",
+          "stajemy się",
+          "stajecie się",
+          "stają się",
+          "stawałem się",
+          "stawałam się",
+          "stawał się",
+          "stawała się",
+          "stawało się",
+          "stawaliśmy się",
+          "stawały się",
+          "stawaj się",
+          "stawajcie się"
+        ],
+        "isPhrase": true,
+        "level": "A1",
+        "category": "nature",
+        "ruSimilarity": 40,
+        "frequencyRank": 150
+      },
+      "payloadHash": "976fb4f3",
+      "createdAt": "2026-10-24T07:41:24.106Z"
+    },
+    {
+      "id": "b88ea28c-8c5d-4805-8367-15b0993f3e25",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:starówka",
+      "payload": {
+        "lemma": "starówka",
+        "language": "pl",
+        "translation": "старый город",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "stare miasto"
+        ],
+        "examples": [
+          "Krakowska starówka zachwyca turystów z całego świata.",
+          "Lubię spacerować po urokliwej starówce wieczorem."
+        ],
+        "wordForms": [
+          "starówka",
+          "starówki",
+          "starówce",
+          "starówkę",
+          "starówką",
+          "starówko",
+          "starówek",
+          "starówkom",
+          "starówkami",
+          "starówkach"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "travel",
+        "ruSimilarity": 40,
+        "frequencyRank": 2500
+      },
+      "payloadHash": "2c76b40c",
+      "createdAt": "2026-10-24T13:29:02.350Z"
+    },
+    {
+      "id": "09baa943-26be-459d-8c00-988084a6822e",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:korytarzowy",
+      "payload": {
+        "lemma": "korytarzowy",
+        "language": "pl",
+        "translation": "коридорный",
+        "partOfSpeech": "przymiotnik",
+        "examples": [
+          "W najgłębszej korytarzowej niszy natrafiono na ślady dawnego laboratorium.",
+          "System korytarzowy w tym budynku ułatwia komunikację między biurami."
+        ],
+        "wordForms": [
+          "korytarzowy",
+          "korytarzowego",
+          "korytarzowemu",
+          "korytarzowym",
+          "korytarzowa",
+          "korytarzowej",
+          "korytarzową",
+          "korytarzowe",
+          "korytarzowi",
+          "korytarzowych",
+          "korytarzowymi"
+        ],
+        "isPhrase": false,
+        "level": "C1",
+        "category": "architecture",
+        "ruSimilarity": 85,
+        "frequencyRank": 8500
+      },
+      "payloadHash": "fff516d3",
+      "createdAt": "2026-10-24T13:31:03.920Z"
+    },
+    {
+      "id": "d9b2c370-76c5-4b86-a39f-af4de93d2fdf",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:należeć",
+      "payload": {
+        "lemma": "należeć",
+        "language": "pl",
+        "surface": "należała",
+        "context": "Eksperci ustalili, że pracownia należała do nadwornego alchemika króla Zygmunta III Wazy, Michała Sędziwoja.",
+        "translation": "принадлежать, относиться, следовать",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "przynależeć",
+          "zaliczać się",
+          "przystawać"
+        ],
+        "examples": [
+          "Ta książka należy do mojego dziadka.",
+          "Wszyscy uczniowie należą do szkolnego klubu sportowego."
+        ],
+        "wordForms": [
+          "należeć",
+          "należę",
+          "należysz",
+          "należy",
+          "należymy",
+          "należycie",
+          "należą",
+          "należałem",
+          "należałam",
+          "należałeś",
+          "należałaś",
+          "należał",
+          "należała",
+          "należało",
+          "należeliśmy",
+          "należałyśmy",
+          "należeliście",
+          "należałyście",
+          "należeli",
+          "należały"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "society",
+        "ruSimilarity": 30,
+        "frequencyRank": 250
+      },
+      "payloadHash": "0cb4c9c4",
+      "createdAt": "2026-10-24T13:32:49.623Z"
+    },
+    {
+      "id": "f41c286d-c0ec-4f8e-9191-5d74d5f5f5b6",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:nadworny",
+      "payload": {
+        "lemma": "nadworny",
+        "language": "pl",
+        "translation": "придворный",
+        "partOfSpeech": "przymiotnik",
+        "synonyms": [
+          "dworski"
+        ],
+        "examples": [
+          "Michał Sędziwój był nadwornym alchemikiem polskiego króla.",
+          "Na dworze królewskim pracowali nadworni malarze i muzycy."
+        ],
+        "wordForms": [
+          "nadworny",
+          "nadwornego",
+          "nadwornemu",
+          "nadwornym",
+          "nadworna",
+          "nadwornej",
+          "nadworną",
+          "nadworne",
+          "nadworni",
+          "nadwornych",
+          "nadwornymi"
+        ],
+        "isPhrase": false,
+        "level": "B2",
+        "category": "history",
+        "ruSimilarity": 85,
+        "frequencyRank": 4500
+      },
+      "payloadHash": "6e38618b",
+      "createdAt": "2026-10-24T13:32:58.587Z"
+    },
+    {
+      "id": "9c1f56e4-3087-4f86-9a8d-4524371cb14f",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:niemal",
+      "payload": {
+        "lemma": "niemal",
+        "language": "pl",
+        "translation": "почти, prawie",
+        "partOfSpeech": "przysłówek",
+        "synonyms": [
+          "prawie",
+          "blisko",
+          "bodaj"
+        ],
+        "examples": [
+          "Niemal wszyscy studenci zdali ten trudny egzamin za pierwszym razem.",
+          "Praca zajęła mu niemal cały dzień, ale efekt był znakomity."
+        ],
+        "wordForms": [
+          "niemal"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "abstract",
+        "ruSimilarity": 0,
+        "frequencyRank": 450
+      },
+      "payloadHash": "2e76a76d",
+      "createdAt": "2026-10-24T13:33:49.384Z"
+    },
+    {
+      "id": "f15a4232-1940-430f-980c-5e19b3e92ab2",
+      "type": "new_lemma",
+      "entryKey": "pl:collocation:uczyć_się",
+      "payload": {
+        "lemma": "uczyć się",
+        "language": "pl",
+        "surface": "uczą się",
+        "context": "Учёные изучают толщину колец, чтобы узнать погоду в прошлые века.",
+        "translation": "учить",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "nauczyć się"
+        ],
+        "examples": [
+          "Uczmy się historii, aby lepiej rozumieć świat.",
+          "Uczuł się, że musi uczyć się więcej przed egzaminem."
+        ],
+        "wordForms": [
+          "uczyć się",
+          "uczę się",
+          "uczysz się",
+          "uczy się",
+          "uczemy się",
+          "uczcie się",
+          "uczą się",
+          "uczyłem się",
+          "uczyłam się",
+          "uczyło się",
+          "uczyliśmy się",
+          "uczyłyśmy się",
+          "uczyły się",
+          "ucz się",
+          "uczmy się",
+          "uczymy się",
+          "uczycie się"
+        ],
+        "isPhrase": true
+      },
+      "payloadHash": "af344247",
+      "createdAt": "2026-10-24T14:03:35.770Z"
+    },
+    {
+      "id": "1af2aaa8-b1af-45df-b2ae-26a72bc43ea2",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:ponadto",
+      "payload": {
+        "lemma": "ponadto",
+        "language": "pl",
+        "translation": "кроме того, вдобавок, также",
+        "partOfSpeech": "przysłówek",
+        "synonyms": [
+          "dodatkowo",
+          "również",
+          "także"
+        ],
+        "examples": [
+          "Ponadto badacze odkryli nowe właściwości tego minerału.",
+          "W raporcie podano, że ponadto koszty produkcji wzrosły."
+        ],
+        "wordForms": [
+          "ponadto"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "society",
+        "ruSimilarity": 90,
+        "frequencyRank": 300
+      },
+      "payloadHash": "af1d8b29",
+      "createdAt": "2026-10-24T18:59:54.729Z"
+    },
+    {
+      "id": "712ff29b-ef27-41d6-b65d-9c9d0a4dfbb4",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:twardnieć",
+      "payload": {
+        "lemma": "twardnieć",
+        "language": "pl",
+        "translation": "твердеть",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "zastygać",
+          "stwardnieć",
+          "utwardzać"
+        ],
+        "examples": [
+          "Mięso twardnieje, gdy jest gotowane.",
+          "Twardnijcie szybciej, aby zdążyć."
+        ],
+        "wordForms": [
+          "twardnieć",
+          "twardnięję",
+          "twardniejesz",
+          "twardnieje",
+          "twardniejemy",
+          "twardniejecie",
+          "twardnieją",
+          "twardniał",
+          "twardniała",
+          "twardniało",
+          "twardnieli",
+          "twardniały",
+          "twardnij",
+          "twardnijcie"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "body",
+        "ruSimilarity": 85,
+        "frequencyRank": 300
+      },
+      "payloadHash": "236772bd",
+      "createdAt": "2026-10-24T19:00:12.997Z"
+    },
+    {
+      "id": "14b68d69-d159-4ee1-ba6b-c56284e21a88",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:tętniczemu",
+      "payload": {
+        "lemma": "tętniczemu",
+        "language": "pl",
+        "translation": "тромбозный",
+        "partOfSpeech": "przymiotnik",
+        "synonyms": [
+          "kardiologiczny",
+          "naczyniowy",
+          "krążeniowy"
+        ],
+        "examples": [
+          "Tętniczemu człowiekowi łatwo było zauważyć ból.",
+          "U osób z tętniczymi chorobami ryzyko powikłań jest wysokie."
+        ],
+        "wordForms": [
+          "tętniczemu",
+          "tętniczy",
+          "tętniczego",
+          "tętniczym",
+          "tętniczne",
+          "tętniczych",
+          "tętniczej"
+        ],
+        "isPhrase": false,
+        "level": "A2",
+        "category": "body",
+        "ruSimilarity": 70,
+        "frequencyRank": 2000
+      },
+      "payloadHash": "789d14df",
+      "createdAt": "2026-10-24T19:00:45.032Z"
+    },
+    {
+      "id": "e3c5b431-0bf9-4f5f-a3ad-c0e058baf17f",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:3d",
+      "payload": {
+        "lemma": "3d",
+        "language": "pl",
+        "translation": "трёхмерный",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "trójwymiarowy",
+          "trójwymiarowe",
+          "trójwymiarowa"
+        ],
+        "examples": [
+          "W 2017 roku inżynier opracował prototyp 3d.",
+          "Nowe materiały są drukowane w technologii 3d."
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "technology",
+        "ruSimilarity": 90,
+        "frequencyRank": 2100
+      },
+      "payloadHash": "e9243b70",
+      "createdAt": "2026-10-25T09:40:20.310Z"
+    },
+    {
+      "id": "3219f592-da00-418f-a24a-2dc911a5f4c2",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:rękawicznik",
+      "payload": {
+        "lemma": "rękawicznik",
+        "language": "pl",
+        "translation": "перчаточник",
+        "partOfSpeech": "",
+        "wordForms": [
+          "rękawicznik"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "2bc195ae",
+      "createdAt": "2026-10-25T09:40:24.646Z"
+    },
+    {
+      "id": "dc2c7f4b-cbe0-4026-8b40-b24604f550b2",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:jednopółkulowy",
+      "payload": {
+        "lemma": "jednopółkulowy",
+        "language": "pl",
+        "translation": "однополушарный",
+        "partOfSpeech": "",
+        "wordForms": [
+          "jednopółkulowy"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "1fca3980",
+      "createdAt": "2026-10-25T15:09:30.160Z"
+    },
+    {
+      "id": "0918219f-3145-4e9d-84ab-e384d13dd399",
+      "type": "delete_from_base",
+      "entryKey": "pl:lemma:stala",
+      "payload": {
+        "lemma": "Stala",
+        "language": "pl"
+      },
+      "payloadHash": "58f87e02",
+      "createdAt": "2026-10-25T15:12:55.560Z"
+    },
+    {
+      "id": "10ad35b8-efdf-4ce4-bbbe-78978c4683b5",
+      "type": "delete_from_base",
+      "entryKey": "pl:collocation:instalacja_artystyczna",
+      "payload": {
+        "lemma": "instalacja artystyczna",
+        "language": "pl"
+      },
+      "payloadHash": "6c61d219",
+      "createdAt": "2026-10-25T15:13:06.777Z"
+    },
+    {
+      "id": "b8911801-318b-4e03-b586-b6a47fd6efc8",
+      "type": "delete_from_base",
+      "entryKey": "pl:collocation:instalacja_elektryczna",
+      "payload": {
+        "lemma": "instalacja elektryczna",
+        "language": "pl"
+      },
+      "payloadHash": "a009a189",
+      "createdAt": "2026-10-25T15:13:11.960Z"
+    },
+    {
+      "id": "2a2b5bb8-90ac-4091-9f3c-cade8d58c6a2",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:mieć",
+      "payload": {
+        "lemma": "mieć",
+        "language": "pl",
+        "surface": "miałaby",
+        "context": "To nie przypadek – powierzchnia jelita cienkiego po rozłożeniu miałaby wielkość aż połowy kortu tenisowego.",
+        "translation": "иметь, обладать",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "posiadać",
+          "dobywać"
+        ],
+        "examples": [
+          "Każdy człowiek powinien mieć prawo do własnego zdania.",
+          "Gdyby powierchnia była większa, miałaby inne zastosowanie."
+        ],
+        "wordForms": [
+          "mieć",
+          "mam",
+          "masz",
+          "ma",
+          "mamy",
+          "macie",
+          "mają",
+          "miałem",
+          "miałam",
+          "miał",
+          "miała",
+          "miało",
+          "mieliśmy",
+          "miałyście",
+          "mieli",
+          "miały",
+          "miałby",
+          "miałaby",
+          "miej",
+          "miejmy"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "general",
+        "ruSimilarity": 40,
+        "frequencyRank": 5
+      },
+      "payloadHash": "c814d89b",
+      "createdAt": "2026-10-25T15:21:37.582Z"
+    },
+    {
+      "id": "8949e30d-2e1e-4f82-ad2d-d5b42e12cd86",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:trawienny",
+      "payload": {
+        "lemma": "trawienny",
+        "language": "pl",
+        "translation": "травяный",
+        "partOfSpeech": "przymiotnik",
+        "synonyms": [
+          "fekalny",
+          "kałużny",
+          "kałowy"
+        ],
+        "examples": [
+          "Trawienny system pokarmowy jest niezwykle złożony.",
+          "Woda trawienna w jelitach ma kluczową rolę."
+        ],
+        "wordForms": [
+          "trawienny",
+          "trawiennego",
+          "trawiennemu",
+          "trawiennym",
+          "trawienne",
+          "trawiennych"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "body",
+        "ruSimilarity": 30,
+        "frequencyRank": 4000
+      },
+      "payloadHash": "ef4012e3",
+      "createdAt": "2026-10-25T15:22:30.620Z"
+    },
+    {
+      "id": "b9de0a56-982f-4f9c-9069-a762552ce007",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:mikrobiom",
+      "payload": {
+        "lemma": "mikrobiom",
+        "language": "pl",
+        "translation": "микробиом",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "flora bakteryjna",
+          "flora jelitowa",
+          "mikroflora"
+        ],
+        "examples": [
+          "Mikrobiom każdego człowieka jest unikalny.",
+          "Badania mikrobiomu pozwalają na nowe terapie."
+        ],
+        "wordForms": [
+          "mikrobiom",
+          "mikrobiomu",
+          "mikrobiowi",
+          "mikrobiomem",
+          "mikrobiomie",
+          "mikrobiomy",
+          "mikrobiomów",
+          "mikrobiomom",
+          "mikrobiomami",
+          "mikrobiomach"
+        ],
+        "isPhrase": false,
+        "level": "A2",
+        "category": "body",
+        "ruSimilarity": 90,
+        "frequencyRank": 2000
+      },
+      "payloadHash": "8f8f0159",
+      "createdAt": "2026-10-25T15:26:43.487Z"
+    },
+    {
+      "id": "e5860b8c-b3ff-48e1-be84-13ffd78e2bd4",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:móc",
+      "payload": {
+        "lemma": "móc",
+        "language": "pl",
+        "surface": "mógłby",
+        "context": "Co ciekawe, mikrobiom każdego człowieka ma tak unikalny skład, że mógłby służyć do identyfikacji danych osobowych lepiej niż ślad linii papilarnych.",
+        "translation": "мочь, иметь возможность",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "potrafić",
+          "zdołać"
+        ],
+        "examples": [
+          "Nie mogę dzisiaj przyjść na spotkanie z powodu przeziębienia.",
+          "Czy mógłbyś pomóc mi w przeniesieniu tej ciężkiej walizki?"
+        ],
+        "wordForms": [
+          "móc",
+          "mogę",
+          "możesz",
+          "może",
+          "możemy",
+          "możecie",
+          "mogą",
+          "mogłem",
+          "mogłeś",
+          "mógł",
+          "mogłam",
+          "mogłaś",
+          "mogła",
+          "mogło",
+          "mogli",
+          "mogły",
+          "mógłby",
+          "mogłaby",
+          "mogłoby",
+          "mogliby"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "general",
+        "ruSimilarity": 85,
+        "frequencyRank": 15
+      },
+      "payloadHash": "9f63ee62",
+      "createdAt": "2026-10-25T15:26:55.811Z"
+    },
+    {
+      "id": "deeb5700-8117-44c4-83de-94e0a05fcc61",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:papilarny",
+      "payload": {
+        "lemma": "papilarny",
+        "language": "pl",
+        "translation": "папиллярный",
+        "partOfSpeech": "przymiotnik",
+        "examples": [
+          "Układ linii papilarnych jest unikalny dla każdego człowieka.",
+          "Policja odnalazła papilarny ślad na klamce drzwi."
+        ],
+        "wordForms": [
+          "papilarny",
+          "papilarnego",
+          "papilarnemu",
+          "papilarnym",
+          "papilarna",
+          "papilarnej",
+          "papilarną",
+          "papilarne",
+          "papilarni",
+          "papilarnych",
+          "papilarnymi"
+        ],
+        "isPhrase": false,
+        "level": "B2",
+        "category": "body",
+        "ruSimilarity": 90,
+        "frequencyRank": 4500
+      },
+      "payloadHash": "7a71b1fb",
+      "createdAt": "2026-10-25T15:28:42.338Z"
+    },
+    {
+      "id": "f74114fe-af8f-46a9-ad82-73dfb5359cb6",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:brzuszno-jelitowym",
+      "payload": {
+        "lemma": "brzuszno-jelitowym",
+        "language": "pl",
+        "translation": "брюшно‑желудочный",
+        "partOfSpeech": "przymiotnik",
+        "synonyms": [
+          "gastroenterologiczny",
+          "intestynowy"
+        ],
+        "examples": [
+          "Brzuszno-jelitowy układ nerwowy odpowiada za poczucie głodu.",
+          "Najnowsze badania pokazują bezpośrednie połączenie brzuszno-jelitowego układu nerwowego z mózgiem."
+        ],
+        "wordForms": [
+          "brzuszno-jelitowy",
+          "brzuszno-jelitowego",
+          "brzuszno-jelitowemu",
+          "brzuszno-jelitowe",
+          "brzuszno-jelitowi",
+          "brzuszno-jelitowa",
+          "brzuszno-jelitowej",
+          "brzuszno-jelitową",
+          "brzuszno-jelitowych",
+          "brzuszno-jelitowym"
+        ],
+        "isPhrase": false,
+        "level": "A2",
+        "category": "body",
+        "ruSimilarity": 80,
+        "frequencyRank": 1200
+      },
+      "payloadHash": "05bad1b0",
+      "createdAt": "2026-10-25T15:29:04.939Z"
+    },
+    {
+      "id": "60c3ce3a-5f27-4499-a974-c41093907a01",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:serotonina",
+      "payload": {
+        "lemma": "serotonina",
+        "language": "pl",
+        "translation": "серотонин",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "hormon szczęścia"
+        ],
+        "examples": [
+          "Serotonina odgrywa kluczową rolę w regulacji nastroju.",
+          "Niski poziom serotoniny może prowadzić do stanów lękowych."
+        ],
+        "wordForms": [
+          "serotonina",
+          "serotoniny",
+          "serotoninie",
+          "serotoninę",
+          "serotoniną",
+          "serotonino",
+          "serotonin",
+          "serotoninom",
+          "serotoninami",
+          "serotoninach"
+        ],
+        "isPhrase": false,
+        "level": "B2",
+        "category": "body",
+        "ruSimilarity": 95,
+        "frequencyRank": 4500
+      },
+      "payloadHash": "f70f53e6",
+      "createdAt": "2026-10-25T15:29:23.662Z"
+    },
+    {
+      "id": "3b476bff-d9fd-4989-90a7-ac71c032f3c5",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:lękowy",
+      "payload": {
+        "lemma": "lękowy",
+        "language": "pl",
+        "translation": "тревожный, беспокойный",
+        "partOfSpeech": "przymiotnik",
+        "synonyms": [
+          "trwożliwy",
+          "lękliwy"
+        ],
+        "examples": [
+          "Napad lękowy może pojawić się nagle i bez wyraźnej przyczyny.",
+          "Pacjenci często zgłaszają zaburzenia lękowe w sytuacjach stresowych."
+        ],
+        "wordForms": [
+          "lękowy",
+          "lękowego",
+          "lękowemu",
+          "lękowym",
+          "lękowa",
+          "lękowej",
+          "lękową",
+          "lękowe",
+          "lękowi",
+          "lękowych",
+          "lękowymi"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "emotion",
+        "ruSimilarity": 0,
+        "frequencyRank": 2500
+      },
+      "payloadHash": "ee8dae81",
+      "createdAt": "2026-10-25T15:30:04.700Z"
+    },
+    {
+      "id": "2d60dac8-7a1e-40f4-b40c-854873bd07bc",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:kiszonka",
+      "payload": {
+        "lemma": "kiszonka",
+        "language": "pl",
+        "translation": "соленье, квашение",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "kwaszona"
+        ],
+        "examples": [
+          "Domowa kiszonka z kapusty jest bogatym źródłem witaminy C.",
+          "Warto dodawać różne kiszonki do codziennej diety."
+        ],
+        "wordForms": [
+          "kiszonka",
+          "kiszonki",
+          "kiszonce",
+          "kiszonkę",
+          "kiszonką",
+          "kiszonko",
+          "kiszonkom",
+          "kiszonkami",
+          "kiszonkach",
+          "kiszonek"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "food",
+        "ruSimilarity": 30,
+        "frequencyRank": 3500
+      },
+      "payloadHash": "ddfe7050",
+      "createdAt": "2026-10-25T15:30:25.411Z"
+    },
+    {
+      "id": "3cb9b3f5-6e12-4093-b9cf-2ed2c6378a9b",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:warszawskim",
+      "payload": {
+        "lemma": "warszawskim",
+        "language": "pl",
+        "translation": "варшавском",
+        "partOfSpeech": "",
+        "wordForms": [
+          "warszawskim"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "48d0a1a4",
+      "createdAt": "2026-10-25T16:17:11.049Z"
+    },
+    {
+      "id": "70b44723-631a-4bbe-a98a-48d06b28c701",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:inżynierka",
+      "payload": {
+        "lemma": "inżynierka",
+        "language": "pl",
+        "translation": "инженер",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "inżynier",
+          "technik"
+        ],
+        "examples": [
+          "Inżynierka rozwiązała problem.",
+          "Pogląd inżynierki był trafny."
+        ],
+        "wordForms": [
+          "inżynierka",
+          "inżynierki",
+          "inżynierce",
+          "inżynierkę",
+          "inżynierką",
+          "inżynierko",
+          "inżynierek",
+          "inżynierkom",
+          "inżynierkami",
+          "inżynierkach"
+        ],
+        "isPhrase": false,
+        "level": "A2",
+        "category": "technology",
+        "ruSimilarity": 70,
+        "frequencyRank": 1500
+      },
+      "payloadHash": "bcbc8823",
+      "createdAt": "2026-10-25T16:18:06.065Z"
+    },
+    {
+      "id": "890e6d1b-f4f4-4a2f-97b7-f0b831a9501a",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:germanie",
+      "payload": {
+        "lemma": "germanie",
+        "language": "pl",
+        "translation": "германцы",
+        "partOfSpeech": "",
+        "wordForms": [
+          "germanie"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "f764d757",
+      "createdAt": "2026-10-25T16:19:10.086Z"
+    },
+    {
+      "id": "11896d76-3574-4acd-aef4-878c5fc7720c",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:przepompownia",
+      "payload": {
+        "lemma": "przepompownia",
+        "language": "pl",
+        "translation": "перекачивающая станция, насосная станция",
+        "partOfSpeech": "rzeczownik",
+        "synonyms": [
+          "pompownia"
+        ],
+        "examples": [
+          "Na stacji Kabaty znajduje się specjalna, podziemna przepompownia wód gruntowych.",
+          "Stara przepompownia wymaga natychmiastowego remontu."
+        ],
+        "wordForms": [
+          "przepompownia",
+          "przepompowni",
+          "przepompownię",
+          "przepompownią",
+          "przepompownie",
+          "przepompownio",
+          "przepompowniom",
+          "przepompowniami",
+          "przepompowniach"
+        ],
+        "isPhrase": false,
+        "level": "C2",
+        "category": "technology",
+        "ruSimilarity": 70,
+        "frequencyRank": 15000
+      },
+      "payloadHash": "761822a6",
+      "createdAt": "2026-10-25T16:40:40.391Z"
+    },
+    {
+      "id": "4a81941d-00ca-4941-8f5c-8cadb08f8129",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:gruntowy",
+      "payload": {
+        "lemma": "gruntowy",
+        "language": "pl",
+        "translation": "грунтовый",
+        "partOfSpeech": "przymiotnik",
+        "synonyms": [
+          "ziemny",
+          "podziemny"
+        ],
+        "examples": [
+          "Woda gruntowa ma duże znaczenie dla ekosystemu.",
+          "Badania gruntowe wykazały stabilność terenu."
+        ],
+        "wordForms": [
+          "gruntowy",
+          "gruntowego",
+          "gruntowemu",
+          "gruntowym",
+          "gruntowa",
+          "gruntowej",
+          "gruntową",
+          "gruntowe",
+          "gruntowi",
+          "gruntowych",
+          "gruntowymi"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "nature",
+        "ruSimilarity": 95,
+        "frequencyRank": 3500
+      },
+      "payloadHash": "0525ae77",
+      "createdAt": "2026-10-25T16:40:43.278Z"
+    },
+    {
+      "id": "ec52fff9-6148-441f-9b0e-3bc19e9ecd5e",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:filtrować",
+      "payload": {
+        "lemma": "filtrować",
+        "language": "pl",
+        "translation": "фильтровать",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "oczyszczać",
+          "przesączać",
+          "destylować"
+        ],
+        "examples": [
+          "Woda ta jest najpierw wstępnie filtrowana przez naturalne warstwy geologiczne.",
+          "Warto dokładnie filtrować wodę przed spożyciem."
+        ],
+        "wordForms": [
+          "filtrować",
+          "filtruję",
+          "filtrujesz",
+          "filtruje",
+          "filtrujemy",
+          "filtrujecie",
+          "filtrują",
+          "filtrowalem",
+          "filtrowala",
+          "filtrowalo",
+          "filtrowalismy",
+          "filtrowaliscie",
+          "filtrowali",
+          "filtrowaly",
+          "filtruj",
+          "filtrujmy",
+          "filtrujcie",
+          "filtrowany",
+          "filtrowanie",
+          "filtrowana"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "nature",
+        "ruSimilarity": 90,
+        "frequencyRank": 3500
+      },
+      "payloadHash": "d2ef218f",
+      "createdAt": "2026-10-25T16:41:33.382Z"
+    },
+    {
+      "id": "ae7bcd95-a82f-4104-a099-1726578bb118",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:inżynieryjny",
+      "payload": {
+        "lemma": "inżynieryjny",
+        "language": "pl",
+        "translation": "инженерный",
+        "partOfSpeech": "przymiotnik",
+        "synonyms": [
+          "techniczny"
+        ],
+        "examples": [
+          "To inżynieryjne dzieło budzi podziw.",
+          "Firma szuka nowych rozwiązań inżynieryjnych."
+        ],
+        "wordForms": [
+          "inżynieryjny",
+          "inżynieryjnego",
+          "inżynieryjnemu",
+          "inżynieryjnym",
+          "inżynieryjna",
+          "inżynieryjnej",
+          "inżynieryjną",
+          "inżynieryjne",
+          "inżynieryjni",
+          "inżynieryjnych",
+          "inżynieryjnymi"
+        ],
+        "isPhrase": false,
+        "level": "B1",
+        "category": "technology",
+        "ruSimilarity": 90,
+        "frequencyRank": 3500
+      },
+      "payloadHash": "1223a19a",
+      "createdAt": "2026-10-25T16:45:52.467Z"
+    },
+    {
+      "id": "740eec6c-4d28-4377-9143-9cad0f7f2143",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:chropowaty",
+      "payload": {
+        "lemma": "chropowaty",
+        "language": "pl",
+        "translation": "шероховатый, шершавый, неровный",
+        "partOfSpeech": "przymiotnik",
+        "synonyms": [
+          "szorstki",
+          "nierówny",
+          "chropawy"
+        ],
+        "examples": [
+          "Kora starego dębu była wyjątkowo chropowata w dotyku.",
+          "Chropowate krawędzie gigantycznych płyt czepiają się o siebie podczas ruchu."
+        ],
+        "wordForms": [
+          "chropowaty",
+          "chropowatego",
+          "chropowatemu",
+          "chropowatym",
+          "chropowata",
+          "chropowatej",
+          "chropowatą",
+          "chropowate",
+          "chropowaci",
+          "chropowatych",
+          "chropowatymi"
+        ],
+        "isPhrase": false,
+        "level": "B2",
+        "category": "nature",
+        "ruSimilarity": 40,
+        "frequencyRank": 4500
+      },
+      "payloadHash": "fffdda9a",
+      "createdAt": "2026-10-25T18:59:06.906Z"
+    },
+    {
+      "id": "18eedd2c-0df8-4449-909e-5e8d4c868c72",
+      "type": "new_lemma",
+      "entryKey": "pl:collocation:czepiać_się",
+      "payload": {
+        "lemma": "czepiać się",
+        "language": "pl",
+        "translation": "цепляться, приставать, придираться",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "trzymać się",
+          "czepnąć się",
+          "przypiekać się"
+        ],
+        "examples": [
+          "Szorstkie kraje gigantycznych płyt czepiają się jedna drugiej przy ruchu.",
+          "Nie czepiaj się drobiazgów."
+        ],
+        "wordForms": [
+          "czepiać się",
+          "czepiam się",
+          "czepiasz się",
+          "czepia się",
+          "czepiamy się",
+          "czepiacie się",
+          "czepiają się",
+          "czepiałem się",
+          "czepialłem się",
+          "czepiałam się",
+          "czepiało się",
+          "czepialiśmy się",
+          "czepiałyśmy się",
+          "czepialiście się",
+          "czepiałyście się",
+          "czepiali się",
+          "czepiały się",
+          "czepiaj się",
+          "czepiajmy się",
+          "czepiajcie się"
+        ],
+        "isPhrase": true,
+        "level": "B1",
+        "category": "nature",
+        "ruSimilarity": 70,
+        "frequencyRank": 3500
+      },
+      "payloadHash": "067e38dd",
+      "createdAt": "2026-10-25T19:00:46.186Z"
+    },
+    {
+      "id": "4a9894b1-d3e4-4ab3-89ef-419680435946",
+      "type": "update",
+      "entryKey": "pl:lemma:mieć",
+      "payload": {
+        "lemma": "mieć",
+        "language": "pl",
+        "translation": "иметь, обладать",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "posiadać",
+          "dobywać"
+        ],
+        "examples": [
+          "Każdy człowiek powinien mieć prawo do własnego zdania.",
+          "Gdyby powierchnia była większa, miałaby inne zastosowanie."
+        ],
+        "wordForms": [
+          "mieć",
+          "mam",
+          "masz",
+          "ma",
+          "mamy",
+          "macie",
+          "mają",
+          "miałem",
+          "miałam",
+          "miał",
+          "miała",
+          "miało",
+          "mieliśmy",
+          "miałyście",
+          "mieli",
+          "miały",
+          "miałby",
+          "miałaby",
+          "miej",
+          "miejmy"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "general",
+        "ruSimilarity": 40,
+        "frequencyRank": 5
+      },
+      "payloadHash": "2c487cc0",
+      "createdAt": "2026-10-25T20:55:26.542Z"
+    },
+    {
+      "id": "79a3d1f7-9651-4742-abb2-c06ffe0bd6f3",
+      "type": "update",
+      "entryKey": "pl:lemma:móc",
+      "payload": {
+        "lemma": "móc",
+        "language": "pl",
+        "translation": "мочь, иметь возможность",
+        "partOfSpeech": "czasownik",
+        "synonyms": [
+          "potrafić",
+          "zdołać"
+        ],
+        "examples": [
+          "Nie mogę dzisiaj przyjść na spotkanie z powodu przeziębienia.",
+          "Czy mógłbyś pomóc mi w przeniesieniu tej ciężkiej walizki?"
+        ],
+        "wordForms": [
+          "móc",
+          "mogę",
+          "możesz",
+          "może",
+          "możemy",
+          "możecie",
+          "mogą",
+          "mogłem",
+          "mogłeś",
+          "mógł",
+          "mogłam",
+          "mogłaś",
+          "mogła",
+          "mogło",
+          "mogli",
+          "mogły",
+          "mógłby",
+          "mogłaby",
+          "mogłoby",
+          "mogliby"
+        ],
+        "isPhrase": false,
+        "level": "A1",
+        "category": "general",
+        "ruSimilarity": 85,
+        "frequencyRank": 15
+      },
+      "payloadHash": "abedded0",
+      "createdAt": "2026-10-25T20:55:26.552Z"
+    },
+    {
+      "id": "1b2f55ba-e12a-4d5a-b74f-be676e0ecf89",
+      "type": "new_lemma",
+      "entryKey": "pl:lemma:skinął",
+      "payload": {
+        "lemma": "skinął",
+        "language": "pl",
+        "translation": "кивнул",
+        "partOfSpeech": "",
+        "wordForms": [
+          "skinął"
+        ],
+        "isPhrase": false
+      },
+      "payloadHash": "6e3878e4",
+      "createdAt": "2026-10-25T20:55:26.593Z"
+    }
+  ],
+  "dedupedCount": 0,
+  "storedAt": "2026-10-25T20:55:27.051Z"
+}
