@@ -3,6 +3,7 @@
 // (INV-ADMIN): результат — материал для PR, который создаёт workflow.
 
 import { buildEntryKey } from './lib/entryKey.mjs'
+import { unionWordForms } from './lib/normalize.mjs'
 import { validateContribution } from './lib/validate.mjs'
 
 /** Нормализует событие: гарантирует entryKey для new_lemma/new_collocation. */
@@ -48,6 +49,7 @@ export function processBatch(batch, sourceByEntryKey = new Map()) {
   // 4) Find existing entryKey + 5) detect conflicts
   const newEntries = []
   const existingEntries = []
+  const updates = []
   const conflicts = []
   for (const c of deduped) {
     const exists = c.entryKey && sourceByEntryKey.has(c.entryKey)
@@ -55,12 +57,21 @@ export function processBatch(batch, sourceByEntryKey = new Map()) {
       newEntries.push(c)
     } else if (exists) {
       existingEntries.push(c)
-      if (c.type === 'translation_fix') {
-        const src = sourceByEntryKey.get(c.entryKey)
+      const src = sourceByEntryKey.get(c.entryKey)
+      if (c.type === 'translation_fix' || (c.type === 'update' && c.payload?.translation)) {
         const known = new Set((src.translations ?? []).map((t) => t.text))
         if (known.size > 0 && !known.has(c.payload.translation)) {
           conflicts.push({ entryKey: c.entryKey, proposed: c.payload.translation, existing: [...known] })
         }
+      }
+      if (c.type === 'update') {
+        const knownForms = new Set(
+          unionWordForms(src.metadata?.wordForms, src.wordForms).map((s) => s.toLowerCase()),
+        )
+        const addedWordForms = unionWordForms(c.payload?.wordForms).filter(
+          (f) => !knownForms.has(f.toLowerCase()),
+        )
+        updates.push({ ...c, addedWordForms })
       }
     } else {
       // правка для несуществующей записи — тоже конфликт/аномалия
@@ -82,6 +93,7 @@ export function processBatch(batch, sourceByEntryKey = new Map()) {
       dedupedCount: normalized.length - deduped.length,
       newEntries,
       existingEntries,
+      updates,
       conflicts,
       contributorsByKey,
     },
@@ -104,6 +116,22 @@ export function renderReport(report) {
     lines.push('### ⚠️ Конфликты (требуют ручного решения)')
     for (const c of report.conflicts) {
       lines.push(`- \`${c.entryKey}\`: ${c.reason ?? `предложено «${c.proposed}» при существующих ${JSON.stringify(c.existing)}`}`)
+    }
+    lines.push('')
+  }
+  if (report.updates?.length) {
+    lines.push('### Обновления существующих записей')
+    lines.push(
+      'Новые словоформы, примеры и синонимы влиты в `source/pl/lemmas.jsonl` (уже имеющееся не удаляется). Перевод не перезаписывается — расхождение указано в конфликтах.',
+    )
+    lines.push('')
+    for (const u of report.updates) {
+      const added = u.addedWordForms ?? []
+      const preview = added.slice(0, 8).join(', ')
+      const more = added.length > 8 ? ` … +${added.length - 8}` : ''
+      lines.push(
+        `- \`${u.entryKey}\`: новых словоформ **${added.length}**${preview ? ` (${preview}${more})` : ''}`,
+      )
     }
     lines.push('')
   }

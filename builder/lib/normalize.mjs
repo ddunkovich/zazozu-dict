@@ -35,6 +35,28 @@ export function foldWordFormsIntoMetadata(raw) {
   return out
 }
 
+/**
+ * Вливает вклад type=update в существующую лемму.
+ * Словоформы, примеры и синонимы только добавляются. Перевод и прочие поля базы не затираются.
+ */
+export function applyContributionUpdate(entry, payload) {
+  const p = payload ?? {}
+  const next = { ...entry }
+  const metadata = { ...(entry.metadata ?? {}) }
+  const forms = unionWordForms(metadata.wordForms, entry.wordForms, p.wordForms)
+  if (forms.length) metadata.wordForms = forms
+  else delete metadata.wordForms
+  if (Object.keys(metadata).length) next.metadata = metadata
+  else delete next.metadata
+  if ('wordForms' in next) delete next.wordForms
+
+  const examples = unionWordForms(entry.examples, p.examples)
+  if (examples.length) next.examples = examples
+  const synonyms = unionWordForms(entry.synonyms, p.synonyms)
+  if (synonyms.length) next.synonyms = synonyms
+  return next
+}
+
 /** Приводит запись source к каноничному виду и гарантирует entryKey/normalizedLemma. */
 export function normalizeSourceEntry(raw, lang = 'pl', type = 'lemma') {
   const folded = foldWordFormsIntoMetadata(raw ?? {})

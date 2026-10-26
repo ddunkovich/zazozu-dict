@@ -6,7 +6,7 @@
   "required": ["type", "payload"],
   "properties": {
     "id": { "type": "string" },
-    "type": { "enum": ["new_lemma", "translation_fix", "new_example", "new_collocation", "delete_from_base"] },
+    "type": { "enum": ["new_lemma", "translation_fix", "new_example", "new_collocation", "delete_from_base", "update"] },
     "entryKey": { "type": "string" },
     "payloadHash": { "type": "string" },
     "createdAt": { "type": "string" },
@@ -31,6 +31,10 @@
     },
     {
       "if": { "properties": { "type": { "const": "delete_from_base" } } },
+      "then": { "required": ["entryKey"] }
+    },
+    {
+      "if": { "properties": { "type": { "const": "update" } } },
       "then": { "required": ["entryKey"] }
     }
   ]

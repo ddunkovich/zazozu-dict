@@ -7,6 +7,7 @@ const CONTRIBUTION_TYPES = new Set([
   'new_example',
   'new_collocation',
   'delete_from_base',
+  'update',
 ])
 
 /** Возвращает массив ошибок (пустой = валидно). */
@@ -15,7 +16,7 @@ export function validateContribution(c) {
   if (!c || typeof c !== 'object') return ['not an object']
   if (!CONTRIBUTION_TYPES.has(c.type)) errors.push('bad type')
   const p = c.payload || {}
-  if ((c.type === 'translation_fix' || c.type === 'new_example') && !c.entryKey)
+  if ((c.type === 'translation_fix' || c.type === 'new_example' || c.type === 'update') && !c.entryKey)
     errors.push('entryKey required')
   if (c.type === 'new_lemma' && !p.lemma) errors.push('payload.lemma required')
   if (c.type === 'new_collocation' && !p.collocation) errors.push('payload.collocation required')

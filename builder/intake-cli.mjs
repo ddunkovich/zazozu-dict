@@ -4,11 +4,11 @@
 //   node dictionary/builder/intake-cli.mjs <path-to-batch.json>
 
 import { readFile } from 'node:fs/promises'
-import { appendFileSync, existsSync } from 'node:fs'
+import { appendFileSync, existsSync, writeFileSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { processBatch, renderReport } from './intake.mjs'
-import { normalizeSourceEntry } from './lib/normalize.mjs'
+import { applyContributionUpdate, normalizeSourceEntry } from './lib/normalize.mjs'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(__dirname, '..')
@@ -89,6 +89,43 @@ async function run() {
       }
     }
     console.error(`[apply] lemmas.jsonl: +${applied} (с переводом), proposed-lemmas.jsonl: +${proposed} (нужен перевод)`)
+  }
+
+  if (process.argv.includes('--apply') && res.report.updates.length > 0) {
+    const lemmasPath = join(ROOT, 'source', 'pl', 'lemmas.jsonl')
+    if (!existsSync(lemmasPath)) {
+      console.error('[apply] lemmas.jsonl нет — обновления не записаны')
+    } else {
+      const text = await readFile(lemmasPath, 'utf8')
+      const lines = text.split('\n')
+      const indexByKey = new Map()
+      const parsed = lines.map((line, i) => {
+        const trimmed = line.trim()
+        if (!trimmed) return null
+        try {
+          const entry = JSON.parse(trimmed)
+          if (entry.entryKey) indexByKey.set(entry.entryKey, i)
+          return entry
+        } catch {
+          return null
+        }
+      })
+      let changed = 0
+      for (const c of res.report.updates) {
+        const i = indexByKey.get(c.entryKey)
+        if (i == null || !parsed[i]) {
+          console.error(`[apply] update: нет строки ${c.entryKey}`)
+          continue
+        }
+        const merged = applyContributionUpdate(parsed[i], c.payload)
+        if (JSON.stringify(merged) === JSON.stringify(parsed[i])) continue
+        parsed[i] = merged
+        lines[i] = JSON.stringify(merged)
+        changed++
+      }
+      if (changed > 0) writeFileSync(lemmasPath, lines.join('\n'))
+      console.error(`[apply] lemmas.jsonl: обновлено ${changed}`)
+    }
   }
 }
 

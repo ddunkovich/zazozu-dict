@@ -3,7 +3,7 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import { validateContribution, validateSourceEntry } from '../builder/lib/validate.mjs'
-import { foldWordFormsIntoMetadata } from '../builder/lib/normalize.mjs'
+import { applyContributionUpdate, foldWordFormsIntoMetadata } from '../builder/lib/normalize.mjs'
 import { processBatch, normalizeContribution } from '../builder/intake.mjs'
 import { buildDictionary } from '../builder/build.mjs'
 
@@ -60,6 +60,58 @@ test('validateContribution: delete_from_base с entryKey валидно', () => 
 test('validateContribution: delete_from_base без entryKey невалидно', () => {
   const e = validateContribution({ type: 'delete_from_base', payload: {} })
   assert.ok(e.some((s) => s.includes('entryKey')))
+})
+
+test('update с entryKey валиден, без entryKey — нет', () => {
+  assert.deepEqual(
+    validateContribution({ type: 'update', entryKey: 'pl:lemma:mieć', payload: { wordForms: ['miej'] } }),
+    [],
+  )
+  const e = validateContribution({ type: 'update', payload: { wordForms: ['miej'] } })
+  assert.ok(e.includes('entryKey required'))
+})
+
+test('processBatch: update существующей леммы не валит пакет', () => {
+  const source = new Map([
+    ['pl:lemma:mieć', { translations: [{ text: 'иметь' }], metadata: { wordForms: ['mam'] } }],
+  ])
+  const res = processBatch(
+    {
+      contributions: [
+        {
+          type: 'update',
+          entryKey: 'pl:lemma:mieć',
+          payload: { lemma: 'mieć', translation: 'иметь, обладать', wordForms: ['mam', 'miej'] },
+        },
+      ],
+    },
+    source,
+  )
+  assert.equal(res.ok, true)
+  assert.equal(res.report.updates.length, 1)
+  assert.deepEqual(res.report.updates[0].addedWordForms, ['miej'])
+  assert.equal(res.report.existingEntries.length, 1)
+  assert.equal(res.report.conflicts.length, 1)
+})
+
+test('applyContributionUpdate дописывает словоформы и не затирает перевод', () => {
+  const entry = {
+    entryKey: 'pl:lemma:mieć',
+    lemma: 'mieć',
+    translations: [{ text: 'иметь', source: 'base' }],
+    examples: ['Mam psa.'],
+    metadata: { wordForms: ['mam', 'masz'], level: 'A1' },
+  }
+  const next = applyContributionUpdate(entry, {
+    translation: 'иметь, обладать',
+    wordForms: ['masz', 'miej'],
+    examples: ['Mam psa.', 'Masz rację?'],
+  })
+  assert.deepEqual(next.translations, entry.translations)
+  assert.equal(next.metadata.level, 'A1')
+  assert.deepEqual(next.metadata.wordForms, ['mam', 'masz', 'miej'])
+  assert.deepEqual(next.examples, ['Mam psa.', 'Masz rację?'])
+  assert.equal('wordForms' in next, false)
 })
 
 test('foldWordFormsIntoMetadata сливает корневой wordForms в metadata и удаляет корень', () => {
